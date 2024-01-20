@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terra:light_blue_curtain"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"S",
+			"W"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "minecraft:wool:3"
+			}
+		},
+		"result": {
+			"item": "terra:light_blue_curtain",
+			"count": 1
+		}
+	}
+}

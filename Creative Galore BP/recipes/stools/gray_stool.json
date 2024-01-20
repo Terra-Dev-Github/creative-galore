@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:gray_stool"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:planks"
+            },
+            "W": {
+                "item": "minecraft:wool:7"
+            }
+        },
+        "result": {
+            "item": "terra:gray_stool",
+            "count": 1
+        }
+    }
+}

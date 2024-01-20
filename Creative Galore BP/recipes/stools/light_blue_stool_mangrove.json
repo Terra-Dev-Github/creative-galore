@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:light_blue_stool_mangrove"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:mangrove_planks"
+            },
+            "W": {
+                "item": "minecraft:wool:3"
+            }
+        },
+        "result": {
+            "item": "terra:light_blue_stool",
+            "count": 1
+        }
+    }
+}

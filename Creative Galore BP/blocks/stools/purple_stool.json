@@ -1,0 +1,56 @@
+// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// Do not distribute without permission.
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:purple_stool"
+        },
+        "components": {
+            // Breathability is set to "air" so blocks like grass don't turn into dirt
+            // Also helps with possible suffocating issues
+            "minecraft:breathability": "air",
+            "minecraft:destroy_time": 2,
+            "minecraft:creative_category": {
+                "category": "construction",
+                // Couldn't think of any other
+                "group": "itemGroup.name.stairs"
+            },
+            "minecraft:geometry": "geometry.stool",
+            "minecraft:loot": "loot_tables/blocks/stools/purple_stool.json",
+            "minecraft:block_light_absorption": 0,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "purple_stool",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            "minecraft:entity_collision": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    12,
+                    12
+                ]
+            },
+            "minecraft:aim_collision": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    12,
+                    12
+                ]
+            }
+        }
+    }
+}

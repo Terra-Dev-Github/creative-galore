@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:blue_stool_warped"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:warped_planks"
+            },
+            "W": {
+                "item": "minecraft:wool:11"
+            }
+        },
+        "result": {
+            "item": "terra:blue_stool",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,146 @@
+// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// Do not distribute without permission.
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terra:gray_terracotta_shingle_slab",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.slab"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:vertical_half"
+					]
+				}
+			},
+			"states": {
+				"terra:double": [
+					false,
+					true
+				]
+			}
+		},
+		"permutations": [
+			// bottom slab
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('terra:double')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:on_interact": {
+						"event": "terra:form_double",
+						"condition": "q.block_face == 1.0 && q.is_item_name_any('slot.weapon.mainhand', 'terra:gray_terracotta_shingle_slab')"
+					}
+				}
+			},
+			// top slab
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('terra:double')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:on_interact": {
+						"event": "terra:form_double",
+						"condition": "q.block_face == 0.0 && q.is_item_name_any('slot.weapon.mainhand', 'terra:gray_terracotta_shingle_slab')"
+					}
+				}
+			},
+			// double slab
+			{
+				"condition": "q.block_state('terra:double')",
+				"components": {
+					"minecraft:unit_cube": {},
+					"minecraft:on_player_destroyed": {
+						"event": "terra:destroy_double"
+					}
+				}
+			}
+		],
+		"components": {
+			"tag:stone": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.25
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 4.2
+			},
+			// according to map item data on the mc wiki
+			"minecraft:map_color": "#392923",
+			"minecraft:geometry": {
+				"identifier": "geometry.slab",
+				"bone_visibility": {
+					"bottom_slab": "q.block_state('minecraft:vertical_half') == 'bottom'",
+					"top_slab": "q.block_state('minecraft:vertical_half') == 'top'"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/terracotta_shingles/gray_terracotta_shingle_slab.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "gray_terracotta_shingle",
+					"render_method": "opaque"
+				}
+			}
+		},
+		"events": {
+			"terra:form_double": {
+				"set_block_state": {
+					"terra:double": true
+				},
+				"run_command": {
+					"command": "playsound use.stone @a ~~~ 1 0.8"
+				},
+				"decrement_stack": {}
+			},
+			"terra:destroy_double": {
+				"spawn_loot": {} // spawns the block's default loot
+			}
+		}
+	}
+}

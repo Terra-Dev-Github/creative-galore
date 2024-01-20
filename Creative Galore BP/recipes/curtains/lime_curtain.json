@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terra:lime_curtain"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"S",
+			"W"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "minecraft:wool:5"
+			}
+		},
+		"result": {
+			"item": "terra:lime_curtain",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:polished_stone"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:stone",
+                "data": 0 
+            }
+        },
+        "result": {
+            "item": "terra:polished_stone",
+            "count": 4
+        }
+    }
+}

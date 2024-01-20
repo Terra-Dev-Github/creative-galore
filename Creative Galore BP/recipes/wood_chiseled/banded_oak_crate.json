@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "terra:banded_oak_crate"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "terra:banded_oak_crate",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// Do not distribute without permission.
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terra:red_terracotta_shingle"
+		},
+		"components": {
+			"tag:cer:solid_block": {},
+			"minecraft:destroy_time": 1.25,
+			"minecraft:explosion_resistance": 4.2,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.stainedClay",
+				"category": "construction"
+			},
+			"minecraft:loot": "loot_tables/blocks/terracotta_shingles/red_terracotta_shingle.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "red_terracotta_shingle",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

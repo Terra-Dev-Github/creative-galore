@@ -1,0 +1,37 @@
+// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// Do not distribute without permission.
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terra:carved_jungle_planks"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.planks",
+				"category": "construction"
+			},
+			"minecraft:loot": "loot_tables/blocks/wood_chiseled/carved_jungle_planks.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "carved_jungle_planks",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "banded_jungle_crate",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "banded_jungle_crate",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
+			}
+		}
+	}
+}

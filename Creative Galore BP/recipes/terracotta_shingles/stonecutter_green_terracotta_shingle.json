@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "terra:stonecutter_green_terracotta_shingle"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "minecraft:stained_hardened_clay",
+        "data": 13
+      }
+    ],
+    "result": {
+      "item": "terra:green_terracotta_shingle",
+      "count": 1
+    }
+  }
+}

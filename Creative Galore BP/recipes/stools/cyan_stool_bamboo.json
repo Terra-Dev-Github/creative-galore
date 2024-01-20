@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:cyan_stool_bamboo"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:bamboo_planks"
+            },
+            "W": {
+                "item": "minecraft:wool:9"
+            }
+        },
+        "result": {
+            "item": "terra:cyan_stool",
+            "count": 1
+        }
+    }
+}

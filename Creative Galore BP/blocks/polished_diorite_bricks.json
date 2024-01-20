@@ -1,0 +1,26 @@
+// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// Do not distribute without permission.
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terra:polished_diorite_bricks"
+		},
+		"components": {
+			"tag:cer:solid_block": {},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 6,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.stoneBrick",
+				"category": "construction"
+			},
+			"minecraft:loot": "loot_tables/blocks/polished_diorite_bricks.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "stone_diorite_smooth_bricks",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

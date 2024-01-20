@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "terra:terracotta_shingle"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:hardened_clay"
+      }
+    },
+    "result": {
+      "item": "terra:terracotta_shingle",
+      "count": 4
+    }
+  }
+}

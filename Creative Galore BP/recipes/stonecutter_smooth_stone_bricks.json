@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_smooth_stone_bricks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:smooth_stone"
+            }
+        ],
+        "result": {
+            "item": "terra:smooth_stone_bricks",
+            "count": 1
+        }
+    }
+}

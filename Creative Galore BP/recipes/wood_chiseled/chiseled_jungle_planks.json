@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "terra:chiseled_jungle_planks"
+    },
+
+    "tags": [ "stonecutter" ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "data": 3
+      }
+    ],
+    "result": {
+      "item": "terra:chiseled_jungle_planks",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_andesite_brick_slab2"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:andesite_bricks"
+            }
+        ],
+        "result": {
+            "item": "terra:andesite_brick_slab",
+            "count": 2
+        }
+    }
+}

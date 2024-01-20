@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "terra:acacia_planks_crate"
+    },
+
+    "tags": [ "stonecutter" ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "data": 4
+      }
+    ],
+    "result": {
+      "item": "terra:acacia_planks_crate",
+      "count": 1
+    }
+  }
+}

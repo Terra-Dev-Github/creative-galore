@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:smooth_stone_bricks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:smooth_stone"
+            }
+        },
+        "result": {
+            "item": "terra:smooth_stone_bricks",
+            "data": 0,
+            "count": 4
+        }
+    }
+}

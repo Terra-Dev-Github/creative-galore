@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:lime_stool_cherry"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:cherry_planks"
+            },
+            "W": {
+                "item": "minecraft:wool:5"
+            }
+        },
+        "result": {
+            "item": "terra:lime_stool",
+            "count": 1
+        }
+    }
+}

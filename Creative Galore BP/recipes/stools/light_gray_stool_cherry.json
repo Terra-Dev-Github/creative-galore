@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:light_gray_stool_cherry"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:cherry_planks"
+            },
+            "W": {
+                "item": "minecraft:wool:8"
+            }
+        },
+        "result": {
+            "item": "terra:light_gray_stool",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "terra:spruce_planks_crate"
+    },
+
+    "tags": [ "stonecutter" ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "data": 1
+      }
+    ],
+    "result": {
+      "item": "terra:spruce_planks_crate",
+      "count": 1
+    }
+  }
+}

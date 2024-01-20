@@ -1,0 +1,34 @@
+// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// Do not distribute without permission.
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terra:chiseled_diorite"
+		},
+		"components": {
+			"tag:cer:solid_block": {},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 6,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.stoneBrick",
+				"category": "construction"
+			},
+			"minecraft:loot": "loot_tables/blocks/chiseled_diorite.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "chiseled_diorite",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "smooth_diorite",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "smooth_diorite",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

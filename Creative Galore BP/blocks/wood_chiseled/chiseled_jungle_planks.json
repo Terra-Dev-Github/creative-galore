@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terra:chiseled_jungle_planks"
+		},
+		"components": {
+			"tag:cer:solid_block": {},
+			"minecraft:destroy_time": 0.5,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.planks",
+				"category": "construction"
+			},
+			"minecraft:loot": "loot_tables/blocks/wood_chiseled/chiseled_jungle_planks.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "chiseled_jungle_planks_side",
+					"render_method": "alpha_test"
+				},
+				"top": {
+					"texture": "chiseled_jungle_planks_top",
+					"render_method": "alpha_test"
+				},
+				"up": "top",
+				"down": "top"
+			}
+			// "minecraft:flammable": {
+			//	"burn_odds": 5,
+			//	"flame_odds": 5
+			// }
+		}
+	}
+}

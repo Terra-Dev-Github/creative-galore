@@ -1,0 +1,53 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"TERRA Team :: README.txt"
+		],
+		"url": "https://discord.gg/2pVaeESEDF",
+		"generated_with": {
+			"bridge": [
+				"2.7.10"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			30
+		],
+		"uuid": "49ad40ca-6257-41c6-a4d5-621cc1251506",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fa4f8ab0-5662-4038-93f0-7f04625aaa50",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0ac3fc4d-8adc-41ad-9c6c-e136c04b17b5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
