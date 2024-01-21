@@ -6,6 +6,11 @@
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
 	"texture_data": {
+		"empty": {
+			"textures": [
+				"textures/blocks/empty"
+			]
+		},
 		// Stone
 		"chiseled_diorite": {
 			"textures": [

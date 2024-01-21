@@ -10,7 +10,7 @@
         "priority": 1,
         "ingredients": [
             {
-                "item": "terra:red_sandstone",
+                "item": "minecraft:red_sandstone",
                 "data": 3
             }
         ],

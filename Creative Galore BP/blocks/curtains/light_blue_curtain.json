@@ -315,7 +315,7 @@
             "minecraft:entity_collision": {
                 "origin": [
                     -8,
-                    0,
+                    14,
                     6
                 ],
                 "size": [
@@ -443,6 +443,12 @@
                             "render_method": "alpha_test",
                             "face_dimming": true,
                             "ambient_occlusion": true
+                        },
+                        "stick": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
                         }
                     }
                 }
@@ -455,6 +461,12 @@
                     "minecraft:material_instances": {
                         "*": {
                             "texture": "light_blue_curtain_bottom",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "stick": {
+                            "texture": "empty",
                             "render_method": "alpha_test",
                             "face_dimming": true,
                             "ambient_occlusion": true
