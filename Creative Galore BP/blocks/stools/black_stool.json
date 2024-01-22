@@ -21,7 +21,19 @@
             "minecraft:loot": "loot_tables/blocks/stools/black_stool.json",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "black_stool",
+                    "texture": "black_stool_side",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "up": {
+                    "texture": "black_stool_top",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "down": {
+                    "texture": "stool_bottom",
                     "render_method": "alpha_test",
                     "face_dimming": true,
                     "ambient_occlusion": true

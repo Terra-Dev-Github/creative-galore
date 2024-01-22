@@ -115,7 +115,7 @@
 		},
 		"banded_bamboo_crate": {
 			"textures": [
-				"textures/blocks/wood_chiseled/banded_acacia_crate"
+				"textures/blocks/wood_chiseled/banded_bamboo_crate"
 			]
 		},
 		"banded_birch_crate": {
@@ -369,84 +369,169 @@
 			]
 		},
 		// Stools
-		"black_stool": {
+		"black_stool_side": {
 			"textures": [
-				"textures/blocks/stools/black_stool"
+				"textures/blocks/stools/black_stool_side"
 			]
 		},
-		"blue_stool": {
+		"black_stool_top": {
 			"textures": [
-				"textures/blocks/stools/blue_stool"
+				"textures/blocks/stools/black_stool_top"
 			]
 		},
-		"brown_stool": {
+		"blue_stool_side": {
 			"textures": [
-				"textures/blocks/stools/brown_stool"
+				"textures/blocks/stools/blue_stool_side"
 			]
 		},
-		"cyan_stool": {
+		"blue_stool_top": {
 			"textures": [
-				"textures/blocks/stools/cyan_stool"
+				"textures/blocks/stools/blue_stool_top"
 			]
 		},
-		"gray_stool": {
+		"brown_stool_side": {
 			"textures": [
-				"textures/blocks/stools/gray_stool"
+				"textures/blocks/stools/brown_stool_side"
 			]
 		},
-		"green_stool": {
+		"brown_stool_top": {
 			"textures": [
-				"textures/blocks/stools/green_stool"
+				"textures/blocks/stools/brown_stool_top"
 			]
 		},
-		"light_blue_stool": {
+		"cyan_stool_side": {
 			"textures": [
-				"textures/blocks/stools/light_blue_stool"
+				"textures/blocks/stools/cyan_stool_side"
 			]
 		},
-		"light_gray_stool": {
+		"cyan_stool_top": {
 			"textures": [
-				"textures/blocks/stools/light_gray_stool"
+				"textures/blocks/stools/cyan_stool_top"
 			]
 		},
-		"lime_stool": {
+		"gray_stool_side": {
 			"textures": [
-				"textures/blocks/stools/lime_stool"
+				"textures/blocks/stools/gray_stool_side"
 			]
 		},
-		"magenta_stool": {
+		"gray_stool_top": {
 			"textures": [
-				"textures/blocks/stools/magenta_stool"
+				"textures/blocks/stools/gray_stool_top"
 			]
 		},
-		"orange_stool": {
+		"green_stool_side": {
 			"textures": [
-				"textures/blocks/stools/orange_stool"
+				"textures/blocks/stools/green_stool_side"
 			]
 		},
-		"pink_stool": {
+		"green_stool_top": {
 			"textures": [
-				"textures/blocks/stools/pink_stool"
+				"textures/blocks/stools/green_stool_top"
 			]
 		},
-		"purple_stool": {
+		"light_blue_stool_side": {
 			"textures": [
-				"textures/blocks/stools/purple_stool"
+				"textures/blocks/stools/light_blue_stool_side"
 			]
 		},
-		"red_stool": {
+		"light_blue_stool_top": {
 			"textures": [
-				"textures/blocks/stools/red_stool"
+				"textures/blocks/stools/light_blue_stool_top"
 			]
 		},
-		"white_stool": {
+		"light_gray_stool_side": {
 			"textures": [
-				"textures/blocks/stools/white_stool"
+				"textures/blocks/stools/light_gray_stool_side"
 			]
 		},
-		"yellow_stool": {
+		"light_gray_stool_top": {
 			"textures": [
-				"textures/blocks/stools/yellow_stool"
+				"textures/blocks/stools/light_gray_stool_top"
+			]
+		},
+		"lime_stool_side": {
+			"textures": [
+				"textures/blocks/stools/lime_stool_side"
+			]
+		},
+		"lime_stool_top": {
+			"textures": [
+				"textures/blocks/stools/lime_stool_top"
+			]
+		},
+		"magenta_stool_side": {
+			"textures": [
+				"textures/blocks/stools/magenta_stool_side"
+			]
+		},
+		"magenta_stool_top": {
+			"textures": [
+				"textures/blocks/stools/magenta_stool_top"
+			]
+		},
+		"orange_stool_side": {
+			"textures": [
+				"textures/blocks/stools/orange_stool_side"
+			]
+		},
+		"orange_stool_top": {
+			"textures": [
+				"textures/blocks/stools/orange_stool_top"
+			]
+		},
+		"pink_stool_side": {
+			"textures": [
+				"textures/blocks/stools/pink_stool_side"
+			]
+		},
+		"pink_stool_top": {
+			"textures": [
+				"textures/blocks/stools/pink_stool_top"
+			]
+		},
+		"purple_stool_side": {
+			"textures": [
+				"textures/blocks/stools/purple_stool_side"
+			]
+		},
+		"purple_stool_top": {
+			"textures": [
+				"textures/blocks/stools/purple_stool_top"
+			]
+		},
+		"red_stool_side": {
+			"textures": [
+				"textures/blocks/stools/red_stool_side"
+			]
+		},
+		"red_stool_top": {
+			"textures": [
+				"textures/blocks/stools/red_stool_top"
+			]
+		},
+		"stool_bottom": {
+			"textures": [
+				"textures/blocks/stools/stool_bottom"
+			]
+		},
+		"white_stool_side": {
+			"textures": [
+				"textures/blocks/stools/white_stool_side"
+			]
+		},
+		"white_stool_top": {
+			"textures": [
+				"textures/blocks/stools/white_stool_top"
+			]
+		},
+		"yellow_stool_side": {
+			"textures": [
+				"textures/blocks/stools/yellow_stool_side"
+			]
+		},
+		"yellow_stool_top": {
+			"textures": [
+				"textures/blocks/stools/yellow_stool_top"
 			]
 		},
 		// Curtains

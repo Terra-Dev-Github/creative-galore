@@ -7,11 +7,11 @@
 			"identifier": "terra:red_sandstone_bricks"
 		},
 		"components": {
-			"tag:cer:solid_block": {},
+			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 1.5,
 			"minecraft:explosion_resistance": 6,
 			"minecraft:creative_category": {
-				"group": "itemGroup.name.red_sandstone",
+				"group": "itemGroup.name.sandstone",
 				"category": "construction"
 			},
 			"minecraft:loot": "loot_tables/blocks/red_sandstone_bricks.json",

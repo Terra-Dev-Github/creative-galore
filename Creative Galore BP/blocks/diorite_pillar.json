@@ -48,7 +48,7 @@
             }
         ],
         "components": {
-            "tag:cer:solid_block": {},
+            "minecraft:unit_cube": {},
             "tag:stone": {},
             "minecraft:unit_cube": {},
             "minecraft:creative_category": {

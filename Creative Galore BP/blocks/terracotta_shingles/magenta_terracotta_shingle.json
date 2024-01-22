@@ -7,7 +7,7 @@
 			"identifier": "terra:magenta_terracotta_shingle"
 		},
 		"components": {
-			"tag:cer:solid_block": {},
+			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 1.25,
 			"minecraft:explosion_resistance": 4.2,
 			"minecraft:creative_category": {

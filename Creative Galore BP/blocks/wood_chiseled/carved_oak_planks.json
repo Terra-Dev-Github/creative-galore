@@ -7,6 +7,7 @@
 			"identifier": "terra:carved_oak_planks"
 		},
 		"components": {
+			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 0.5,
 			"minecraft:explosion_resistance": 3,
 			"minecraft:creative_category": {

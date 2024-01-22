@@ -4,7 +4,7 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "terra:light_blue_stool"
+            "identifier": "terra:light_light_blue_stool"
         },
         "components": {
             // Breathability is set to "air" so blocks like grass don't turn into dirt
@@ -21,7 +21,19 @@
             "minecraft:block_light_absorption": 0,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "light_blue_stool",
+                    "texture": "light_blue_stool_side",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "up": {
+                    "texture": "light_blue_stool_top",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "down": {
+                    "texture": "stool_bottom",
                     "render_method": "alpha_test",
                     "face_dimming": true,
                     "ambient_occlusion": true

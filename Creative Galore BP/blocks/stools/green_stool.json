@@ -21,7 +21,19 @@
             "minecraft:block_light_absorption": 0,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "green_stool",
+                    "texture": "green_stool_side",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "up": {
+                    "texture": "green_stool_top",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "down": {
+                    "texture": "stool_bottom",
                     "render_method": "alpha_test",
                     "face_dimming": true,
                     "ambient_occlusion": true

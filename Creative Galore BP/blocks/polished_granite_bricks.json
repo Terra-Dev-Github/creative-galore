@@ -7,7 +7,7 @@
 			"identifier": "terra:polished_granite_bricks"
 		},
 		"components": {
-			"tag:cer:solid_block": {},
+			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 1.5,
 			"minecraft:explosion_resistance": 6,
 			"minecraft:creative_category": {

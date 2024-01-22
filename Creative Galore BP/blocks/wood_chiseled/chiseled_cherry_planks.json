@@ -1,3 +1,5 @@
+// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// Do not distribute without permission.
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -5,7 +7,7 @@
 			"identifier": "terra:chiseled_cherry_planks"
 		},
 		"components": {
-			"tag:cer:solid_block": {},
+			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 0.5,
 			"minecraft:explosion_resistance": 3,
 			"minecraft:creative_category": {
@@ -15,20 +17,14 @@
 			"minecraft:loot": "loot_tables/blocks/wood_chiseled/chiseled_cherry_planks.json",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "chiseled_cherry_planks_side",
-					"render_method": "alpha_test"
-				},
-				"top": {
-					"texture": "chiseled_cherry_planks_top",
-					"render_method": "alpha_test"
-				},
-				"up": "top",
-				"down": "top"
+					"texture": "chiseled_cherry_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:flammable": {
+				"burn_odds": 5,
+				"flame_odds": 5
 			}
-			// "minecraft:flammable": {
-			//	"burn_odds": 5,
-			//	"flame_odds": 5
-			// }
 		}
 	}
 }

@@ -7,7 +7,7 @@
 			"identifier": "terra:bamboo_planks_crate"
 		},
 		"components": {
-			"tag:cer:solid_block": {},
+			"minecraft:unit_cube": {},
 			"minecraft:destroy_time": 0.5,
 			"minecraft:explosion_resistance": 3,
 			"minecraft:creative_category": {
