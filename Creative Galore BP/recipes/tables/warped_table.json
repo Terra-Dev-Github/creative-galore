@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terra:warped_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"PP",
+			"FF"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:warped_planks"
+			},
+			"F": {
+				"item": "minecraft:warped_fence"
+			}
+		},
+		"result": {
+			"item": "terra:warped_table",
+			"count": 2
+		}
+	}
+}

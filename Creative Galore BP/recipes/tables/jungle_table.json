@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "terra:jungle_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"PP",
+			"FF"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:planks:3"
+			},
+			"F": {
+				"item": "minecraft:fence:3"
+			}
+		},
+		"result": {
+			"item": "terra:jungle_table",
+			"count": 2
+		}
+	}
+}

@@ -1,0 +1,32 @@
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
+// Do not distribute without permission.
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "terra:dripstone_bricks",
+			"menu_category": {
+				"group": "itemGroup.name.stoneBrick",
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			// "minecraft:loot": "loot_tables/blocks/dripstone_bricks.json",
+			// according to map item data on the mc wiki
+			"minecraft:map_color": "#4C3223",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dripstone_bricks",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

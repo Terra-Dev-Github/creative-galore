@@ -7,7 +7,7 @@
 		"url": "https://discord.gg/2pVaeESEDF",
 		"generated_with": {
 			"bridge": [
-				"2.7.10"
+				"2.7.11"
 			],
 			"dash": [
 				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
@@ -19,8 +19,8 @@
 		"description": "pack.description",
 		"min_engine_version": [
 			1,
-			20,
-			30
+			21,
+			0
 		],
 		"uuid": "0ac3fc4d-8adc-41ad-9c6c-e136c04b17b5",
 		"version": [

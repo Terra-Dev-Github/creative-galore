@@ -1,18 +1,22 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terra:yellow_terracotta_shingle"
-		},
-		"components": {
-			"minecraft:unit_cube": {},
-			"minecraft:destroy_time": 1.25,
-			"minecraft:explosion_resistance": 4.2,
-			"minecraft:creative_category": {
+			"identifier": "terra:yellow_terracotta_shingle",
+			"menu_category": {
 				"group": "itemGroup.name.stainedClay",
 				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.25
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 4.2
 			},
 			"minecraft:loot": "loot_tables/blocks/terracotta_shingles/yellow_terracotta_shingle.json",
 			"minecraft:material_instances": {
@@ -20,7 +24,9 @@
 					"texture": "yellow_terracotta_shingle",
 					"render_method": "opaque"
 				}
-			}
+			},
+			// according to map item data on the mc wiki
+			"minecraft:map_color": "#BA8524"
 		}
 	}
 }

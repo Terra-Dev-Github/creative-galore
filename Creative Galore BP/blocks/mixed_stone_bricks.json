@@ -1,18 +1,24 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terra:mixed_stone_bricks"
+			"identifier": "terra:mixed_stone_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
 		},
 		"components": {
-			"minecraft:unit_cube": {},
-			"minecraft:destroy_time": 1.5,
-			"minecraft:explosion_resistance": 6,
-			"minecraft:creative_category": {
-				"group": "itemGroup.name.stoneBrick",
-				"category": "construction"
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			// according to map item data on the mc wiki
+			"minecraft:map_color": "#707070",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
 			},
 			"minecraft:loot": "loot_tables/blocks/mixed_stone_bricks.json",
 			"minecraft:material_instances": {

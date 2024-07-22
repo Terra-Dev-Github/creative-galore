@@ -1,24 +1,23 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-    "format_version": "1.16.100",
+    "format_version": "1.20.80",
     "minecraft:block": {
         "description": {
-            "identifier": "terra:green_stool"
-        },
-        "components": {
-            // Breathability is set to "air" so blocks like grass don't turn into dirt
-            // Also helps with possible suffocating issues
-            "minecraft:breathability": "air",
-            "minecraft:destroy_time": 2,
-            "minecraft:creative_category": {
+            "identifier": "terra:green_stool",
+            "menu_category": {
                 "category": "construction",
                 // Couldn't think of any other
                 "group": "itemGroup.name.stairs"
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2
             },
             "minecraft:geometry": "geometry.stool",
+            "minecraft:light_dampening": 0,
             "minecraft:loot": "loot_tables/blocks/stools/green_stool.json",
-            "minecraft:block_light_absorption": 0,
             "minecraft:material_instances": {
                 "*": {
                     "texture": "green_stool_side",
@@ -39,7 +38,7 @@
                     "ambient_occlusion": true
                 }
             },
-            "minecraft:entity_collision": {
+            "minecraft:collision_box": {
                 "origin": [
                     -6,
                     0,
@@ -51,7 +50,7 @@
                     12
                 ]
             },
-            "minecraft:aim_collision": {
+            "minecraft:selection_box": {
                 "origin": [
                     -6,
                     0,

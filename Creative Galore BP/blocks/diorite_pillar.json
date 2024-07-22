@@ -1,60 +1,75 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-    "format_version": "1.16.100",
+    "format_version": "1.20.80",
     "minecraft:block": {
         "description": {
             "identifier": "terra:diorite_pillar",
-            "register_to_creative_menu": true,
-            "is_experimental": false,
-            "properties": {
-                "terra:facing_direction": [
-                    0,
-                    1,
-                    2
-                ]
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.none"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
             }
         },
         "permutations": [
             {
-                "condition": "q.block_property('terra:facing_direction') == 0",
+                "condition": "query.block_state('minecraft:block_face') == 'north'",
                 "components": {
-                    "minecraft:rotation": [
-                        0,
-                        0,
-                        0
-                    ]
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
                 }
             },
             {
-                "condition": "q.block_property('terra:facing_direction') == 1",
+                "condition": "query.block_state('minecraft:block_face') == 'south'",
                 "components": {
-                    "minecraft:rotation": [
-                        90,
-                        0,
-                        0
-                    ]
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
                 }
             },
             {
-                "condition": "q.block_property('terra:facing_direction') == 2",
+                "condition": "query.block_state('minecraft:block_face') == 'east'",
                 "components": {
-                    "minecraft:rotation": [
-                        0,
-                        0,
-                        90
-                    ]
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            -90
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            -90
+                        ]
+                    }
                 }
             }
         ],
         "components": {
-            "minecraft:unit_cube": {},
             "tag:stone": {},
-            "minecraft:unit_cube": {},
-            "minecraft:creative_category": {
-                "category": "construction",
-                "group": "itemGroup.name.none"
-            },
+            "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "diorite_pillar_side",
@@ -69,21 +84,15 @@
                     "render_method": "opaque"
                 }
             },
-            "minecraft:destroy_time": 0.5,
-            "minecraft:explosion_resistance": 3,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
             "minecraft:loot": "loot_tables/blocks/diorite_pillar.json",
             // according to map item data on the mc wiki
-            "minecraft:map_color": "#FFFCF5",
-            "minecraft:on_player_placing": {
-                "event": "terra:set_facing_direction"
-            }
-        },
-        "events": {
-            "terra:set_facing_direction": {
-                "set_block_property": {
-                    "terra:facing_direction": "math.floor(query.block_face / 2)"
-                }
-            }
+            "minecraft:map_color": "#FFFCF5"
         }
     }
 }

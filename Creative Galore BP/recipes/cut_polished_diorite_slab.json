@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:cut_polished_diorite_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:cut_polished_diorite"
+            }
+        },
+        "result": {
+            "item": "terra:cut_polished_diorite_slab",
+            "count": 6
+        }
+    }
+}

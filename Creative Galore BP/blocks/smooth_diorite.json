@@ -1,18 +1,22 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.80",
 	"minecraft:block": {
 		"description": {
-			"identifier": "terra:smooth_diorite"
-		},
-		"components": {
-			"minecraft:unit_cube": {},
-			"minecraft:destroy_time": 1.5,
-			"minecraft:explosion_resistance": 6,
-			"minecraft:creative_category": {
+			"identifier": "terra:smooth_diorite",
+			"menu_category": {
 				"group": "itemGroup.name.none",
 				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
 			},
 			"minecraft:loot": "loot_tables/blocks/smooth_diorite.json",
 			"minecraft:material_instances": {

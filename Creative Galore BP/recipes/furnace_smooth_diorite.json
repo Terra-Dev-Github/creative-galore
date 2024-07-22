@@ -7,7 +7,7 @@
         "tags": [
             "furnace"
         ],
-        "input": "terra:stone:3",
+        "input": "minecraft:stone:3",
         "output": "terra:smooth_diorite"
     }
 }

@@ -1,18 +1,31 @@
-## This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+## This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 ## Do not distribute without permission.
 pack.name=Creatividad sin Fin - Recursos
-pack.description=Un pack a corta escala de construcción, decoración y creatividad. | © 2023, TERRA
+pack.description=Un pack a corta escala de construcción, decoración y creatividad. | © 2024, TERRA
+
+terra.version.beta=TERRA Team - Creatividad sin Fin v1.0.0 [BETA_04]
 
 ## MX - ES
 ## Escarlata > Carmesí
 
+tile.double_stone_slab.smoothStoneBrick.name=Losa de ladrillos de piedra pulida
+tile.stonebrick.chiseled.name=Ladrillos de piedra pulida cincelados
+tile.stonebrick.cracked.name=Ladrillos de piedra pulida rotos
+tile.stonebrick.default.name=Ladrillos de piedra pulida
+tile.stonebrick.mossy.name=Ladrillos de piedra pulida musgosa
+tile.stonebrick.smooth.name=Ladrillos de piedra pulida
+tile.stone_slab.smoothStoneBrick.name=Losa de ladrillos de piedra pulida
+
 tile.terra:andesite_brick_slab.name=Losa de ladrillos de andesita
 tile.terra:andesite_bricks.name=Ladrillos de andesita
 tile.terra:chiseled_diorite.name=Diorita cincelada
+tile.terra:cut_polished_diorite_slab.name=Losa de diorita pulida cortada
 tile.terra:cut_polished_diorite.name=Diorita pulida cortada
 tile.terra:diorite_brick_slab.name=Losa de ladrillos de diorita
 tile.terra:diorite_bricks.name=Ladrillos de diorita
 tile.terra:diorite_pillar.name=Pilar de diorita
+tile.terra:dripstone_brick_slab.name=Losa de ladrillos de espeleotema
+tile.terra:dripstone_bricks.name=Ladrillos de espeleotema
 tile.terra:granite_brick_slab.name=Losa de ladrillos de granito
 tile.terra:granite_bricks.name=Ladrillos de granito
 tile.terra:mixed_stone_bricks.name=Ladrillos de piedra mixtos
@@ -21,14 +34,27 @@ tile.terra:polished_andesite_brick_slab.name=Losa de ladrillos de andesita pulid
 tile.terra:polished_andesite_bricks.name=Ladrillos de andesita pulida
 tile.terra:polished_diorite_brick_slab.name=Losa de ladrillos de diorita pulida
 tile.terra:polished_diorite_bricks.name=Ladrillos de diorita pulida
+tile.terra:polished_dripstone.name=Espeleotema pulida
+tile.terra:polished_dripstone_brick_slab.name=Losa de ladrillos de espeleotema pulida
+tile.terra:polished_dripstone_bricks.name=Ladrillos de espeleotema pulida
+tile.terra:polished_dripstone_slab.name=Losa de espeleotema pulida
 tile.terra:polished_granite_brick_slab.name=Losa de ladrillos de granita pulida
 tile.terra:polished_granite_bricks.name=Ladrillos de granita pulida
+tile.terra:polished_schist_brick_slab.name=Losa de ladrillos de esquisto pulido
+tile.terra:polished_schist_bricks.name=Ladrillos de esquisto pulido
+tile.terra:polished_schist_slab.name=Losa de esquisto pulido
+tile.terra:polished_schist.name=Esquisto pulido
+tile.terra:polished_stone_pillar.name=Pilar de piedra pulida
 tile.terra:polished_stone_slab.name=Losa de piedra pulida
 tile.terra:polished_stone.name=Piedra pulida
 tile.terra:red_sandstone_brick_slab.name=Losa de ladrillos de arenisca roja
 tile.terra:red_sandstone_bricks.name=Ladrillos de arenisca roja
 tile.terra:sandstone_brick_slab.name=Losa de ladrillos de arenisca
 tile.terra:sandstone_bricks.name=Ladrillos de arenisca
+tile.terra:schist_brick_slab.name=Losa de ladrillos de esquisto
+tile.terra:schist_bricks.name=Ladrillos de esquisto
+tile.terra:schist_slab.name=Losa de esquisto
+tile.terra:schist.name=Esquisto
 tile.terra:smooth_diorite_slab.name=Losa de diorita lisa
 tile.terra:smooth_diorite.name=Diorita lisa
 tile.terra:smooth_stone_bricks.name=Ladrillos de piedra lisa
@@ -82,15 +108,25 @@ tile.terra:chiseled_oak_planks.name=Tablones de roble cincelados
 tile.terra:chiseled_spruce_planks.name=Tablones de abeto cincelados
 tile.terra:chiseled_warped_planks.name=Tablones deformados cincelados
 
+tile.terra:tiled_acacia_plank_slab.name=Losa de mosaicos de tablones de acacia
 tile.terra:tiled_acacia_planks.name=Mosaicos de tablones de acacia
+tile.terra:tiled_birch_plank_slab.name=Losa de mosaicos de tablones de abedul
 tile.terra:tiled_birch_planks.name=Mosaicos de tablones de abedul
+tile.terra:tiled_cherry_plank_slab.name=Losa de mosaicos de tablones de cerezo
 tile.terra:tiled_cherry_planks.name=Mosaicos de tablones de cerezo
+tile.terra:tiled_crimson_plank_slab.name=Losa de mosaicos de tablones escarlata
 tile.terra:tiled_crimson_planks.name=Mosaicos de tablones escarlata
+tile.terra:tiled_dark_oak_plank_slab.name=Losa de mosaicos de tablones de roble oscuro
 tile.terra:tiled_dark_oak_planks.name=Mosaicos de tablones de roble oscuro
+tile.terra:tiled_jungle_plank_slab.name=Losa de mosaicos de tablones de jungla
 tile.terra:tiled_jungle_planks.name=Mosaicos de tablones de jungla
+tile.terra:tiled_mangrove_plank_slab.name=Losa de mosaicos de tablones de manglar
 tile.terra:tiled_mangrove_planks.name=Mosaicos de tablones de manglar
+tile.terra:tiled_oak_plank_slab.name=Losa de mosaicos de tablones de roble
 tile.terra:tiled_oak_planks.name=Mosaicos de tablones de roble
+tile.terra:tiled_spruce_plank_slab.name=Losa de mosaicos de tablones de abeto
 tile.terra:tiled_spruce_planks.name=Mosaicos de tablones de abeto
+tile.terra:tiled_warped_plank_slab.name=Losa de mosaicos de tablones deformados
 tile.terra:tiled_warped_planks.name=Mosaicos de tablones deformados
 
 tile.terra:black_stool.name=Taburete negro
@@ -109,6 +145,18 @@ tile.terra:purple_stool.name=Taburete morado
 tile.terra:red_stool.name=Taburete rojo
 tile.terra:white_stool.name=Taburete blanco
 tile.terra:yellow_stool.name=Taburete amarillo
+
+tile.terra:acacia_table.name=Mesa de acacia
+tile.terra:bamboo_table.name=Mesa de bambú
+tile.terra:birch_table.name=Mesa de abedul
+tile.terra:cherry_table.name=Mesa de cerezo
+tile.terra:crimson_table.name=Mesa escarlata
+tile.terra:dark_oak_table.name=Mesa de roble oscuro
+tile.terra:jungle_table.name=Mesa de jungla
+tile.terra:mangrove_table.name=Mesa de manglar
+tile.terra:oak_table.name=Mesa de roble
+tile.terra:spruce_table.name=Mesa de abeto
+tile.terra:warped_table.name=Mesa deformada
 
 tile.terra:black_curtain.name=Cortina negra
 tile.terra:blue_curtain.name=Cortina azul
@@ -137,6 +185,8 @@ tile.terra:cyan_terracotta_shingle.name=Tejado de terracota cian
 tile.terra:cyan_terracotta_shingle_slab.name=Losa de tejado de terracota cian
 tile.terra:gray_terracotta_shingle.name=Tejado de terracota gris
 tile.terra:gray_terracotta_shingle_slab.name=Losa de tejado de terracota gris
+tile.terra:green_terracotta_shingle.name=Tejado de terracota verde
+tile.terra:green_terracotta_shingle_slab.name=Losa de tejado de terracota verde
 tile.terra:light_blue_terracotta_shingle.name=Tejado de terracota celeste
 tile.terra:light_blue_terracotta_shingle_slab.name=Losa de tejado de terracota celeste
 tile.terra:light_gray_terracotta_shingle.name=Tejado de terracota gris claro

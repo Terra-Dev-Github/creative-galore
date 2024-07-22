@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_dripstone_brick_slab2"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:dripstone_bricks"
+            }
+        ],
+        "result": {
+            "item": "terra:dripstone_brick_slab",
+            "count": 2
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "terra:stonecutter_tiled_acacia_plank_slab2"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "data": 4
+      }
+    ],
+    "result": {
+      "item": "terra:tiled_acacia_plank_slab",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,602 @@
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for terra.
+// Do not distribute without permission.
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:oak_table",
+            "menu_category": {
+                "category": "construction",
+                "group": "none"
+            },
+            "states": {
+                "terra:north_connect": [
+                    0,
+                    1
+                ],
+                "terra:south_connect": [
+                    0,
+                    1
+                ],
+                "terra:east_connect": [
+                    0,
+                    1
+                ],
+                "terra:west_connect": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "components": {
+            "tag:wood": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:flammable": {
+                "destroy_chance_modifier": 5,
+                "catch_chance_modifier": 5
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    12,
+                    -8
+                ],
+                "size": [
+                    16,
+                    4,
+                    16
+                ]
+            },
+            "minecraft:geometry": "geometry.table",
+            // "minecraft:loot": "loot_tables/blocks/tables/oak_table.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "oak_table_side",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "up": {
+                    "texture": "oak_table_top",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "down": {
+                    "texture": "oak_planks_crate",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            // adds block functionality
+            "minecraft:custom_components": [
+                "terra:side_self_connect"
+            ]
+        },
+        "permutations": [
+            // default
+            {
+                "condition": "!q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && !q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // north
+            {
+                "condition": "q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && !q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // south
+            {
+                "condition": "!q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && !q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // east
+            {
+                "condition": "!q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && !q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // west
+            {
+                "condition": "!q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // south-west (sw)
+            {
+                "condition": "!q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // south-east (se)
+            {
+                "condition": "!q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && !q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // north-west (nw)
+            {
+                "condition": "q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // north-east (ne)
+            {
+                "condition": "q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && !q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // center
+            {
+                "condition": "q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && q.block_state('terra:west_connect')",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except one
+            {
+                "condition": "(!q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && q.block_state('terra:west_connect')) || (q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && q.block_state('terra:west_connect')) || (q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && q.block_state('terra:west_connect')) || (q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && !q.block_state('terra:west_connect'))",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            },
+            // center if two opposite sides are connected, be north-south or east-west
+            {
+                "condition": "(q.block_state('terra:north_connect') && q.block_state('terra:south_connect') && !q.block_state('terra:east_connect') && !q.block_state('terra:west_connect')) || (!q.block_state('terra:north_connect') && !q.block_state('terra:south_connect') && q.block_state('terra:east_connect') && q.block_state('terra:west_connect'))",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "oak_table_side",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "up": {
+                            "texture": "oak_table_top",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "down": {
+                            "texture": "oak_planks_crate",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg1": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg2": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg3": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        },
+                        "leg4": {
+                            "texture": "empty",
+                            "render_method": "alpha_test",
+                            "face_dimming": true,
+                            "ambient_occlusion": true
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

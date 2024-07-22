@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "terra:tiled_cherry_plank_slab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "terra:tiled_cherry_planks"
+      }
+    },
+    "result": {
+      "item": "terra:tiled_cherry_plank_slab",
+      "count": 3
+    }
+  }
+}

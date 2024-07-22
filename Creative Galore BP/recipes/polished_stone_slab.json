@@ -16,8 +16,8 @@
             }
         },
         "result": {
-            "item": "terra:polished_stone",
-            "count": 3
+            "item": "terra:polished_stone_slab",
+            "count": 6
         }
     }
 }

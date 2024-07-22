@@ -1,318 +1,36 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-    "format_version": "1.16.100",
+    "format_version": "1.20.80",
     "minecraft:block": {
         "description": {
             "identifier": "terra:light_gray_curtain",
-            "properties": {
-                "terra:rotation": [
-                    2,
-                    3,
-                    4,
-                    5
-                ],
-                "terra:vertical_connecting": [
-                    // default
-                    0,
-                    // center
-                    1,
-                    // bottom
-                    2,
-                    // top
-                    3
-                ]
-            }
-        },
-        "events": {
-            // runs both events in a sequence
-            "terra:set_block_properties": {
-                "sequence": [
-                    {
-                        "trigger": "terra:set_rotation"
-                    },
-                    {
-                        "trigger": "terra:update_vertical_connecting"
-                    }
-                ]
+            "menu_category": {
+                "group": "itemGroup.name.none",
+                "category": "construction"
             },
-            "terra:set_rotation": {
-                "set_block_property": {
-                    "terra:rotation": "(query.cardinal_facing_2d)"
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
                 }
             },
-            "terra:update_vertical_connecting": {
-                // code is functional and connects with the same color only,
-                // but i might try something to make it connect same sides only too.
-                // currently, curtains placed facing different directions can connect to each other
-                // but i could just add a tag that conditions for the rotated property, right?
-                "sequence": [
-                    // rotation 2
-                    {
-                        // if default block below, convert to top block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if top block above and no center block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if top block above and center block below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_2') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if top block below, convert to top piece
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if bottom block below, and top or center block above, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'bottom', 'curtain_light_gray') && (q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') || q.block_neighbor_has_any_tag(0,1,0,'center', 'curtain_light_gray')) && q.block_neighbor_has_all_tags(0,1,0,'rotation_2') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if no block above and center/bottom block below, convert to top block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if no blocks above or below, convert to default block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 0
-                        }
-                    },
-                    {
-                        // if any block that isn't default above, and no block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if default blocks above and below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_2') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_2') && q.block_property('terra:rotation') == 2",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    // rotation 3
-                    {
-                        // if default block below, convert to top block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if top block above and no center block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if top block above and center block below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_3') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if top block below, convert to top piece
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if bottom block below, and top or center block above, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'bottom', 'curtain_light_gray') && (q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') || q.block_neighbor_has_any_tag(0,1,0,'center', 'curtain_light_gray')) && q.block_neighbor_has_all_tags(0,1,0,'rotation_3') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if no block above and center/bottom block below, convert to top block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if no blocks above or below, convert to default block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 0
-                        }
-                    },
-                    {
-                        // if any block that isn't default above, and no block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if default blocks above and below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_3') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_3') && q.block_property('terra:rotation') == 3",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    // rotation 4
-                    {
-                        // if default block below, convert to top block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if top block above and no center block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if top block above and center block below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_4') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if top block below, convert to top piece
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if bottom block below, and top or center block above, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'bottom', 'curtain_light_gray') && (q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') || q.block_neighbor_has_any_tag(0,1,0,'center', 'curtain_light_gray')) && q.block_neighbor_has_all_tags(0,1,0,'rotation_4') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if no block above and center/bottom block below, convert to top block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if no blocks above or below, convert to default block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 0
-                        }
-                    },
-                    {
-                        // if any block that isn't default above, and no block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if default blocks above and below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_4') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_4') && q.block_property('terra:rotation') == 4",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    // rotation 5
-                    {
-                        // if default block below, convert to top block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if top block above and no center block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if top block above and center block below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_5') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if top block below, convert to top piece
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'top', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if bottom block below, and top or center block above, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,-1,0,'bottom', 'curtain_light_gray') && (q.block_neighbor_has_any_tag(0,1,0,'top', 'curtain_light_gray') || q.block_neighbor_has_any_tag(0,1,0,'center', 'curtain_light_gray')) && q.block_neighbor_has_all_tags(0,1,0,'rotation_5') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    },
-                    {
-                        // if no block above and center/bottom block below, convert to top block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 3
-                        }
-                    },
-                    {
-                        // if no blocks above or below, convert to default block
-                        "condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 0
-                        }
-                    },
-                    {
-                        // if any block that isn't default above, and no block below, convert to bottom block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'center', 'bottom', 'curtain_light_gray') && !q.block_neighbor_has_any_tag(0,-1,0,'center', 'bottom', 'top', 'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 2
-                        }
-                    },
-                    {
-                        // if default blocks above and below, convert to center block
-                        "condition": "q.block_neighbor_has_any_tag(0,1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_any_tag(0,-1,0,'default', 'curtain_light_gray') && q.block_neighbor_has_all_tags(0,1,0,'rotation_5') && q.block_neighbor_has_all_tags(0,-1,0,'rotation_5') && q.block_property('terra:rotation') == 5",
-                        "set_block_property": {
-                            "terra:vertical_connecting": 1
-                        }
-                    }
+            "states": {
+                "terra:curtain_top": [
+                    0,
+                    1
+                ],
+                "terra:curtain_bottom": [
+                    0,
+                    1
                 ]
             }
         },
         "components": {
-            "tag:curtain": {},
-            "tag:curtain_light_gray": {},
-            "tag:default": {},
-            // otherwise you'd suffocate
-            "minecraft:breathability": "air",
-            "minecraft:entity_collision": {
+            "tag:wool": {},
+            // "minecraft:breathability": "air",
+            "minecraft:collision_box": {
                 "origin": [
                     -8,
                     14,
@@ -324,7 +42,7 @@
                     2
                 ]
             },
-            "minecraft:aim_collision": {
+            "minecraft:selection_box": {
                 "origin": [
                     -8,
                     0,
@@ -336,13 +54,12 @@
                     2
                 ]
             },
-            "minecraft:destroy_time": 2,
-            "minecraft:block_light_absorption": 0,
-            "minecraft:explosion_resistance": 1200,
-            "minecraft:creative_category": {
-                // group doesn't match category so it ends up in the tab like a normal item
-                "group": "itemGroup.name.ore",
-                "category": "construction"
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
             },
             "minecraft:geometry": "geometry.curtain",
             "minecraft:material_instances": {
@@ -354,74 +71,69 @@
                 }
             },
             "minecraft:flammable": {
-                "burn_odds": 5,
-                "flame_odds": 5
+                "destroy_chance_modifier": 5,
+                "catch_chance_modifier": 5
             },
-            "minecraft:ticking": {
-                "on_tick": {
-                    "event": "terra:update_vertical_connecting"
-                },
-                "looping": true,
-                "range": [
-                    0,
-                    0
-                ]
-            },
-            "minecraft:on_player_placing": {
-                "event": "terra:set_block_properties"
-            }
+            // adds block functionality
+            "minecraft:custom_components": [
+                "terra:curtain_properties"
+            ]
         },
         "permutations": [
             // for rotation
             {
-                "condition": "query.block_property('terra:rotation') == 2",
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
                 "components": {
-                    "tag:rotation_2": {},
-                    "minecraft:rotation": [
-                        0,
-                        180,
-                        0
-                    ]
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
                 }
             },
             {
-                "condition": "query.block_property('terra:rotation') == 3",
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
                 "components": {
-                    "tag:rotation_3": {},
-                    "minecraft:rotation": [
-                        0,
-                        0,
-                        0
-                    ]
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 }
             },
             {
-                "condition": "query.block_property('terra:rotation') == 4",
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
                 "components": {
-                    "tag:rotation_4": {},
-                    "minecraft:rotation": [
-                        0,
-                        270,
-                        0
-                    ]
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
                 }
             },
             {
-                "condition": "query.block_property('terra:rotation') == 5",
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
                 "components": {
-                    "tag:rotation_5": {},
-                    "minecraft:rotation": [
-                        0,
-                        90,
-                        0
-                    ]
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
                 }
             },
-            // for vertical connecting
+            // for connecting
             {
-                "condition": "query.block_property('terra:vertical_connecting') == 0",
+                // default
+                "condition": "!q.block_state('terra:curtain_top') && !q.block_state('terra:curtain_bottom')",
                 "components": {
-                    "tag:default": {},
                     "minecraft:material_instances": {
                         "*": {
                             "texture": "light_gray_curtain",
@@ -433,10 +145,10 @@
                 }
             },
             {
-                "condition": "query.block_property('terra:vertical_connecting') == 1",
+                // center
+                "condition": "q.block_state('terra:curtain_top') && q.block_state('terra:curtain_bottom')",
                 "components": {
-                    "tag:center": {},
-                    "minecraft:entity_collision": false,
+                    "minecraft:collision_box": false,
                     "minecraft:material_instances": {
                         "*": {
                             "texture": "light_gray_curtain_center",
@@ -454,10 +166,10 @@
                 }
             },
             {
-                "condition": "query.block_property('terra:vertical_connecting') == 2",
+                // bottom
+                "condition": "!q.block_state('terra:curtain_top') && q.block_state('terra:curtain_bottom')",
                 "components": {
-                    "tag:bottom": {},
-                    "minecraft:entity_collision": false,
+                    "minecraft:collision_box": false,
                     "minecraft:material_instances": {
                         "*": {
                             "texture": "light_gray_curtain_bottom",
@@ -475,9 +187,9 @@
                 }
             },
             {
-                "condition": "query.block_property('terra:vertical_connecting') == 3",
+                // top
+                "condition": "q.block_state('terra:curtain_top') && !q.block_state('terra:curtain_bottom')",
                 "components": {
-                    "tag:top": {},
                     "minecraft:material_instances": {
                         "*": {
                             "texture": "light_gray_curtain_top",

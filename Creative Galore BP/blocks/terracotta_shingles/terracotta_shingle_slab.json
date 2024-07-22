@@ -1,7 +1,7 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.20.30",
+	"format_version": "1.20.80",
 	"minecraft:block": {
 		"description": {
 			"identifier": "terra:terracotta_shingle_slab",
@@ -18,6 +18,10 @@
 			},
 			"states": {
 				"terra:double": [
+					false,
+					true
+				],
+				"terra:waterlogged": [
 					false,
 					true
 				]
@@ -51,10 +55,6 @@
 							8,
 							16
 						]
-					},
-					"minecraft:on_interact": {
-						"event": "terra:form_double",
-						"condition": "q.block_face == 1.0 && q.is_item_name_any('slot.weapon.mainhand', 'terra:terracotta_shingle_slab')"
 					}
 				}
 			},
@@ -85,10 +85,6 @@
 							8,
 							16
 						]
-					},
-					"minecraft:on_interact": {
-						"event": "terra:form_double",
-						"condition": "q.block_face == 0.0 && q.is_item_name_any('slot.weapon.mainhand', 'terra:terracotta_shingle_slab')"
 					}
 				}
 			},
@@ -96,10 +92,7 @@
 			{
 				"condition": "q.block_state('terra:double')",
 				"components": {
-					"minecraft:unit_cube": {},
-					"minecraft:on_player_destroyed": {
-						"event": "terra:destroy_double"
-					}
+					"minecraft:geometry": "minecraft:geometry.full_block"
 				}
 			}
 		],
@@ -126,21 +119,11 @@
 					"texture": "terracotta_shingle",
 					"render_method": "opaque"
 				}
-			}
-		},
-		"events": {
-			"terra:form_double": {
-				"set_block_state": {
-					"terra:double": true
-				},
-				"run_command": {
-					"command": "playsound use.stone @a ~~~ 1 0.8"
-				},
-				"decrement_stack": {}
 			},
-			"terra:destroy_double": {
-				"spawn_loot": {} // spawns the block's default loot
-			}
+			// adds block functionality
+			"minecraft:custom_components": [
+				"terra:on_slab_interact"
+			]
 		}
 	}
 }

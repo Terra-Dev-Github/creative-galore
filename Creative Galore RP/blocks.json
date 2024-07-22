@@ -1,4 +1,4 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
 	"format_version": [
@@ -22,6 +22,10 @@
 		},
 		"sound": "stone"
 	},
+	"terra:cut_polished_diorite_slab": {
+		"textures": "cut_polished_diorite",
+		"sound": "stone"
+	},
 	"terra:cut_polished_diorite": {
 		"textures": "cut_polished_diorite",
 		"sound": "stone"
@@ -35,12 +39,16 @@
 		"sound": "stone"
 	},
 	"terra:diorite_pillar": {
-		"textures": {
-			"side": "diorite_pillar_side",
-			"up": "diorite_pillar_top",
-			"down": "diorite_pillar_top"
-		},
+		// skipping textures so it doesn't glitch out
 		"sound": "stone"
+	},
+	"terra:dripstone_bricks": {
+		"textures": "dripstone_bricks",
+		"sound": "dripstone_block"
+	},
+	"terra:dripstone_brick_slab": {
+		"textures": "dripstone_bricks",
+		"sound": "dripstone_block"
 	},
 	"terra:granite_brick_slab": {
 		"textures": "stone_granite_smooth_bricks_small",
@@ -74,12 +82,48 @@
 		"textures": "stone_diorite_smooth_bricks",
 		"sound": "stone"
 	},
+	"terra:polished_dripstone": {
+		"textures": "dripstone_polished",
+		"sound": "dripstone_block"
+	},
+	"terra:polished_dripstone_bricks": {
+		"textures": "dripstone_polished_bricks",
+		"sound": "dripstone_block"
+	},
+	"terra:polished_dripstone_brick_slab": {
+		"textures": "dripstone_polished_bricks",
+		"sound": "dripstone_block"
+	},
+	"terra:polished_dripstone_slab": {
+		"textures": "dripstone_polished",
+		"sound": "dripstone_block"
+	},
 	"terra:polished_granite_brick_slab": {
 		"textures": "stone_granite_smooth_bricks",
 		"sound": "stone"
 	},
 	"terra:polished_granite_bricks": {
 		"textures": "stone_granite_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_schist_brick_slab": {
+		"textures": "polished_schist_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_schist_bricks": {
+		"textures": "polished_schist_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_schist_slab": {
+		"textures": "polished_schist",
+		"sound": "stone"
+	},
+	"terra:polished_schist": {
+		"textures": "polished_schist",
+		"sound": "stone"
+	},
+	"terra:polished_stone_pillar": {
+		// skipping textures so it doesn't glitch out
 		"sound": "stone"
 	},
 	"terra:polished_stone_slab": {
@@ -108,6 +152,22 @@
 	},
 	"terra:sandstone_bricks": {
 		"textures": "sandstone_bricks",
+		"sound": "stone"
+	},
+	"terra:schist_brick_slab": {
+		"textures": "schist_bricks",
+		"sound": "stone"
+	},
+	"terra:schist_bricks": {
+		"textures": "schist_bricks",
+		"sound": "stone"
+	},
+	"terra:schist_slab": {
+		"textures": "schist",
+		"sound": "stone"
+	},
+	"terra:schist": {
+		"textures": "schist",
 		"sound": "stone"
 	},
 	"terra:smooth_diorite_slab": {
@@ -343,6 +403,46 @@
 		"textures": "spruce_planks_crate",
 		"sound": "wood"
 	},
+	"terra:tiled_acacia_plank_slab": {
+		"textures": "tiled_acacia_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_birch_plank_slab": {
+		"textures": "tiled_birch_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_cherry_plank_slab": {
+		"textures": "tiled_cherry_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_crimson_plank_slab": {
+		"textures": "tiled_crimson_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_dark_oak_plank_slab": {
+		"textures": "tiled_dark_oak_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_jungle_plank_slab": {
+		"textures": "tiled_jungle_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_mangrove_plank_slab": {
+		"textures": "tiled_mangrove_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_oak_plank_slab": {
+		"textures": "tiled_oak_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_spruce_plank_slab": {
+		"textures": "tiled_spruce_planks",
+		"sound": "wood"
+	},
+	"terra:tiled_warped_plank_slab": {
+		"textures": "tiled_warped_planks",
+		"sound": "wood"
+	},
 	"terra:tiled_acacia_planks": {
 		"textures": "tiled_acacia_planks",
 		"sound": "wood"
@@ -515,6 +615,15 @@
 			"down": "stool_bottom"
 		},
 		"sound": "cloth"
+	},
+	// Tables
+	"terra:oak_table": {
+		"textures": {
+			"side": "oak_table_side",
+			"up": "oak_table_top",
+			"down": "oak_planks_crate"
+		},
+		"sound": "wood"
 	},
 	// Terracotta Shingles
 	"terra:black_terracotta_shingle_slab": {

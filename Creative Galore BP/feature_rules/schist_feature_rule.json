@@ -1,0 +1,54 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "terra:schist_feature_rule",
+			"places_feature": "terra:schist_feature"
+		},
+		"distribution": {
+			"iterations": 1,
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"extent": [
+					0,
+					128
+				],
+				"distribution": "uniform"
+			},
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"scatter_chance": 20
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				// conditioned biomes
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "savanna"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "desert"
+						}
+					]
+				}
+			]
+		},
+	}
+}

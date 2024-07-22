@@ -1,4 +1,4 @@
-// This file was made, modified and compiled by Heavenly (@HendersonHens) for TERRA.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
 	"num_mip_levels": 4,
@@ -22,6 +22,11 @@
 				"textures/blocks/cut_polished_diorite"
 			]
 		},
+		"dripstone_bricks": {
+			"textures": [
+				"textures/blocks/dripstone_bricks"
+			]
+		},
 		"diorite_pillar_side": {
 			"textures": [
 				"textures/blocks/diorite_pillar_side"
@@ -30,6 +35,46 @@
 		"diorite_pillar_top": {
 			"textures": [
 				"textures/blocks/diorite_pillar_top"
+			]
+		},
+		"dripstone_polished": {
+			"textures": [
+				"textures/blocks/dripstone_polished"
+			]
+		},
+		"dripstone_polished_bricks": {
+			"textures": [
+				"textures/blocks/dripstone_polished_bricks"
+			]
+		},
+		"dripstone_polished_slab_side": {
+			"textures": [
+				"textures/blocks/dripstone_polished_slab_side"
+			]
+		},
+		"polished_schist_bricks": {
+			"textures": [
+				"textures/blocks/polished_schist_bricks"
+			]
+		},
+		"polished_schist_slab_side": {
+			"textures": [
+				"textures/blocks/polished_schist_slab_side"
+			]
+		},
+		"polished_schist": {
+			"textures": [
+				"textures/blocks/polished_schist"
+			]
+		},
+		"polished_stone_pillar_side": {
+			"textures": [
+				"textures/blocks/polished_stone_pillar_side"
+			]
+		},
+		"polished_stone_pillar_top": {
+			"textures": [
+				"textures/blocks/polished_stone_pillar_top"
 			]
 		},
 		"polished_stone_slab_side": {
@@ -50,6 +95,16 @@
 		"sandstone_bricks": {
 			"textures": [
 				"textures/blocks/sandstone_bricks"
+			]
+		},
+		"schist_bricks": {
+			"textures": [
+				"textures/blocks/schist_bricks"
+			]
+		},
+		"schist": {
+			"textures": [
+				"textures/blocks/schist"
 			]
 		},
 		"smooth_diorite": {
@@ -534,6 +589,117 @@
 				"textures/blocks/stools/yellow_stool_top"
 			]
 		},
+		// Tables
+		"acacia_table_side": {
+			"textures": [
+				"textures/blocks/tables/acacia_table_side"
+			]
+		},
+		"acacia_table_top": {
+			"textures": [
+				"textures/blocks/tables/acacia_table_top"
+			]
+		},
+		"bamboo_table_side": {
+			"textures": [
+				"textures/blocks/tables/bamboo_table_side"
+			]
+		},
+		"bamboo_table_top": {
+			"textures": [
+				"textures/blocks/tables/bamboo_table_top"
+			]
+		},
+		"birch_table_side": {
+			"textures": [
+				"textures/blocks/tables/birch_table_side"
+			]
+		},
+		"birch_table_top": {
+			"textures": [
+				"textures/blocks/tables/birch_table_top"
+			]
+		},
+		"cherry_table_side": {
+			"textures": [
+				"textures/blocks/tables/cherry_table_side"
+			]
+		},
+		"cherry_table_top": {
+			"textures": [
+				"textures/blocks/tables/cherry_table_top"
+			]
+		},
+		"crimson_table_side": {
+			"textures": [
+				"textures/blocks/tables/crimson_table_side"
+			]
+		},
+		"crimson_table_top": {
+			"textures": [
+				"textures/blocks/tables/crimson_table_top"
+			]
+		},
+		"dark_oak_table_side": {
+			"textures": [
+				"textures/blocks/tables/dark_oak_table_side"
+			]
+		},
+		"dark_oak_table_top": {
+			"textures": [
+				"textures/blocks/tables/dark_oak_table_top"
+			]
+		},
+		"jungle_table_side": {
+			"textures": [
+				"textures/blocks/tables/jungle_table_side"
+			]
+		},
+		"jungle_table_top": {
+			"textures": [
+				"textures/blocks/tables/jungle_table_top"
+			]
+		},
+		"mangrove_table_side": {
+			"textures": [
+				"textures/blocks/tables/mangrove_table_side"
+			]
+		},
+		"mangrove_table_top": {
+			"textures": [
+				"textures/blocks/tables/mangrove_table_top"
+			]
+		},
+		"oak_table_side": {
+			"textures": [
+				"textures/blocks/tables/oak_table_side"
+			]
+		},
+		"oak_table_top": {
+			"textures": [
+				"textures/blocks/tables/oak_table_top"
+			]
+		},
+		"spruce_table_side": {
+			"textures": [
+				"textures/blocks/tables/spruce_table_side"
+			]
+		},
+		"spruce_table_top": {
+			"textures": [
+				"textures/blocks/tables/spruce_table_top"
+			]
+		},
+		"warped_table_side": {
+			"textures": [
+				"textures/blocks/tables/warped_table_side"
+			]
+		},
+		"warped_table_top": {
+			"textures": [
+				"textures/blocks/tables/warped_table_top"
+			]
+		},
 		// Curtains
 		"black_curtain_bottom": {
 			"textures": [
@@ -573,6 +739,26 @@
 		"blue_curtain": {
 			"textures": [
 				"textures/blocks/curtains/blue_curtain"
+			]
+		},
+		"brown_curtain_bottom": {
+			"textures": [
+				"textures/blocks/curtains/brown_curtain_bottom"
+			]
+		},
+		"brown_curtain_center": {
+			"textures": [
+				"textures/blocks/curtains/brown_curtain_center"
+			]
+		},
+		"brown_curtain_top": {
+			"textures": [
+				"textures/blocks/curtains/brown_curtain_top"
+			]
+		},
+		"brown_curtain": {
+			"textures": [
+				"textures/blocks/curtains/brown_curtain"
 			]
 		},
 		"cyan_curtain_bottom": {
