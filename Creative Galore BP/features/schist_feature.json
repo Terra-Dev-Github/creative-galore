@@ -1,10 +1,10 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
 			"identifier": "terra:schist_feature"
 		},
-		"count": 40,
+		"count": 64,
 		"replace_rules": [
 			{
 				"places_block": {

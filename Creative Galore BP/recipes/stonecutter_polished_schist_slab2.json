@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "terra:stonecutter_polished_schist_slab"
+            "identifier": "terra:stonecutter_polished_schist_slab2"
         },
         "tags": [
             "stonecutter"

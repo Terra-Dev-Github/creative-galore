@@ -2,11 +2,12 @@
 	"format_version": "1.17.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "terra:schist_feature_rule",
+			"identifier": "terra:overworld_underground_schist_feature",
 			"places_feature": "terra:schist_feature"
 		},
 		"distribution": {
-			"iterations": 1,
+			"iterations": 2,
+			"coordinate_eval_order": "zyx",
 			"x": {
 				"extent": [
 					0,
@@ -17,7 +18,7 @@
 			"y": {
 				"extent": [
 					0,
-					128
+					60
 				],
 				"distribution": "uniform"
 			},
@@ -27,8 +28,7 @@
 					16
 				],
 				"distribution": "uniform"
-			},
-			"scatter_chance": 20
+			}
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",
@@ -44,11 +44,16 @@
 						{
 							"test": "has_biome_tag",
 							"operator": "==",
+							"value": "mesa"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
 							"value": "desert"
 						}
 					]
 				}
 			]
-		},
+		}
 	}
 }

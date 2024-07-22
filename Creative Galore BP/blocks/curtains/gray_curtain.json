@@ -30,6 +30,12 @@
         "components": {
             "tag:wool": {},
             // "minecraft:breathability": "air",
+            "minecraft:tick": {
+                "interval_range": [
+                    3,
+                    3
+                ]
+            },
             "minecraft:collision_box": {
                 "origin": [
                     -8,

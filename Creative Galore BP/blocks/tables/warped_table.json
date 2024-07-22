@@ -30,6 +30,12 @@
         },
         "components": {
             "tag:wood": {},
+            "minecraft:tick": {
+                "interval_range": [
+                    3,
+                    3
+                ]
+            },
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
             },
