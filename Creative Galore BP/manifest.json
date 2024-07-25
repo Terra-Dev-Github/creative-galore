@@ -4,15 +4,7 @@
 		"authors": [
 			"TERRA Team :: README.txt"
 		],
-		"url": "https://discord.gg/2pVaeESEDF",
-		"generated_with": {
-			"bridge": [
-				"2.7.11"
-			],
-			"dash": [
-				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
-			]
-		}
+		"url": "https://discord.gg/2pVaeESEDF"
 	},
 	"header": {
 		"name": "pack.name",
@@ -63,7 +55,7 @@
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.12.0-beta" // 1.21 is (1.12.0-beta)
+			"version": "1.12.0-beta" // 1.21's beta API is 1.12.0-beta
 		}
 	]
 }

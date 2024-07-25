@@ -7,7 +7,7 @@
 			"identifier": "terra:polished_dripstone_bricks",
 			"menu_category": {
 				"group": "itemGroup.name.stoneBrick",
-				"category": "nature"
+				"category": "construction"
 			}
 		},
 		"components": {

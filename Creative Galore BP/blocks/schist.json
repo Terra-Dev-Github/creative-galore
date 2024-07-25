@@ -7,7 +7,7 @@
 			"identifier": "terra:schist",
 			"menu_category": {
 				"group": "itemGroup.name.stone",
-				"category": "construction"
+				"category": "nature"
 			}
 		},
 		"components": {
