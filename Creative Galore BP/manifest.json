@@ -4,7 +4,15 @@
 		"authors": [
 			"TERRA Team :: README.txt"
 		],
-		"url": "https://discord.gg/2pVaeESEDF"
+		"url": "https://discord.gg/2pVaeESEDF",
+		"generated_with": {
+			"bridge": [
+				"2.7.33"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
 	},
 	"header": {
 		"name": "pack.name",
@@ -12,13 +20,13 @@
 		"min_engine_version": [
 			1,
 			21,
-			0
+			20
 		],
 		"uuid": "49ad40ca-6257-41c6-a4d5-621cc1251506",
 		"version": [
 			1,
 			0,
-			0
+			1
 		]
 	},
 	"modules": [
@@ -55,7 +63,7 @@
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.12.0-beta" // 1.21's beta API is 1.12.0-beta
+			"version": "1.14.0-beta" //1.21.20 scripting ver
 		}
 	]
 }

@@ -7,7 +7,7 @@ import { world } from '@minecraft/server';
 // subscribe to the 'worldInitialize' event to register custom components
 world.beforeEvents.worldInitialize.subscribe(eventData => {
     // register a custom component named 'terra:curtain_properties' for the block behavior (vertical connecting based on cardinal direction)
-    eventData.blockTypeRegistry.registerCustomComponent('terra:curtain_properties', {
+    eventData.blockComponentRegistry.registerCustomComponent('terra:curtain_properties', {
         onTick(e) {
             // destructure event data for easier access
             const { block } = e;

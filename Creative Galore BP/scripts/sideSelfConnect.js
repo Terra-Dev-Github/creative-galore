@@ -7,7 +7,7 @@ import { world } from '@minecraft/server';
 // Subscribe to the 'worldInitialize' event to register custom components
 world.beforeEvents.worldInitialize.subscribe(eventData => {
     // Register a custom component named terra:side_self_connect for blocks that only connect to themselves in a horizontal plane
-    eventData.blockTypeRegistry.registerCustomComponent('terra:side_self_connect', {
+    eventData.blockComponentRegistry.registerCustomComponent('terra:side_self_connect', {
         onTick(e) {
             // Destructure event data for easier access
             const { block } = e;
