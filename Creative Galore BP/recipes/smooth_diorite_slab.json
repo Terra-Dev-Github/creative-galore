@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "terra:smooth_diorite_slab"
@@ -15,6 +15,11 @@
                 "item": "terra:smooth_diorite"
             }
         },
+        "unlock": [
+            {
+                "item": "terra:smooth_diorite"
+            }
+        ],
         "result": {
             "item": "terra:smooth_diorite_slab",
             "count": 6

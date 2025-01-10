@@ -1,3 +1,5 @@
+import 'blockConnectEvents'
 import 'curtainProperties'
 import 'onInteractSlab'
-import 'sideSelfConnect'
+import 'shutterProperties'
+import 'sitComponent'

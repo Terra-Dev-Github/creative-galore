@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:small_oak_shutter"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PS",
+            "PS"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:oak_slab"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:oak_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:small_oak_shutter",
+            "count": 2
+        }
+    }
+}

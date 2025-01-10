@@ -1,27 +1,32 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "terra:orange_curtain"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"S",
-			"W"
-		],
-		"key": {
-			"S": {
-				"item": "minecraft:stick"
-			},
-			"W": {
-				"item": "minecraft:wool:1"
-			}
-		},
-		"result": {
-			"item": "terra:orange_curtain",
-			"count": 1
-		}
-	}
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:orange_curtain"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "S",
+            "W"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "W": {
+                "item": "minecraft:wool:1"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:orange_wool"
+            }
+        ],
+        "result": {
+            "item": "terra:orange_curtain",
+            "count": 1
+        }
+    }
 }

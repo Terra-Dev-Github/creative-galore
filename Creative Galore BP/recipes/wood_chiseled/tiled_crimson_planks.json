@@ -1,20 +1,26 @@
 {
-  "format_version": "1.12",
-  "minecraft:recipe_shapeless": {
-    "description": {
-    "identifier": "terra:tiled_crimson_planks"
-    },
-
-    "tags": [ "stonecutter" ],
-    "priority": 1,
-    "ingredients": [
-      {
-        "item": "minecraft:crimson_planks"
-      }
-    ],
-    "result": {
-      "item": "terra:tiled_crimson_planks",
-      "count": 1
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:tiled_crimson_planks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:crimson_planks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:crimson_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:tiled_crimson_planks",
+            "count": 1
+        }
     }
-  }
 }

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:cyan_stucco_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:cyan_stucco"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:cyan_stucco"
+            }
+        ],
+        "result": {
+            "item": "terra:cyan_stucco_slab",
+            "count": 3
+        }
+    }
+}

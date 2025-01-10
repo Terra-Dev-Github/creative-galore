@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:jungle_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SS",
+            "FF"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:jungle_slab"
+            },
+            "F": {
+                "item": "minecraft:fence:3"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:jungle_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:jungle_bench",
+            "count": 2
+        }
+    }
+}

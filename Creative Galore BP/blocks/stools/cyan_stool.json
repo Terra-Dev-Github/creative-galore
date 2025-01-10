@@ -7,7 +7,7 @@
             "identifier": "terra:cyan_stool",
             "menu_category": {
                 "category": "construction",
-                // Couldn't think of any other
+                // couldn't think of any other
                 "group": "itemGroup.name.stairs"
             }
         },
@@ -61,7 +61,11 @@
                     12,
                     12
                 ]
-            }
+            },
+            // adds block functionality
+            "minecraft:custom_components": [
+                "terra:block_sitting"
+            ]
         }
     }
 }

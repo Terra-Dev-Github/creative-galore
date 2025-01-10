@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_limestone_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:limestone"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:limestone"
+            }
+        ],
+        "result": {
+            "item": "terra:limestone_slab",
+            "count": 2
+        }
+    }
+}

@@ -1,20 +1,26 @@
 {
-  "format_version": "1.12",
-  "minecraft:recipe_shapeless": {
-    "description": {
-    "identifier": "terra:cherry_planks_crate"
-    },
-
-    "tags": [ "stonecutter" ],
-    "priority": 1,
-    "ingredients": [
-      {
-        "item": "minecraft:cherry_planks"
-      }
-    ],
-    "result": {
-      "item": "terra:cherry_planks_crate",
-      "count": 1
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:cherry_planks_crate"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:cherry_planks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:cherry_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:cherry_planks_crate",
+            "count": 1
+        }
     }
-  }
 }

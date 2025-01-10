@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "terra:stonecutter_granite_bricks"
@@ -12,6 +12,11 @@
             {
                 "item": "minecraft:stone",
                 "data": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:granite"
             }
         ],
         "result": {

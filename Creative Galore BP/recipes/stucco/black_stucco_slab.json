@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:black_stucco_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:black_stucco"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:black_stucco"
+            }
+        ],
+        "result": {
+            "item": "terra:black_stucco_slab",
+            "count": 3
+        }
+    }
+}

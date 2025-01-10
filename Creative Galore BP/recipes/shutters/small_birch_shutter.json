@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:small_birch_shutter"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PS",
+            "PS"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:birch_slab"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:birch_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:small_birch_shutter",
+            "count": 2
+        }
+    }
+}

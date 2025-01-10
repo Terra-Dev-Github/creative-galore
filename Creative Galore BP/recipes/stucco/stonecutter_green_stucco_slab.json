@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_green_stucco_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:green_stucco"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:green_stucco"
+            }
+        ],
+        "result": {
+            "item": "terra:green_stucco_slab",
+            "count": 2
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:polished_andesite_brick_wall"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:polished_andesite_bricks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:polished_andesite_bricks"
+            }
+        ],
+        "result": {
+            "item": "terra:polished_andesite_brick_wall",
+            "count": 6
+        }
+    }
+}

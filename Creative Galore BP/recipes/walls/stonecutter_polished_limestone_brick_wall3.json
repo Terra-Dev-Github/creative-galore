@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "terra:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_polished_limestone_brick_wall3"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:limestone"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:limestone"
+            }
+        ],
+        "result": {
+            "item": "terra:polished_limestone_brick_wall",
+            "count": 1
+        }
+    }
+}

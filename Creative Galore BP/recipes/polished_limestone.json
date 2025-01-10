@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:polished_limestone"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:limestone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:limestone"
+            }
+        ],
+        "result": {
+            "item": "terra:polished_limestone",
+            "count": 4
+        }
+    }
+}

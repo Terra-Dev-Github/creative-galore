@@ -4,10 +4,11 @@
 		"authors": [
 			"TERRA Team :: README.txt"
 		],
+		"license": "SEE LICENSE IN LICENSE.txt",
 		"url": "https://discord.gg/2pVaeESEDF",
 		"generated_with": {
 			"bridge": [
-				"2.7.37"
+				"2.7.42"
 			],
 			"dash": [
 				"0.11.7"
@@ -20,13 +21,13 @@
 		"min_engine_version": [
 			1,
 			21,
-			20
+			50
 		],
 		"uuid": "49ad40ca-6257-41c6-a4d5-621cc1251506",
 		"version": [
 			1,
-			0,
-			2
+			1,
+			0
 		]
 	},
 	"modules": [
@@ -57,13 +58,13 @@
 			"uuid": "0ac3fc4d-8adc-41ad-9c6c-e136c04b17b5",
 			"version": [
 				1,
-				0,
+				1,
 				0
 			]
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.15.0"
+			"version": "1.16.0"
 		}
 	]
 }

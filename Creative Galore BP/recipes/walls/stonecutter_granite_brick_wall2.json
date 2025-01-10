@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "terra:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_granite_brick_wall2"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:granite_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:granite_bricks"
+            }
+        ],
+        "result": {
+            "item": "terra:granite_brick_wall",
+            "count": 1
+        }
+    }
+}

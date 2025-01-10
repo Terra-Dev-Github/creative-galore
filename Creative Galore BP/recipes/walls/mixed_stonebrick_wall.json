@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "terra:recipe_shaped": {
+        "description": {
+            "identifier": "terra:mixed_stonebrick_wall"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:mixed_stone_bricks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:mixed_stone_bricks"
+            }
+        ],
+        "result": {
+            "item": "terra:mixed_stonebrick_wall",
+            "count": 6
+        }
+    }
+}

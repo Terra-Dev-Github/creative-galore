@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "terra:schist_slab"
@@ -15,6 +15,11 @@
                 "item": "terra:schist"
             }
         },
+        "unlock": [
+            {
+                "item": "terra:schist"
+            }
+        ],
         "result": {
             "item": "terra:schist_slab",
             "count": 6

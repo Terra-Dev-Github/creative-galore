@@ -11,9 +11,12 @@
 			}
 		},
 		"components": {
+			"tag:stone": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"minecraft:geometry": "minecraft:geometry.full_block",
+			// hardness: 1.25
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 1.25
+				"seconds_to_destroy": 6.25
 			},
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 4.2

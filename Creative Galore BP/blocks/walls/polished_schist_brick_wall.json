@@ -1,0 +1,823 @@
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
+// Do not distribute without permission.
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:polished_schist_brick_wall",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.walls"
+            },
+            "states": {
+                "terra:upper_pieces": [
+                    0,
+                    1 // toggles the upper pieces to connect with full blocks
+                ],
+                "terra:north": [
+                    0,
+                    1
+                ],
+                "terra:south": [
+                    0,
+                    1
+                ],
+                "terra:east": [
+                    0,
+                    1
+                ],
+                "terra:west": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "components": {
+            "tag:stone": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:terra:conditioned_hollow": {}, // wall connecting shenanigans
+            "minecraft:tick": {
+                "interval_range": [
+                    3,
+                    3
+                ]
+            },
+            // hardness: 1.5
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 7.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:collision_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    16,
+                    12
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -4,
+                    0,
+                    -4
+                ],
+                "size": [
+                    8,
+                    16,
+                    8
+                ]
+            },
+            "minecraft:transformation": {
+                "translation": [
+                    0,
+                    0.255,
+                    0
+                ]
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.wall",
+                "bone_visibility": {
+                    "pivot": true,
+                    "pivot_slim": false,
+                    "pivot_slim_above": "q.block_state('terra:upper_pieces')",
+                    "north": "q.block_state('terra:north') && !q.block_state('terra:upper_pieces')",
+                    "north_above": "q.block_state('terra:north') && q.block_state('terra:upper_pieces')",
+                    "south": "q.block_state('terra:south') && !q.block_state('terra:upper_pieces')",
+                    "south_above": "q.block_state('terra:south') && q.block_state('terra:upper_pieces')",
+                    "east": "q.block_state('terra:east') && !q.block_state('terra:upper_pieces')",
+                    "east_above": "q.block_state('terra:east') && q.block_state('terra:upper_pieces')",
+                    "west": "q.block_state('terra:west') && !q.block_state('terra:upper_pieces')",
+                    "west_above": "q.block_state('terra:west') && q.block_state('terra:upper_pieces')"
+                }
+            },
+            // "minecraft:loot": "loot_tables/blocks/walls/polished_schist_brick_wall.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "polished_schist_bricks",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            // adds block functionality
+            "minecraft:custom_components": [
+                "terra:wall_connect"
+            ]
+        },
+        "permutations": [
+            // upper pieces off
+            // default
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": false,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // north
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": true,
+                            "south": false,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // south
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": true,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // east
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": false,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // west
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": false,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // south-west (sw)
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": true,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // south-east (se)
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": true,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // north-west (nw)
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": true,
+                            "south": false,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // north-east (ne)
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": true,
+                            "south": false,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except north
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": false,
+                            "south": true,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except south
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": false,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except east
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except west
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if north-south sides are connected
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if east-west sides are connected
+            {
+                "condition": "!q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": false,
+                            "south": false,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": false,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // upper pieces on
+            // default
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": false,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // north
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": true,
+                            "south": false,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // south
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": true,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": true,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // east
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": false,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": true,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // west
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": false,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": true
+                        }
+                    }
+                }
+            },
+            // south-west (sw)
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": true,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": true,
+                            "east_above": false,
+                            "west_above": true
+                        }
+                    }
+                }
+            },
+            // south-east (se)
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": false,
+                            "south": true,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": true,
+                            "east_above": true,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // north-west (nw)
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": true,
+                            "south": false,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": false,
+                            "east_above": false,
+                            "west_above": true
+                        }
+                    }
+                }
+            },
+            // north-east (ne)
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": true,
+                            "pivot_slim": false,
+                            "north": true,
+                            "south": false,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": false,
+                            "east_above": true,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": true,
+                            "east_above": true,
+                            "west_above": true
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except north
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": false,
+                            "south": true,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": true,
+                            "east_above": true,
+                            "west_above": true
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except south
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": false,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": false,
+                            "east_above": true,
+                            "west_above": true
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except east
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": false,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": true,
+                            "east_above": false,
+                            "west_above": true
+                        }
+                    }
+                }
+            },
+            // center if all sides are connected except west
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": true,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": true,
+                            "east_above": true,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if north-south sides are connected
+            {
+                "condition": "q.block_state('terra:upper_pieces') && q.block_state('terra:north') && q.block_state('terra:south') && !q.block_state('terra:east') && !q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": true,
+                            "south": true,
+                            "east": false,
+                            "west": false,
+                            "pivot_slim_above": true,
+                            "north_above": true,
+                            "south_above": true,
+                            "east_above": false,
+                            "west_above": false
+                        }
+                    }
+                }
+            },
+            // center if east-west sides are connected
+            {
+                "condition": "q.block_state('terra:upper_pieces') && !q.block_state('terra:north') && !q.block_state('terra:south') && q.block_state('terra:east') && q.block_state('terra:west')",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.wall",
+                        "bone_visibility": {
+                            "pivot": false,
+                            "pivot_slim": true,
+                            "north": false,
+                            "south": false,
+                            "east": true,
+                            "west": true,
+                            "pivot_slim_above": true,
+                            "north_above": false,
+                            "south_above": false,
+                            "east_above": true,
+                            "west_above": true
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

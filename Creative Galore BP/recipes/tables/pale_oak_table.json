@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:pale_oak_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PP",
+            "FF"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:pale_oak_planks"
+            },
+            "F": {
+                "item": "minecraft:pale_oak_fence"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:pale_oak_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:pale_oak_table",
+            "count": 2
+        }
+    }
+}

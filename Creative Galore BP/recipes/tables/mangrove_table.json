@@ -1,27 +1,32 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "terra:mangrove_table"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"PP",
-			"FF"
-		],
-		"key": {
-			"P": {
-				"item": "minecraft:mangrove_planks"
-			},
-			"F": {
-				"item": "minecraft:mangrove_fence"
-			}
-		},
-		"result": {
-			"item": "terra:mangrove_table",
-			"count": 2
-		}
-	}
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:mangrove_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PP",
+            "FF"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:mangrove_planks"
+            },
+            "F": {
+                "item": "minecraft:mangrove_fence"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:mangrove_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:mangrove_table",
+            "count": 2
+        }
+    }
 }

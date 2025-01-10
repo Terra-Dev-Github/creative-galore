@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_andesite_brick_wall"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:stone",
+                "data": 5
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:andesite"
+            }
+        ],
+        "result": {
+            "item": "terra:andesite_brick_wall",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "terra:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_schist_brick_wall"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:schist"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:schist"
+            }
+        ],
+        "result": {
+            "item": "terra:schist_brick_wall",
+            "count": 1
+        }
+    }
+}

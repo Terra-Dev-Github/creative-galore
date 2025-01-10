@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:cherry_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SS",
+            "FF"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:cherry_slab"
+            },
+            "F": {
+                "item": "minecraft:cherry_fence"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cherry_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:cherry_bench",
+            "count": 2
+        }
+    }
+}

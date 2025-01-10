@@ -1,4 +1,4 @@
-// This file was made, modified and compiled by Heavenly (@heavenly7493) for terra.
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
     "format_version": "1.20.80",
@@ -30,15 +30,17 @@
         },
         "components": {
             "tag:wood": {},
+			"tag:minecraft:is_axe_item_destructible": {},
             "minecraft:tick": {
                 "interval_range": [
                     3,
                     3
                 ]
             },
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.5
-            },
+            // hardness: 2
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 3
             },
@@ -50,12 +52,12 @@
             "minecraft:selection_box": {
                 "origin": [
                     -8,
-                    0,
+                    12,
                     -8
                 ],
                 "size": [
                     16,
-                    16,
+                    4,
                     16
                 ]
             },

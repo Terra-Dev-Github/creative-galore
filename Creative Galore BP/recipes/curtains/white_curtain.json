@@ -1,27 +1,32 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "terra:white_curtain"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"S",
-			"W"
-		],
-		"key": {
-			"S": {
-				"item": "minecraft:stick"
-			},
-			"W": {
-				"item": "minecraft:wool:0"
-			}
-		},
-		"result": {
-			"item": "terra:white_curtain",
-			"count": 1
-		}
-	}
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:white_curtain"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "S",
+            "W"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "W": {
+                "item": "minecraft:wool:0"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:white_wool"
+            }
+        ],
+        "result": {
+            "item": "terra:white_curtain",
+            "count": 1
+        }
+    }
 }

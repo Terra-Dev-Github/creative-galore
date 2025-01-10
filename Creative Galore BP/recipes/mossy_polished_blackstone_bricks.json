@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:mossy_polished_blackstone_bricks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:polished_blackstone_bricks"
+            },
+            {
+                "item": "minecraft:moss_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:moss_block"
+            }
+        ],
+        "result": {
+            "item": "terra:mossy_polished_blackstone_bricks",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:spruce_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SS",
+            "FF"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:spruce_slab"
+            },
+            "F": {
+                "item": "minecraft:fence:1"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:spruce_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:spruce_bench",
+            "count": 2
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:small_warped_shutter"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PS",
+            "PS"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:warped_slab"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:warped_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:small_warped_shutter",
+            "count": 2
+        }
+    }
+}

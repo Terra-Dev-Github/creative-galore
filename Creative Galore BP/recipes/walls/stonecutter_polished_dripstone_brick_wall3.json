@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "terra:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_polished_dripstone_brick_wall3"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:dripstone_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:dripstone_block"
+            }
+        ],
+        "result": {
+            "item": "terra:polished_dripstone_brick_wall",
+            "count": 1
+        }
+    }
+}

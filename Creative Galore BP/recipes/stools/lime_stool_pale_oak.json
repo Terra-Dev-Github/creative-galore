@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:lime_stool_pale_oak"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:pale_oak_planks"
+            },
+            "W": {
+                "item": "minecraft:wool:5"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:lime_wool"
+            }
+        ],
+        "result": {
+            "item": "terra:lime_stool",
+            "count": 1
+        }
+    }
+}

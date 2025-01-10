@@ -14,6 +14,26 @@
 		"textures": "stone_andesite_smooth_bricks_small",
 		"sound": "stone"
 	},
+	"terra:bone_brick_slab": {
+		"textures": "bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:bone_bricks": {
+		"textures": "bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:bone_pillar": {
+		// skipping textures so it doesn't glitch out
+		"sound": "bone_block"
+	},
+	"terra:chiseled_bone": {
+		"textures": {
+			"side": "chiseled_bone",
+			"up": "bone_pillar_side",
+			"down": "bone_pillar_side"
+		},
+		"sound": "bone_block"
+	},
 	"terra:chiseled_diorite": {
 		"textures": {
 			"side": "chiseled_diorite",
@@ -58,6 +78,14 @@
 		"textures": "stone_granite_smooth_bricks_small",
 		"sound": "stone"
 	},
+	"terra:limestone_slab": {
+		"textures": "limestone",
+		"sound": "stone"
+	},
+	"terra:limestone": {
+		"textures": "limestone",
+		"sound": "stone"
+	},
 	"terra:mixed_stone_bricks": {
 		"textures": "stonebrick_mixed",
 		"sound": "stone"
@@ -66,6 +94,86 @@
 		"textures": "stonebrick_mixed",
 		"sound": "stone"
 	},
+	"terra:mossy_andesite_bricks": {
+		"textures": "stone_andesite_mossy_smooth_bricks_small",
+		"sound": "stone"
+	},
+	"terra:mossy_bone_bricks": {
+		"textures": "mossy_bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:mossy_bricks": {
+		"textures": "mossy_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_diorite_bricks": {
+		"textures": "stone_diorite_mossy_smooth_bricks_small",
+		"sound": "stone"
+	},
+	"terra:mossy_dripstone_bricks": {
+		"textures": "mossy_dripstone_bricks",
+		"sound": "dripstone_block"
+	},
+	"terra:mossy_end_bricks": {
+		"textures": "mossy_end_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_granite_bricks": {
+		"textures": "stone_granite_mossy_smooth_bricks_small",
+		"sound": "stone"
+	},
+	"terra:mossy_mixed_stone_bricks": {
+		"textures": "mossy_stonebrick_mixed",
+		"sound": "stone"
+	},
+	"terra:mossy_nether_bricks": {
+		"textures": "mossy_nether_bricks",
+		"sound": "nether_brick"
+	},
+	"terra:mossy_polished_andesite_bricks": {
+		"textures": "stone_andesite_mossy_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_polished_blackstone_bricks": {
+		"textures": "mossy_polished_blackstone_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_polished_bone_bricks": {
+		"textures": "mossy_polished_bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:mossy_polished_diorite_bricks": {
+		"textures": "stone_diorite_mossy_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_polished_dripstone_bricks": {
+		"textures": "mossy_polished_dripstone_bricks",
+		"sound": "dripstone_block"
+	},
+	"terra:mossy_polished_granite_bricks": {
+		"textures": "stone_granite_mossy_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_polished_limestone_bricks": {
+		"textures": "mossy_polished_limestone_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_polished_schist_bricks": {
+		"textures": "mossy_polished_schist_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_resin_bricks": {
+		"textures": "mossy_resin_bricks",
+		"sound": "resin_brick"
+	},
+	"terra:mossy_smooth_stone_bricks": {
+		"textures": "mossy_smooth_stonebrick",
+		"sound": "stone"
+	},
+	"terra:mossy_tuff_bricks": {
+		"textures": "mossy_tuff_bricks",
+		"sound": "tuff_bricks"
+	},
 	"terra:polished_andesite_brick_slab": {
 		"textures": "stone_andesite_smooth_bricks",
 		"sound": "stone"
@@ -73,6 +181,22 @@
 	"terra:polished_andesite_bricks": {
 		"textures": "stone_andesite_smooth_bricks",
 		"sound": "stone"
+	},
+	"terra:polished_bone_brick_slab": {
+		"textures": "polished_bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:polished_bone_bricks": {
+		"textures": "polished_bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:polished_bone_slab": {
+		"textures": "polished_bone",
+		"sound": "bone_block"
+	},
+	"terra:polished_bone": {
+		"textures": "polished_bone",
+		"sound": "bone_block"
 	},
 	"terra:polished_diorite_brick_slab": {
 		"textures": "stone_diorite_smooth_bricks",
@@ -104,6 +228,22 @@
 	},
 	"terra:polished_granite_bricks": {
 		"textures": "stone_granite_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_limestone_brick_slab": {
+		"textures": "polished_limestone_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_limestone_bricks": {
+		"textures": "polished_limestone_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_limestone_slab": {
+		"textures": "polished_limestone",
+		"sound": "stone"
+	},
+	"terra:polished_limestone": {
+		"textures": "polished_limestone",
 		"sound": "stone"
 	},
 	"terra:polished_schist_brick_slab": {
@@ -139,18 +279,22 @@
 		"sound": "stone"
 	},
 	"terra:red_sandstone_brick_slab": {
+		"brightness_gamma": 0.70,
 		"textures": "red_sandstone_bricks",
 		"sound": "stone"
 	},
 	"terra:red_sandstone_bricks": {
+		"brightness_gamma": 0.70,
 		"textures": "red_sandstone_bricks",
 		"sound": "stone"
 	},
 	"terra:sandstone_brick_slab": {
+		"brightness_gamma": 0.70,
 		"textures": "sandstone_bricks",
 		"sound": "stone"
 	},
 	"terra:sandstone_bricks": {
+		"brightness_gamma": 0.70,
 		"textures": "sandstone_bricks",
 		"sound": "stone"
 	},
@@ -186,6 +330,167 @@
 		"textures": "smooth_stonebrick",
 		"sound": "stone"
 	},
+	"terra:tiled_bone_brick_slab": {
+		"textures": "tiled_bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:tiled_bone_bricks": {
+		"textures": "tiled_bone_bricks",
+		"sound": "bone_block"
+	},
+	// Benches
+	"terra:acacia_bench": {
+		"textures": {
+			"side": "acacia_bench_side",
+			"up": "acacia_bench_top",
+			"down": "acacia_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:bamboo_bench": {
+		"textures": {
+			"north": "bamboo_bench_front",
+			"south": "bamboo_bench_front",
+			"east": "bamboo_bench_side",
+			"west": "bamboo_bench_side",
+			"up": "bamboo_bench_top",
+			"down": "bamboo_bench_top"
+		},
+		"sound": "bamboo_wood"
+	},
+	"terra:birch_bench": {
+		"textures": {
+			"side": "birch_bench_side",
+			"up": "birch_bench_top",
+			"down": "birch_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:cherry_bench": {
+		"textures": {
+			"side": "cherry_bench_side",
+			"up": "cherry_bench_top",
+			"down": "cherry_bench_top"
+		},
+		"sound": "cherry_wood"
+	},
+	"terra:crimson_bench": {
+		"textures": {
+			"side": "crimson_bench_side",
+			"up": "crimson_bench_top",
+			"down": "crimson_bench_top"
+		},
+		"sound": "nether_wood"
+	},
+	"terra:dark_oak_bench": {
+		"textures": {
+			"side": "dark_oak_bench_side",
+			"up": "dark_oak_bench_top",
+			"down": "dark_oak_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:jungle_bench": {
+		"textures": {
+			"side": "jungle_bench_side",
+			"up": "jungle_bench_top",
+			"down": "jungle_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:mangrove_bench": {
+		"textures": {
+			"side": "mangrove_bench_side",
+			"up": "mangrove_bench_top",
+			"down": "mangrove_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:oak_bench": {
+		"textures": {
+			"side": "oak_bench_side",
+			"up": "oak_bench_top",
+			"down": "oak_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:pale_oak_bench": {
+		"textures": {
+			"side": "pale_oak_bench_side",
+			"up": "pale_oak_bench_top",
+			"down": "pale_oak_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:spruce_bench": {
+		"textures": {
+			"side": "spruce_bench_side",
+			"up": "spruce_bench_top",
+			"down": "spruce_bench_top"
+		},
+		"sound": "wood"
+	},
+	"terra:warped_bench": {
+		"textures": {
+			"side": "warped_bench_side",
+			"up": "warped_bench_top",
+			"down": "warped_bench_top"
+		},
+		"sound": "nether_wood"
+	},
+	// Brick Indents
+	"terra:andesite_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:bone_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:diorite_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:dripstone_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:granite_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:mixed_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:nether_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:prismarine_dark_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:red_sandstone_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:resin_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "resin_brick"
+	},
+	"terra:sandstone_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:schist_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
 	// Chiseled Wood
 	"terra:acacia_planks_crate": {
 		"textures": "acacia_planks_crate",
@@ -193,7 +498,7 @@
 	},
 	"terra:bamboo_planks_crate": {
 		"textures": "bamboo_planks_crate",
-		"sound": "wood"
+		"sound": "bamboo_wood"
 	},
 	"terra:banded_acacia_crate": {
 		"textures": "banded_acacia_crate",
@@ -201,7 +506,7 @@
 	},
 	"terra:banded_bamboo_crate": {
 		"textures": "banded_bamboo_crate",
-		"sound": "wood"
+		"sound": "bamboo_wood"
 	},
 	"terra:banded_birch_crate": {
 		"textures": "banded_birch_crate",
@@ -209,11 +514,11 @@
 	},
 	"terra:banded_cherry_crate": {
 		"textures": "banded_cherry_crate",
-		"sound": "wood"
+		"sound": "cherry_wood"
 	},
 	"terra:banded_crimson_crate": {
 		"textures": "banded_crimson_crate",
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:banded_dark_oak_crate": {
 		"textures": "banded_dark_oak_crate",
@@ -231,13 +536,17 @@
 		"textures": "banded_oak_crate",
 		"sound": "wood"
 	},
+	"terra:banded_pale_oak_crate": {
+		"textures": "banded_pale_oak_crate",
+		"sound": "wood"
+	},
 	"terra:banded_spruce_crate": {
 		"textures": "banded_spruce_crate",
 		"sound": "wood"
 	},
 	"terra:banded_warped_crate": {
 		"textures": "banded_warped_crate",
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:birch_planks_crate": {
 		"textures": "birch_planks_crate",
@@ -257,7 +566,7 @@
 			"up": "banded_bamboo_crate",
 			"down": "banded_bamboo_crate"
 		},
-		"sound": "wood"
+		"sound": "bamboo_wood"
 	},
 	"terra:carved_birch_planks": {
 		"textures": {
@@ -273,7 +582,7 @@
 			"up": "banded_cherry_crate",
 			"down": "banded_cherry_crate"
 		},
-		"sound": "wood"
+		"sound": "cherry_wood"
 	},
 	"terra:carved_crimson_planks": {
 		"textures": {
@@ -281,7 +590,7 @@
 			"up": "banded_crimson_crate",
 			"down": "banded_crimson_crate"
 		},
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:carved_dark_oak_planks": {
 		"textures": {
@@ -315,6 +624,14 @@
 		},
 		"sound": "wood"
 	},
+	"terra:carved_pale_oak_planks": {
+		"textures": {
+			"side": "carved_pale_oak_planks",
+			"up": "banded_pale_oak_crate",
+			"down": "banded_pale_oak_crate"
+		},
+		"sound": "wood"
+	},
 	"terra:carved_spruce_planks": {
 		"textures": {
 			"side": "carved_spruce_planks",
@@ -329,18 +646,18 @@
 			"up": "banded_warped_crate",
 			"down": "banded_warped_crate"
 		},
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:cherry_planks_crate": {
 		"textures": "cherry_planks_crate",
-		"sound": "wood"
+		"sound": "cherry_wood"
 	},
 	"terra:chiseled_acacia_planks": {
 		"sound": "wood",
 		"textures": "chiseled_acacia_planks"
 	},
 	"terra:chiseled_bamboo_planks": {
-		"sound": "wood",
+		"sound": "bamboo_wood",
 		"textures": "chiseled_bamboo_planks"
 	},
 	"terra:chiseled_birch_planks": {
@@ -348,11 +665,11 @@
 		"textures": "chiseled_birch_planks"
 	},
 	"terra:chiseled_cherry_planks": {
-		"sound": "wood",
+		"sound": "cherry_wood",
 		"textures": "chiseled_cherry_planks"
 	},
 	"terra:chiseled_crimson_planks": {
-		"sound": "wood",
+		"sound": "nether_wood",
 		"textures": "chiseled_crimson_planks"
 	},
 	"terra:chiseled_dark_oak_planks": {
@@ -371,17 +688,21 @@
 		"sound": "wood",
 		"textures": "chiseled_oak_planks"
 	},
+	"terra:chiseled_pale_oak_planks": {
+		"sound": "wood",
+		"textures": "chiseled_pale_oak_planks"
+	},
 	"terra:chiseled_spruce_planks": {
 		"sound": "wood",
 		"textures": "chiseled_spruce_planks"
 	},
 	"terra:chiseled_warped_planks": {
-		"sound": "wood",
+		"sound": "nether_wood",
 		"textures": "chiseled_warped_planks"
 	},
 	"terra:crimson_planks_crate": {
 		"textures": "crimson_planks_crate",
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:dark_oak_planks_crate": {
 		"textures": "dark_oak_planks_crate",
@@ -395,8 +716,152 @@
 		"textures": "mangrove_planks_crate",
 		"sound": "wood"
 	},
+	"terra:large_acacia_planks": {
+		"textures": "large_acacia_planks",
+		"sound": "wood"
+	},
+	"terra:large_bamboo_planks": {
+		"textures": "large_bamboo_planks",
+		"sound": "bamboo_wood"
+	},
+	"terra:large_birch_planks": {
+		"textures": "large_birch_planks",
+		"sound": "wood"
+	},
+	"terra:large_cherry_planks": {
+		"textures": "large_cherry_planks",
+		"sound": "cherry_wood"
+	},
+	"terra:large_crimson_planks": {
+		"textures": "large_crimson_planks",
+		"sound": "nether_wood"
+	},
+	"terra:large_dark_oak_planks": {
+		"textures": "large_dark_oak_planks",
+		"sound": "wood"
+	},
+	"terra:large_jungle_planks": {
+		"textures": "large_jungle_planks",
+		"sound": "wood"
+	},
+	"terra:large_mangrove_planks": {
+		"textures": "large_mangrove_planks",
+		"sound": "wood"
+	},
+	"terra:large_oak_planks": {
+		"textures": "large_oak_planks",
+		"sound": "wood"
+	},
+	"terra:large_pale_oak_planks": {
+		"textures": "large_pale_oak_planks",
+		"sound": "wood"
+	},
+	"terra:large_spruce_planks": {
+		"textures": "large_spruce_planks",
+		"sound": "wood"
+	},
+	"terra:large_warped_planks": {
+		"textures": "large_warped_planks",
+		"sound": "nether_wood"
+	},
+	"terra:mossy_acacia_plank_slab": {
+		"textures": "mossy_acacia_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_birch_plank_slab": {
+		"textures": "mossy_birch_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_cherry_plank_slab": {
+		"textures": "mossy_cherry_planks",
+		"sound": "cherry_wood"
+	},
+	"terra:mossy_crimson_plank_slab": {
+		"textures": "mossy_crimson_planks",
+		"sound": "nether_wood"
+	},
+	"terra:mossy_dark_oak_plank_slab": {
+		"textures": "mossy_dark_oak_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_jungle_plank_slab": {
+		"textures": "mossy_jungle_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_mangrove_plank_slab": {
+		"textures": "mossy_mangrove_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_oak_plank_slab": {
+		"textures": "mossy_oak_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_pale_oak_plank_slab": {
+		"textures": "mossy_pale_oak_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_spruce_plank_slab": {
+		"textures": "mossy_spruce_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_warped_plank_slab": {
+		"textures": "mossy_warped_planks",
+		"sound": "nether_wood"
+	},
+	"terra:mossy_acacia_planks": {
+		"textures": "mossy_acacia_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_bamboo_planks": {
+		"textures": "mossy_bamboo_planks",
+		"sound": "bamboo_wood"
+	},
+	"terra:mossy_birch_planks": {
+		"textures": "mossy_birch_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_cherry_planks": {
+		"textures": "mossy_cherry_planks",
+		"sound": "cherry_wood"
+	},
+	"terra:mossy_crimson_planks": {
+		"textures": "mossy_crimson_planks",
+		"sound": "nether_wood"
+	},
+	"terra:mossy_dark_oak_planks": {
+		"textures": "mossy_dark_oak_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_jungle_planks": {
+		"textures": "mossy_jungle_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_mangrove_planks": {
+		"textures": "mossy_mangrove_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_oak_planks": {
+		"textures": "mossy_oak_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_pale_oak_planks": {
+		"textures": "mossy_pale_oak_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_spruce_planks": {
+		"textures": "mossy_spruce_planks",
+		"sound": "wood"
+	},
+	"terra:mossy_warped_planks": {
+		"textures": "mossy_warped_planks",
+		"sound": "nether_wood"
+	},
 	"terra:oak_planks_crate": {
 		"textures": "oak_planks_crate",
+		"sound": "wood"
+	},
+	"terra:pale_oak_planks_crate": {
+		"textures": "pale_oak_planks_crate",
 		"sound": "wood"
 	},
 	"terra:spruce_planks_crate": {
@@ -413,11 +878,11 @@
 	},
 	"terra:tiled_cherry_plank_slab": {
 		"textures": "tiled_cherry_planks",
-		"sound": "wood"
+		"sound": "cherry_wood"
 	},
 	"terra:tiled_crimson_plank_slab": {
 		"textures": "tiled_crimson_planks",
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:tiled_dark_oak_plank_slab": {
 		"textures": "tiled_dark_oak_planks",
@@ -435,13 +900,17 @@
 		"textures": "tiled_oak_planks",
 		"sound": "wood"
 	},
+	"terra:tiled_pale_oak_plank_slab": {
+		"textures": "tiled_pale_oak_planks",
+		"sound": "wood"
+	},
 	"terra:tiled_spruce_plank_slab": {
 		"textures": "tiled_spruce_planks",
 		"sound": "wood"
 	},
 	"terra:tiled_warped_plank_slab": {
 		"textures": "tiled_warped_planks",
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:tiled_acacia_planks": {
 		"textures": "tiled_acacia_planks",
@@ -453,11 +922,11 @@
 	},
 	"terra:tiled_cherry_planks": {
 		"textures": "tiled_cherry_planks",
-		"sound": "wood"
+		"sound": "cherry_wood"
 	},
 	"terra:tiled_crimson_planks": {
 		"textures": "tiled_crimson_planks",
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:tiled_dark_oak_planks": {
 		"textures": "tiled_dark_oak_planks",
@@ -475,17 +944,179 @@
 		"textures": "tiled_oak_planks",
 		"sound": "wood"
 	},
+	"terra:tiled_pale_oak_planks": {
+		"textures": "tiled_pale_oak_planks",
+		"sound": "wood"
+	},
 	"terra:tiled_spruce_planks": {
 		"textures": "tiled_spruce_planks",
 		"sound": "wood"
 	},
 	"terra:tiled_warped_planks": {
 		"textures": "tiled_warped_planks",
-		"sound": "wood"
+		"sound": "nether_wood"
 	},
 	"terra:warped_planks_crate": {
 		"textures": "warped_planks_crate",
+		"sound": "nether_wood"
+	},
+	// Curtains
+	"terra:black_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:blue_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:brown_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:cyan_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:gray_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:green_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:light_blue_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:light_gray_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:lime_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:magenta_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:orange_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:pink_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:purple_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:red_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	"terra:white_curtain": {
+		// skipping textures so it doesn't glitch out
+		"sound": "cloth"
+	},
+	// Shutters
+	"terra:acacia_shutter": {
+		"textures": "acacia_shutter",
 		"sound": "wood"
+	},
+	"terra:bamboo_shutter": {
+		"textures": "bamboo_shutter",
+		"sound": "bamboo_wood"
+	},
+	"terra:birch_shutter": {
+		"textures": "birch_shutter",
+		"sound": "wood"
+	},
+	"terra:cherry_shutter": {
+		"textures": "cherry_shutter",
+		"sound": "cherry_wood"
+	},
+	"terra:crimson_shutter": {
+		"textures": "crimson_shutter",
+		"sound": "nether_wood"
+	},
+	"terra:dark_oak_shutter": {
+		"textures": "dark_oak_shutter",
+		"sound": "wood"
+	},
+	"terra:jungle_shutter": {
+		"textures": "jungle_shutter",
+		"sound": "wood"
+	},
+	"terra:mangrove_shutter": {
+		"textures": "mangrove_shutter",
+		"sound": "wood"
+	},
+	"terra:oak_shutter": {
+		"textures": "oak_shutter",
+		"sound": "wood"
+	},
+	"terra:pale_oak_shutter": {
+		"textures": "pale_oak_shutter",
+		"sound": "wood"
+	},
+	"terra:small_acacia_shutter": {
+		"textures": "acacia_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_bamboo_shutter": {
+		"textures": "bamboo_shutter_small",
+		"sound": "bamboo_wood"
+	},
+	"terra:small_birch_shutter": {
+		"textures": "birch_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_cherry_shutter": {
+		"textures": "cherry_shutter_small",
+		"sound": "cherry_wood"
+	},
+	"terra:small_crimson_shutter": {
+		"textures": "crimson_shutter_small",
+		"sound": "nether_wood"
+	},
+	"terra:small_dark_oak_shutter": {
+		"textures": "dark_oak_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_jungle_shutter": {
+		"textures": "jungle_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_mangrove_shutter": {
+		"textures": "mangrove_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_oak_shutter": {
+		"textures": "oak_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_pale_oak_shutter": {
+		"textures": "pale_oak_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_spruce_shutter": {
+		"textures": "spruce_shutter_small",
+		"sound": "wood"
+	},
+	"terra:small_warped_shutter": {
+		"textures": "warped_shutter_small",
+		"sound": "nether_wood"
+	},
+	"terra:spruce_shutter": {
+		"textures": "spruce_shutter",
+		"sound": "wood"
+	},
+	"terra:warped_shutter": {
+		"textures": "warped_shutter",
+		"sound": "nether_wood"
 	},
 	// Stools
 	"terra:black_stool": {
@@ -616,7 +1247,200 @@
 		},
 		"sound": "cloth"
 	},
+	// Stucco
+	"terra:black_stucco_slab": {
+		"textures": "black_stucco",
+		"sound": "stone"
+	},
+	"terra:black_stucco": {
+		"textures": "black_stucco",
+		"sound": "stone"
+	},
+	"terra:blue_stucco_slab": {
+		"textures": "blue_stucco",
+		"sound": "stone"
+	},
+	"terra:blue_stucco": {
+		"textures": "blue_stucco",
+		"sound": "stone"
+	},
+	"terra:brown_stucco_slab": {
+		"textures": "brown_stucco",
+		"sound": "stone"
+	},
+	"terra:brown_stucco": {
+		"textures": "brown_stucco",
+		"sound": "stone"
+	},
+	"terra:cyan_stucco_slab": {
+		"textures": "cyan_stucco",
+		"sound": "stone"
+	},
+	"terra:cyan_stucco": {
+		"textures": "cyan_stucco",
+		"sound": "stone"
+	},
+	"terra:gray_stucco_slab": {
+		"textures": "gray_stucco",
+		"sound": "stone"
+	},
+	"terra:gray_stucco": {
+		"textures": "gray_stucco",
+		"sound": "stone"
+	},
+	"terra:green_stucco_slab": {
+		"textures": "green_stucco",
+		"sound": "stone"
+	},
+	"terra:green_stucco": {
+		"textures": "green_stucco",
+		"sound": "stone"
+	},
+	"terra:light_blue_stucco_slab": {
+		"textures": "light_blue_stucco",
+		"sound": "stone"
+	},
+	"terra:light_blue_stucco": {
+		"textures": "light_blue_stucco",
+		"sound": "stone"
+	},
+	"terra:light_gray_stucco_slab": {
+		"textures": "light_gray_stucco",
+		"sound": "stone"
+	},
+	"terra:light_gray_stucco": {
+		"textures": "light_gray_stucco",
+		"sound": "stone"
+	},
+	"terra:lime_stucco_slab": {
+		"textures": "lime_stucco",
+		"sound": "stone"
+	},
+	"terra:lime_stucco": {
+		"textures": "lime_stucco",
+		"sound": "stone"
+	},
+	"terra:magenta_stucco_slab": {
+		"textures": "magenta_stucco",
+		"sound": "stone"
+	},
+	"terra:magenta_stucco": {
+		"textures": "magenta_stucco",
+		"sound": "stone"
+	},
+	"terra:orange_stucco_slab": {
+		"textures": "orange_stucco",
+		"sound": "stone"
+	},
+	"terra:orange_stucco": {
+		"textures": "orange_stucco",
+		"sound": "stone"
+	},
+	"terra:pink_stucco_slab": {
+		"textures": "pink_stucco",
+		"sound": "stone"
+	},
+	"terra:pink_stucco": {
+		"textures": "pink_stucco",
+		"sound": "stone"
+	},
+	"terra:purple_stucco_slab": {
+		"textures": "purple_stucco",
+		"sound": "stone"
+	},
+	"terra:purple_stucco": {
+		"textures": "purple_stucco",
+		"sound": "stone"
+	},
+	"terra:red_stucco_slab": {
+		"textures": "red_stucco",
+		"sound": "stone"
+	},
+	"terra:red_stucco": {
+		"textures": "red_stucco",
+		"sound": "stone"
+	},
+	"terra:white_stucco_slab": {
+		"textures": "white_stucco",
+		"sound": "stone"
+	},
+	"terra:white_stucco": {
+		"textures": "white_stucco",
+		"sound": "stone"
+	},
+	"terra:yellow_stucco_slab": {
+		"textures": "yellow_stucco",
+		"sound": "stone"
+	},
+	"terra:yellow_stucco": {
+		"textures": "yellow_stucco",
+		"sound": "stone"
+	},
 	// Tables
+	"terra:acacia_table": {
+		"textures": {
+			"side": "acacia_table_side",
+			"up": "acacia_table_top",
+			"down": "acacia_planks_crate"
+		},
+		"sound": "wood"
+	},
+	"terra:bamboo_table": {
+		"textures": {
+			"side": "bamboo_table_side",
+			"up": "bamboo_table_top",
+			"down": "bamboo_planks_crate"
+		},
+		"sound": "bamboo_wood"
+	},
+	"terra:birch_table": {
+		"textures": {
+			"side": "birch_table_side",
+			"up": "birch_table_top",
+			"down": "birch_planks_crate"
+		},
+		"sound": "wood"
+	},
+	"terra:cherry_table": {
+		"textures": {
+			"side": "cherry_table_side",
+			"up": "cherry_table_top",
+			"down": "cherry_planks_crate"
+		},
+		"sound": "cherry_wood"
+	},
+	"terra:crimson_table": {
+		"textures": {
+			"side": "crimson_table_side",
+			"up": "crimson_table_top",
+			"down": "crimson_planks_crate"
+		},
+		"sound": "nether_wood"
+	},
+	"terra:dark_oak_table": {
+		"textures": {
+			"side": "dark_oak_table_side",
+			"up": "dark_oak_table_top",
+			"down": "dark_oak_planks_crate"
+		},
+		"sound": "wood"
+	},
+	"terra:jungle_table": {
+		"textures": {
+			"side": "jungle_table_side",
+			"up": "jungle_table_top",
+			"down": "jungle_planks_crate"
+		},
+		"sound": "wood"
+	},
+	"terra:mangrove_table": {
+		"textures": {
+			"side": "mangrove_table_side",
+			"up": "mangrove_table_top",
+			"down": "mangrove_planks_crate"
+		},
+		"sound": "wood"
+	},
 	"terra:oak_table": {
 		"textures": {
 			"side": "oak_table_side",
@@ -624,6 +1448,30 @@
 			"down": "oak_planks_crate"
 		},
 		"sound": "wood"
+	},
+	"terra:pale_oak_table": {
+		"textures": {
+			"side": "pale_oak_table_side",
+			"up": "pale_oak_table_top",
+			"down": "pale_oak_planks_crate"
+		},
+		"sound": "wood"
+	},
+	"terra:spruce_table": {
+		"textures": {
+			"side": "spruce_table_side",
+			"up": "spruce_table_top",
+			"down": "spruce_planks_crate"
+		},
+		"sound": "wood"
+	},
+	"terra:warped_table": {
+		"textures": {
+			"side": "warped_table_side",
+			"up": "warped_table_top",
+			"down": "warped_planks_crate"
+		},
+		"sound": "nether_wood"
 	},
 	// Terracotta Shingles
 	"terra:black_terracotta_shingle_slab": {
@@ -760,6 +1608,63 @@
 	},
 	"terra:yellow_terracotta_shingle": {
 		"textures": "yellow_terracotta_shingle",
+		"sound": "stone"
+	},
+	// Walls
+	"terra:andesite_brick_wall": {
+		"textures": "stone_andesite_smooth_bricks_small",
+		"sound": "stone"
+	},
+	"terra:bone_brick_wall": {
+		"textures": "bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:diorite_brick_wall": {
+		"textures": "stone_diorite_smooth_bricks_small",
+		"sound": "stone"
+	},
+	"terra:dripstone_brick_wall": {
+		"textures": "dripstone_bricks",
+		"sound": "dripstone_block"
+	},
+	"terra:granite_brick_wall": {
+		"textures": "stone_granite_smooth_bricks_small",
+		"sound": "stone"
+	},
+	"terra:mixed_stonebrick_wall": {
+		"textures": "stonebrick_mixed",
+		"sound": "stone"
+	},
+	"terra:polished_andesite_brick_wall": {
+		"textures": "stone_andesite_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_bone_brick_wall": {
+		"textures": "polished_bone_bricks",
+		"sound": "bone_block"
+	},
+	"terra:polished_diorite_brick_wall": {
+		"textures": "stone_diorite_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_dripstone_brick_wall": {
+		"textures": "dripstone_polished_bricks",
+		"sound": "dripstone_block"
+	},
+	"terra:polished_granite_brick_wall": {
+		"textures": "stone_granite_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_limestone_brick_wall": {
+		"textures": "polished_limestone_bricks",
+		"sound": "stone"
+	},
+	"terra:polished_schist_brick_wall": {
+		"textures": "polished_schist_bricks",
+		"sound": "stone"
+	},
+	"terra:schist_brick_wall": {
+		"textures": "schist_bricks",
 		"sound": "stone"
 	}
 }

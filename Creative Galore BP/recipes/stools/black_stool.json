@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "terra:black_stool"
@@ -19,6 +19,11 @@
                 "item": "minecraft:wool:15"
             }
         },
+        "unlock": [
+            {
+                "item": "minecraft:black_wool"
+            }
+        ],
         "result": {
             "item": "terra:black_stool",
             "count": 1

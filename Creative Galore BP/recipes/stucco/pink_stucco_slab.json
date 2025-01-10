@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:pink_stucco_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:pink_stucco"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:pink_stucco"
+            }
+        ],
+        "result": {
+            "item": "terra:pink_stucco_slab",
+            "count": 3
+        }
+    }
+}

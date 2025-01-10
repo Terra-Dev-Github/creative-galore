@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "terra:pink_stool_cherry"
@@ -19,6 +19,11 @@
                 "item": "minecraft:wool:6"
             }
         },
+        "unlock": [
+            {
+                "item": "minecraft:pink_wool"
+            }
+        ],
         "result": {
             "item": "terra:pink_stool",
             "count": 1

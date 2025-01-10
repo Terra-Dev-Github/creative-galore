@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:blue_stool_pale_oak"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "W",
+            "P"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:pale_oak_planks"
+            },
+            "W": {
+                "item": "minecraft:wool:11"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:blue_wool"
+            }
+        ],
+        "result": {
+            "item": "terra:blue_stool",
+            "count": 1
+        }
+    }
+}

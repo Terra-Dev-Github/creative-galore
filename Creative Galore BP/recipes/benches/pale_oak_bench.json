@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:pale_oak_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SS",
+            "FF"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:pale_oak_slab"
+            },
+            "F": {
+                "item": "minecraft:pale_oak_fence"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:pale_oak_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:pale_oak_bench",
+            "count": 2
+        }
+    }
+}

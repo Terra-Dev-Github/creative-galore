@@ -1,27 +1,32 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "terra:yellow_curtain"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"S",
-			"W"
-		],
-		"key": {
-			"S": {
-				"item": "minecraft:stick"
-			},
-			"W": {
-				"item": "minecraft:wool:4"
-			}
-		},
-		"result": {
-			"item": "terra:yellow_curtain",
-			"count": 1
-		}
-	}
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:yellow_curtain"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "S",
+            "W"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "W": {
+                "item": "minecraft:wool:4"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:yellow_wool"
+            }
+        ],
+        "result": {
+            "item": "terra:yellow_curtain",
+            "count": 1
+        }
+    }
 }

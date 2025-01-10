@@ -1,27 +1,32 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "terra:magenta_curtain"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"S",
-			"W"
-		],
-		"key": {
-			"S": {
-				"item": "minecraft:stick"
-			},
-			"W": {
-				"item": "minecraft:wool:2"
-			}
-		},
-		"result": {
-			"item": "terra:magenta_curtain",
-			"count": 1
-		}
-	}
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:magenta_curtain"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "S",
+            "W"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "W": {
+                "item": "minecraft:wool:2"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:magenta_wool"
+            }
+        ],
+        "result": {
+            "item": "terra:magenta_curtain",
+            "count": 1
+        }
+    }
 }

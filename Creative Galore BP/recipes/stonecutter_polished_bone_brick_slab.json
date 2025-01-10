@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_polished_bone_brick_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:polished_bone_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:polished_bone_bricks"
+            }
+        ],
+        "result": {
+            "item": "terra:polished_bone_brick_slab",
+            "count": 2
+        }
+    }
+}

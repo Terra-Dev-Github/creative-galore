@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "terra:mixed_stone_bricks2"
@@ -19,6 +19,11 @@
                 "item": "terra:smooth_stone_bricks"
             }
         },
+        "unlock": [
+            {
+                "item": "terra:smooth_stone_bricks"
+            }
+        ],
         "result": {
             "item": "terra:mixed_stone_bricks",
             "count": 4

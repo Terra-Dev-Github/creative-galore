@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:bamboo_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SS",
+            "FF"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:bamboo_slab"
+            },
+            "F": {
+                "item": "minecraft:bamboo_fence"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:bamboo_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:bamboo_bench",
+            "count": 2
+        }
+    }
+}

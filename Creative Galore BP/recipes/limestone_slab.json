@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:limestone_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:limestone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:limestone"
+            }
+        ],
+        "result": {
+            "item": "terra:limestone_slab",
+            "count": 6
+        }
+    }
+}

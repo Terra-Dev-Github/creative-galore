@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:dark_oak_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SS",
+            "FF"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:dark_oak_slab"
+            },
+            "F": {
+                "item": "minecraft:fence:5"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:dark_oak_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:dark_oak_bench",
+            "count": 2
+        }
+    }
+}

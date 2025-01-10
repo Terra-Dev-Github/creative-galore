@@ -60,12 +60,13 @@
                     2
                 ]
             },
+            // hardness: 0.1 (rounded from 0.75)
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 1.5
+                "seconds_to_destroy": 0.15
             },
             "minecraft:light_dampening": 0,
             "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 3
+                "explosion_resistance": 0.1
             },
             "minecraft:geometry": "geometry.curtain",
             "minecraft:material_instances": {
@@ -77,8 +78,8 @@
                 }
             },
             "minecraft:flammable": {
-                "destroy_chance_modifier": 5,
-                "catch_chance_modifier": 5
+                "destroy_chance_modifier": 60,
+                "catch_chance_modifier": 30
             },
             // adds block functionality
             "minecraft:custom_components": [

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:large_dark_oak_planks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:planks",
+                "data": 5
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:dark_oak_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:large_dark_oak_planks",
+            "count": 1
+        }
+    }
+}

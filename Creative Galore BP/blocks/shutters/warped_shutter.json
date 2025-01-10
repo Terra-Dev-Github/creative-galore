@@ -1,0 +1,119 @@
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
+// Do not distribute without permission.
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "terra:warped_shutter",
+		"menu_category": {
+		  "category": "construction",
+				"group": "itemGroup.name.glassPane"
+		},
+		"traits": {
+		  "minecraft:placement_direction": {
+			"enabled_states": ["minecraft:cardinal_direction"]
+		  }
+		},
+		"states": {
+		  "terra:open": [false, true],
+		  "terra:shutter_side": [false, true] // flipped
+		}
+	  },
+	  "permutations": [
+		{
+		  "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+		  "components": {
+			"minecraft:transformation": {
+			  "rotation": [0, 0, 0]
+			}
+		  }
+		},
+		{
+		  "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+		  "components": {
+			"minecraft:transformation": {
+			  "rotation": [0, 180, 0]
+			}
+		  }
+		},
+		{
+		  "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+		  "components": {
+			"minecraft:transformation": {
+			  "rotation": [0, 270, 0]
+			}
+		  }
+		},
+		{
+		  "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+		  "components": {
+			"minecraft:transformation": {
+			  "rotation": [0, 90, 0]
+			}
+		  }
+		},
+		{
+		  "condition": "q.block_state('terra:open') && !q.block_state('terra:shutter_side')",
+		  "components": {
+			"minecraft:collision_box": {
+			  "origin": [5, 0, -8],
+			  "size": [3, 16, 16]
+			},
+			"minecraft:selection_box": {
+			  "origin": [5, 0, -8],
+			  "size": [3, 16, 16]
+			}
+		  }
+		},
+		{
+		  "condition": "q.block_state('terra:open') && q.block_state('terra:shutter_side')",
+		  "components": {
+			"minecraft:collision_box": {
+			  "origin": [-8, 0, -8],
+			  "size": [3, 16, 16]
+			},
+			"minecraft:selection_box": {
+			  "origin": [-8, 0, -8],
+			  "size": [3, 16, 16]
+			}
+		  }
+		}
+	  ],
+	  "components": {
+		// "minecraft:loot": "loot_tables/blocks/shutters/warped_shutter.json",
+		"minecraft:custom_components": ["terra:on_shutter_interact"],
+		"minecraft:collision_box": {
+		  "origin": [-8, 0, 5],
+		  "size": [16, 16, 3]
+		},
+		"minecraft:material_instances": {
+				"*": {
+					"texture": "warped_shutter",
+					"render_method": "blend"
+				}
+			},
+		"minecraft:selection_box": {
+		  "origin": [-8, 0, 5],
+		  "size": [16, 16, 3]
+		},
+		"minecraft:tick": {
+		  "interval_range": [3, 3]
+		},
+		"minecraft:destructible_by_mining": {
+		  "seconds_to_destroy": 3
+		},
+		"minecraft:destructible_by_explosion": {
+		  "explosion_resistance": 3
+		},
+		"minecraft:geometry": {
+		  "identifier": "geometry.shutter",
+		  "bone_visibility": {
+			"shutter_open": "q.block_state('terra:open') && !q.block_state('terra:shutter_side')",
+			"shutter_closed": "!q.block_state('terra:open') && !q.block_state('terra:shutter_side')",
+			"shutter_open_flipped": "q.block_state('terra:open') && q.block_state('terra:shutter_side')",
+			"shutter_closed_flipped": "!q.block_state('terra:open') && q.block_state('terra:shutter_side')"
+		  }
+		}
+	  }
+	}
+  }

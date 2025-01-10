@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:chiseled_oak_planks"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "minecraft:planks",
+                "data": 0
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:oak_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:chiseled_oak_planks",
+            "count": 1
+        }
+    }
+}

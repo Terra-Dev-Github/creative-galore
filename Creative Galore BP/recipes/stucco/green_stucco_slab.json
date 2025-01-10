@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:green_stucco_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:green_stucco"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:green_stucco"
+            }
+        ],
+        "result": {
+            "item": "terra:green_stucco_slab",
+            "count": 3
+        }
+    }
+}

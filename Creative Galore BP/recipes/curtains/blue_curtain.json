@@ -1,27 +1,32 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "terra:blue_curtain"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"S",
-			"W"
-		],
-		"key": {
-			"S": {
-				"item": "minecraft:stick"
-			},
-			"W": {
-				"item": "minecraft:wool:11"
-			}
-		},
-		"result": {
-			"item": "terra:blue_curtain",
-			"count": 1
-		}
-	}
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:blue_curtain"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "S",
+            "W"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "W": {
+                "item": "minecraft:wool:11"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:blue_wool"
+            }
+        ],
+        "result": {
+            "item": "terra:blue_curtain",
+            "count": 1
+        }
+    }
 }

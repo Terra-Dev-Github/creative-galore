@@ -1,5 +1,5 @@
 {
-    "format_version": "1.12",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "terra:stonecutter_dripstone_brick_slab"
@@ -9,6 +9,11 @@
         ],
         "priority": 1,
         "ingredients": [
+            {
+                "item": "minecraft:dripstone_block"
+            }
+        ],
+        "unlock": [
             {
                 "item": "minecraft:dripstone_block"
             }

@@ -1,27 +1,32 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "terra:crimson_table"
-		},
-		"tags": [
-			"crafting_table"
-		],
-		"pattern": [
-			"PP",
-			"FF"
-		],
-		"key": {
-			"P": {
-				"item": "minecraft:crimson_planks"
-			},
-			"F": {
-				"item": "minecraft:crimson_fence"
-			}
-		},
-		"result": {
-			"item": "terra:crimson_table",
-			"count": 2
-		}
-	}
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:crimson_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PP",
+            "FF"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:crimson_planks"
+            },
+            "F": {
+                "item": "minecraft:crimson_fence"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:crimson_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:crimson_table",
+            "count": 2
+        }
+    }
 }

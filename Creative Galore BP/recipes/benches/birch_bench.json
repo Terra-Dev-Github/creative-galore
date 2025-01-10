@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:birch_bench"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "SS",
+            "FF"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:birch_slab"
+            },
+            "F": {
+                "item": "minecraft:fence:2"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:birch_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:birch_bench",
+            "count": 2
+        }
+    }
+}

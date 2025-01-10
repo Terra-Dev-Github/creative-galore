@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:bone_pillar2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:polished_bone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:polished_bone"
+            }
+        ],
+        "result": {
+            "item": "terra:bone_pillar",
+            "count": 2
+        }
+    }
+}

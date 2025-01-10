@@ -1,21 +1,26 @@
 {
-  "format_version": "1.12",
-  "minecraft:recipe_shapeless": {
-    "description": {
-      "identifier": "terra:stonecutter_gray_terracotta_shingle_slab"
-    },
-    "tags": [
-      "stonecutter"
-    ],
-    "priority": 1,
-    "ingredients": [
-      {
-        "item": "terra:gray_terracotta_shingle"
-      }
-    ],
-    "result": {
-      "item": "terra:gray_terracotta_shingle_slab",
-      "count": 2
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_gray_terracotta_shingle_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:gray_terracotta_shingle"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:gray_terracotta_shingle"
+            }
+        ],
+        "result": {
+            "item": "terra:gray_terracotta_shingle_slab",
+            "count": 2
+        }
     }
-  }
 }

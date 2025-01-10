@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:mossy_dark_oak_plank_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "terra:mossy_dark_oak_planks"
+            }
+        },
+        "unlock": [
+            {
+                "item": "terra:mossy_dark_oak_planks"
+            }
+        ],
+        "result": {
+            "item": "terra:mossy_dark_oak_plank_slab",
+            "count": 3
+        }
+    }
+}

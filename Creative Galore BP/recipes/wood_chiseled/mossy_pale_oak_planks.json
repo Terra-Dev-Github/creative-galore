@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:mossy_pale_oak_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:pale_oak_planks"
+            },
+            {
+                "item": "minecraft:moss_block"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:moss_block"
+            }
+        ],
+        "result": {
+            "item": "terra:mossy_pale_oak_planks",
+            "count": 1
+        }
+    }
+}
