@@ -38,8 +38,8 @@
             "tag:terra:conditioned_hollow": {}, // wall connecting shenanigans
             "minecraft:tick": {
                 "interval_range": [
-                    3,
-                    3
+                    10,
+                    20
                 ]
             },
             // hardness: 1.5

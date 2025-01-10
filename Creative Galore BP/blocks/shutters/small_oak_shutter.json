@@ -126,8 +126,8 @@
 			},
 			"minecraft:tick": {
 				"interval_range": [
-					3,
-					3
+					10,
+					20
 				]
 			},
 			"minecraft:destructible_by_mining": {
