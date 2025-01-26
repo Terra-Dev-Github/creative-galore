@@ -94,81 +94,189 @@
 		"textures": "stonebrick_mixed",
 		"sound": "stone"
 	},
+	"terra:mossy_andesite_brick_slab": {
+		"textures": "stone_andesite_mossy_smooth_bricks_small",
+		"sound": "stone"
+	},
 	"terra:mossy_andesite_bricks": {
 		"textures": "stone_andesite_mossy_smooth_bricks_small",
 		"sound": "stone"
+	},
+	"terra:mossy_bone_brick_slab": {
+		"textures": "mossy_bone_bricks",
+		"sound": "bone_block"
 	},
 	"terra:mossy_bone_bricks": {
 		"textures": "mossy_bone_bricks",
 		"sound": "bone_block"
 	},
+	"terra:mossy_brick_slab": {
+		"textures": "mossy_bricks",
+		"sound": "stone"
+	},
 	"terra:mossy_bricks": {
 		"textures": "mossy_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_diorite_brick_slab": {
+		"textures": "stone_diorite_mossy_smooth_bricks_small",
 		"sound": "stone"
 	},
 	"terra:mossy_diorite_bricks": {
 		"textures": "stone_diorite_mossy_smooth_bricks_small",
 		"sound": "stone"
 	},
+	"terra:mossy_dripstone_brick_slab": {
+		"textures": "mossy_dripstone_bricks",
+		"sound": "dripstone_block"
+	},
 	"terra:mossy_dripstone_bricks": {
 		"textures": "mossy_dripstone_bricks",
 		"sound": "dripstone_block"
 	},
+	"terra:mossy_end_brick_slab": {
+		"textures": "mossy_end_bricks",
+		"sound": "stone"
+	},
 	"terra:mossy_end_bricks": {
 		"textures": "mossy_end_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_granite_brick_slab": {
+		"textures": "stone_granite_mossy_smooth_bricks_small",
 		"sound": "stone"
 	},
 	"terra:mossy_granite_bricks": {
 		"textures": "stone_granite_mossy_smooth_bricks_small",
 		"sound": "stone"
 	},
+	"terra:mossy_mixed_stonebrick_slab": {
+		"textures": "mossy_stonebrick_mixed",
+		"sound": "stone"
+	},
 	"terra:mossy_mixed_stone_bricks": {
 		"textures": "mossy_stonebrick_mixed",
 		"sound": "stone"
+	},
+	"terra:mossy_nether_brick_slab": {
+		"textures": "mossy_nether_bricks",
+		"sound": "nether_brick"
 	},
 	"terra:mossy_nether_bricks": {
 		"textures": "mossy_nether_bricks",
 		"sound": "nether_brick"
 	},
+	"terra:mossy_polished_andesite_brick_slab": {
+		"textures": "stone_andesite_mossy_smooth_bricks",
+		"sound": "stone"
+	},
 	"terra:mossy_polished_andesite_bricks": {
 		"textures": "stone_andesite_mossy_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_polished_blackstone_brick_slab": {
+		"textures": "mossy_polished_blackstone_bricks",
 		"sound": "stone"
 	},
 	"terra:mossy_polished_blackstone_bricks": {
 		"textures": "mossy_polished_blackstone_bricks",
 		"sound": "stone"
 	},
+	"terra:mossy_polished_bone_brick_slab": {
+		"textures": "mossy_polished_bone_bricks",
+		"sound": "bone_block"
+	},
 	"terra:mossy_polished_bone_bricks": {
 		"textures": "mossy_polished_bone_bricks",
 		"sound": "bone_block"
+	},
+	"terra:mossy_polished_diorite_brick_slab": {
+		"textures": "stone_diorite_mossy_smooth_bricks",
+		"sound": "stone"
 	},
 	"terra:mossy_polished_diorite_bricks": {
 		"textures": "stone_diorite_mossy_smooth_bricks",
 		"sound": "stone"
 	},
+	"terra:mossy_polished_dripstone_brick_slab": {
+		"textures": "mossy_polished_dripstone_bricks",
+		"sound": "dripstone_block"
+	},
 	"terra:mossy_polished_dripstone_bricks": {
 		"textures": "mossy_polished_dripstone_bricks",
 		"sound": "dripstone_block"
 	},
+	"terra:mossy_polished_granite_brick_slab": {
+		"textures": "stone_granite_mossy_smooth_bricks",
+		"sound": "stone"
+	},
 	"terra:mossy_polished_granite_bricks": {
 		"textures": "stone_granite_mossy_smooth_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_polished_limestone_brick_slab": {
+		"textures": "mossy_polished_limestone_bricks",
 		"sound": "stone"
 	},
 	"terra:mossy_polished_limestone_bricks": {
 		"textures": "mossy_polished_limestone_bricks",
 		"sound": "stone"
 	},
+	"terra:mossy_polished_schist_brick_slab": {
+		"textures": "mossy_polished_schist_bricks",
+		"sound": "stone"
+	},
 	"terra:mossy_polished_schist_bricks": {
 		"textures": "mossy_polished_schist_bricks",
 		"sound": "stone"
+	},
+	"terra:mossy_red_nether_brick_slab": {
+		"textures": "mossy_red_nether_bricks",
+		"sound": "nether_brick"
+	},
+	"terra:mossy_red_nether_bricks": {
+		"textures": "mossy_red_nether_bricks",
+		"sound": "nether_brick"
+	},
+	"terra:mossy_red_sandstone_brick_slab": {
+		"brightness_gamma": 0.70,
+		"textures": "mossy_red_sandstone_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_red_sandstone_bricks": {
+		"brightness_gamma": 0.70,
+		"textures": "mossy_red_sandstone_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_resin_brick_slab": {
+		"textures": "mossy_resin_bricks",
+		"sound": "resin_brick"
 	},
 	"terra:mossy_resin_bricks": {
 		"textures": "mossy_resin_bricks",
 		"sound": "resin_brick"
 	},
+	"terra:mossy_sandstone_brick_slab": {
+		"brightness_gamma": 0.70,
+		"textures": "mossy_sandstone_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_sandstone_bricks": {
+		"brightness_gamma": 0.70,
+		"textures": "mossy_sandstone_bricks",
+		"sound": "stone"
+	},
+	"terra:mossy_smooth_stonebrick_slab": {
+		"textures": "mossy_smooth_stonebrick",
+		"sound": "stone"
+	},
 	"terra:mossy_smooth_stone_bricks": {
 		"textures": "mossy_smooth_stonebrick",
 		"sound": "stone"
+	},
+	"terra:mossy_tuff_brick_slab": {
+		"textures": "mossy_tuff_bricks",
+		"sound": "tuff_bricks"
 	},
 	"terra:mossy_tuff_bricks": {
 		"textures": "mossy_tuff_bricks",
@@ -472,6 +580,10 @@
 		"sound": "stone"
 	},
 	"terra:prismarine_dark_brick_indent": {
+		// skipping textures so it doesn't glitch out
+		"sound": "stone"
+	},
+	"terra:red_nether_brick_indent": {
 		// skipping textures so it doesn't glitch out
 		"sound": "stone"
 	},

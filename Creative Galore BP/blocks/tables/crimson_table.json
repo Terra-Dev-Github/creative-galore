@@ -30,7 +30,7 @@
         },
         "components": {
             "tag:wood": {},
-			"tag:minecraft:is_axe_item_destructible": {},
+            "tag:minecraft:is_axe_item_destructible": {},
             "minecraft:tick": {
                 "interval_range": [
                     10,
@@ -38,9 +38,9 @@
                 ]
             },
             // hardness: 2
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 3
-			},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 3
             },
@@ -74,7 +74,9 @@
                 ]
             },
             "minecraft:geometry": "geometry.table",
-            // "minecraft:loot": "loot_tables/blocks/tables/crimson_table.json",
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#700200",
+            "minecraft:loot": "loot_tables/blocks/tables/crimson_table.json",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "crimson_table_side",

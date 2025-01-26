@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_mossy_smooth_stonebrick_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:mossy_smooth_stone_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:mossy_smooth_stone_bricks"
+            }
+        ],
+        "result": {
+            "item": "terra:mossy_smooth_stonebrick_slab",
+            "count": 2
+        }
+    }
+}

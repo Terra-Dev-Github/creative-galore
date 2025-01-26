@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "terra:furnace_weathered_bricks"
+    },
+    "tags": ["furnace"],
+    "input": "terra:aged_bricks",
+    "output": "terra:weathered_bricks"
+  }
+}

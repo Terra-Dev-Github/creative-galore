@@ -1,21 +1,21 @@
 {
-	"format_version": "1.13.0",
-	"minecraft:ore_feature": {
-		"description": {
-			"identifier": "terra:schist_feature"
-		},
-		"count": 64,
-		"replace_rules": [
-			{
-				"places_block": {
-					"name": "terra:schist"
-				},
-				"may_replace": [
-					{
-						"name": "minecraft:stone"
-					}
-				]
-			}
-		]
-	}
+    "format_version": "1.13.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "terra:schist_feature"
+        },
+        "count": 64,
+        "replace_rules": [
+            {
+                "places_block": {
+                    "name": "terra:schist"
+                },
+                "may_replace": [
+                    {
+                        "name": "minecraft:stone"
+                    }
+                ]
+            }
+        ]
+    }
 }

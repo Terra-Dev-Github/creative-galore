@@ -1,5 +1,31 @@
 {
-	"resource_pack_name": "vanilla",
-	"texture_name": "atlas.items",
-	"texture_data": {}
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "iron_railing": {
+            "textures": [ // extracted from blocks folder
+                "textures/blocks/iron_railing"
+            ]
+        },
+        "large_lantern_item": {
+            "textures": [
+                "textures/items/lanterns/large_lantern_item"
+            ]
+        },
+        "large_soul_lantern_item": {
+            "textures": [
+                "textures/items/lanterns/large_soul_lantern_item"
+            ]
+        },
+        "torch_sconce_item": {
+            "textures": [
+                "textures/items/torches/torch_sconce_item"
+            ]
+        },
+        "soul_torch_sconce_item": {
+            "textures": [
+                "textures/items/torches/soul_torch_sconce_item"
+            ]
+        }
+    }
 }

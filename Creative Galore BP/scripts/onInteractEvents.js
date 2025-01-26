@@ -59,4 +59,23 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
             };
         }
     });
+
+    // register a custom component named terra:light_interact_events for large lantern interaction 
+    eventData.blockComponentRegistry.registerCustomComponent('terra:light_interact_events', {
+        // define the behavior when a player interacts with the shutter
+        onPlayerInteract: (e) => {
+            // destructure event data for easier access
+            const { block, dimension } = e;
+            const isToggled = block.permutation.getState('terra:toggled');
+            const sound = isToggled ? 'random.lever_click' : 'random.lever_click';
+            const soundPitch = isToggled ? 0.5 : 0.6;
+
+            block.setPermutation(block.permutation.withState("terra:toggled", !isToggled));
+
+            dimension.playSound(sound, block.center(), {
+                pitch: soundPitch,
+                volume: 0.3,
+            });
+        }
+    });
 });

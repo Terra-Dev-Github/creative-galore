@@ -68,6 +68,9 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 0.1
             },
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#D87F33",
+            "minecraft:loot": "loot_tables/blocks/orange_curtain.json",
             "minecraft:geometry": "geometry.curtain",
             "minecraft:material_instances": {
                 "*": {

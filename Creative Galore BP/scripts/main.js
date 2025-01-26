@@ -1,5 +1,5 @@
 import 'blockConnectEvents'
 import 'curtainProperties'
 import 'onInteractSlab'
-import 'shutterProperties'
+import 'onInteractEvents'
 import 'sitComponent'

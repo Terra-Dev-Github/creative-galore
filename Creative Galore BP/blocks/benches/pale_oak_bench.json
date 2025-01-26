@@ -29,7 +29,7 @@
         },
         "components": {
             "tag:wood": {},
-			"tag:minecraft:is_axe_item_destructible": {},
+            "tag:minecraft:is_axe_item_destructible": {},
             "minecraft:tick": {
                 "interval_range": [
                     10,
@@ -37,9 +37,9 @@
                 ]
             },
             // hardness: 2
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 3
-			},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 3
             },
@@ -81,7 +81,9 @@
                     "bottom_west": "q.block_state('terra:block_left') == 1"
                 }
             },
-            // "minecraft:loot": "loot_tables/blocks/benches/pale_oak_bench.json",
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#FFFFFF",
+            "minecraft:loot": "loot_tables/blocks/benches/pale_oak_bench.json",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "pale_oak_bench_side",

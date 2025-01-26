@@ -104,7 +104,6 @@
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 7.5
             },
-            // according to map item data on the mc wiki
             "minecraft:map_color": "#C7AE90",
             "minecraft:geometry": {
                 "identifier": "geometry.slab",

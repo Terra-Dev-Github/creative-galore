@@ -1,129 +1,129 @@
 // This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.20.80",
-	"minecraft:block": {
-		"description": {
-			"identifier": "terra:lime_terracotta_shingle_slab",
-			"menu_category": {
-				"category": "construction",
-				"group": "itemGroup.name.slab"
-			},
-			"traits": {
-				"minecraft:placement_position": {
-					"enabled_states": [
-						"minecraft:vertical_half"
-					]
-				}
-			},
-			"states": {
-				"terra:double": [
-					false,
-					true
-				],
-				"terra:waterlogged": [
-					false,
-					true
-				]
-			}
-		},
-		"permutations": [
-			// bottom slab
-			{
-				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('terra:double')",
-				"components": {
-					"minecraft:collision_box": {
-						"origin": [
-							-8,
-							0,
-							-8
-						],
-						"size": [
-							16,
-							8,
-							16
-						]
-					},
-					"minecraft:selection_box": {
-						"origin": [
-							-8,
-							0,
-							-8
-						],
-						"size": [
-							16,
-							8,
-							16
-						]
-					}
-				}
-			},
-			// top slab
-			{
-				"condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('terra:double')",
-				"components": {
-					"minecraft:collision_box": {
-						"origin": [
-							-8,
-							8,
-							-8
-						],
-						"size": [
-							16,
-							8,
-							16
-						]
-					},
-					"minecraft:selection_box": {
-						"origin": [
-							-8,
-							8,
-							-8
-						],
-						"size": [
-							16,
-							8,
-							16
-						]
-					}
-				}
-			},
-			// double slab
-			{
-				"condition": "q.block_state('terra:double')",
-				"components": {
-					"minecraft:geometry": "minecraft:geometry.full_block"
-				}
-			}
-		],
-		"components": {
-			"tag:stone": {},
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 1.25
-			},
-			"minecraft:destructible_by_explosion": {
-				"explosion_resistance": 4.2
-			},
-			// according to map item data on the mc wiki
-			"minecraft:map_color": "#677535",
-			"minecraft:geometry": {
-				"identifier": "geometry.slab",
-				"bone_visibility": {
-					"bottom_slab": "q.block_state('minecraft:vertical_half') == 'bottom'",
-					"top_slab": "q.block_state('minecraft:vertical_half') == 'top'"
-				}
-			},
-			"minecraft:loot": "loot_tables/blocks/terracotta_shingles/lime_terracotta_shingle_slab.json",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "lime_terracotta_shingle",
-					"render_method": "opaque"
-				}
-			},
-			// adds block functionality
-			"minecraft:custom_components": [
-				"terra:on_slab_interact"
-			]
-		}
-	}
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:lime_terracotta_shingle_slab",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.slab"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                }
+            },
+            "states": {
+                "terra:double": [
+                    false,
+                    true
+                ],
+                "terra:waterlogged": [
+                    false,
+                    true
+                ]
+            }
+        },
+        "permutations": [
+            // bottom slab
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('terra:double')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    }
+                }
+            },
+            // top slab
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('terra:double')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            8,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            8,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    }
+                }
+            },
+            // double slab
+            {
+                "condition": "q.block_state('terra:double')",
+                "components": {
+                    "minecraft:geometry": "minecraft:geometry.full_block"
+                }
+            }
+        ],
+        "components": {
+            "tag:stone": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.25
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 4.2
+            },
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#677535",
+            "minecraft:geometry": {
+                "identifier": "geometry.slab",
+                "bone_visibility": {
+                    "bottom_slab": "q.block_state('minecraft:vertical_half') == 'bottom'",
+                    "top_slab": "q.block_state('minecraft:vertical_half') == 'top'"
+                }
+            },
+            "minecraft:loot": "loot_tables/blocks/terracotta_shingles/lime_terracotta_shingle_slab.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "lime_terracotta_shingle",
+                    "render_method": "opaque"
+                }
+            },
+            // adds block functionality
+            "minecraft:custom_components": [
+                "terra:on_slab_interact"
+            ]
+        }
+    }
 }

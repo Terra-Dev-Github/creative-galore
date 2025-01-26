@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "terra:furnace_aged_bricks"
+    },
+    "tags": ["furnace"],
+    "input": "minecraft:brick_block",
+    "output": "terra:aged_bricks"
+  }
+}

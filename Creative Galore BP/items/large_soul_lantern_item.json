@@ -1,0 +1,26 @@
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
+// Do not distribute without permission.
+{
+    "format_version": "1.20.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "terra:large_soul_lantern_item",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.none"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "terra:large_soul_lantern"
+            },
+            "minecraft:icon": {
+                "texture": "large_soul_lantern_item"
+            },
+            "minecraft:hand_equipped": false,
+            "minecraft:display_name": {
+                "value": "tile.terra:large_soul_lantern.name"
+            }
+        }
+    }
+}

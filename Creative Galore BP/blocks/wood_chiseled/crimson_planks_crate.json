@@ -1,37 +1,39 @@
 // This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.20.80",
-	"minecraft:block": {
-		"description": {
-			"identifier": "terra:crimson_planks_crate",
-			"menu_category": {
-				"group": "itemGroup.name.planks",
-				"category": "construction"
-			}
-		},
-		"components": {
-			"tag:wood": {},
-			"tag:minecraft:is_axe_item_destructible": {},
-			"minecraft:geometry": "minecraft:geometry.full_block",
-			// hardness: 2
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 3
-			},
-			"minecraft:destructible_by_explosion": {
-				"explosion_resistance": 3
-			},
-			"minecraft:loot": "loot_tables/blocks/wood_chiseled/crimson_planks_crate.json",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "crimson_planks_crate",
-					"render_method": "opaque"
-				}
-			},
-			"minecraft:flammable": {
-				"destroy_chance_modifier": 5,
-				"catch_chance_modifier": 5
-			}
-		}
-	}
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:crimson_planks_crate",
+            "menu_category": {
+                "group": "itemGroup.name.planks",
+                "category": "construction"
+            }
+        },
+        "components": {
+            "tag:wood": {},
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            // hardness: 2
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#700200",
+            "minecraft:loot": "loot_tables/blocks/wood_chiseled/crimson_planks_crate.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "crimson_planks_crate",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:flammable": {
+                "destroy_chance_modifier": 5,
+                "catch_chance_modifier": 5
+            }
+        }
+    }
 }

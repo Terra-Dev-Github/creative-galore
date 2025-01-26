@@ -34,7 +34,7 @@
         },
         "components": {
             "tag:stone": {},
-			"tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
             "tag:terra:conditioned_hollow": {}, // wall connecting shenanigans
             "minecraft:tick": {
                 "interval_range": [
@@ -97,7 +97,8 @@
                     "west_above": "q.block_state('terra:west') && q.block_state('terra:upper_pieces')"
                 }
             },
-            // "minecraft:loot": "loot_tables/blocks/walls/schist_brick_wall.json",
+            "minecraft:map_color": "#897F5F",
+            "minecraft:loot": "loot_tables/blocks/walls/schist_brick_wall.json",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "schist_bricks",

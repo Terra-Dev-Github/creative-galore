@@ -1,148 +1,150 @@
 // This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.20.80",
-	"minecraft:block": {
-		"description": {
-			"identifier": "terra:small_acacia_shutter",
-			"menu_category": {
-				"category": "construction",
-				"group": "itemGroup.name.glassPane"
-			},
-			"traits": {
-				"minecraft:placement_direction": {
-					"enabled_states": [
-						"minecraft:cardinal_direction"
-					]
-				}
-			},
-			"states": {
-				"terra:open": [
-					false,
-					true
-				]
-			}
-		},
-		"permutations": [
-			{
-				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
-				"components": {
-					"minecraft:transformation": {
-						"rotation": [
-							0,
-							0,
-							0
-						]
-					}
-				}
-			},
-			{
-				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
-				"components": {
-					"minecraft:transformation": {
-						"rotation": [
-							0,
-							180,
-							0
-						]
-					}
-				}
-			},
-			{
-				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
-				"components": {
-					"minecraft:transformation": {
-						"rotation": [
-							0,
-							270,
-							0
-						]
-					}
-				}
-			},
-			{
-				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
-				"components": {
-					"minecraft:transformation": {
-						"rotation": [
-							0,
-							90,
-							0
-						]
-					}
-				}
-			},
-			{
-				"condition": "q.block_state('terra:open')",
-				"components": {
-					"minecraft:collision_box": false,
-					"minecraft:geometry": {
-						"identifier": "geometry.small_shutter",
-						"bone_visibility": {
-							"small_shutter_open": true,
-							"small_shutter_closed": false
-						}
-					}
-				}
-			}
-		],
-		"components": {
-			// "minecraft:loot": "loot_tables/blocks/shutters/small_acacia_shutter.json",
-			"minecraft:custom_components": [
-				"terra:on_shutter_interact"
-			],
-			"minecraft:collision_box": {
-				"origin": [
-					-8,
-					0,
-					-0.95
-				],
-				"size": [
-					16,
-					16,
-					3
-				]
-			},
-			"minecraft:light_dampening": 0,
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "acacia_shutter_small",
-					"render_method": "alpha_test",
-					"face_dimming": true,
-					"ambient_occlusion": true
-				}
-			},
-			"minecraft:selection_box": {
-				"origin": [
-					-8,
-					0,
-					-0.95
-				],
-				"size": [
-					16,
-					16,
-					3
-				]
-			},
-			"minecraft:tick": {
-				"interval_range": [
-					10,
-					20
-				]
-			},
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 3
-			},
-			"minecraft:destructible_by_explosion": {
-				"explosion_resistance": 3
-			},
-			"minecraft:geometry": {
-				"identifier": "geometry.small_shutter",
-				"bone_visibility": {
-					"small_shutter_open": "q.block_state('terra:open')",
-					"small_shutter_closed": "!q.block_state('terra:open')"
-				}
-			}
-		}
-	}
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:small_acacia_shutter",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.glassPane"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            },
+            "states": {
+                "terra:open": [
+                    false,
+                    true
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('terra:open')",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:geometry": {
+                        "identifier": "geometry.small_shutter",
+                        "bone_visibility": {
+                            "small_shutter_open": true,
+                            "small_shutter_closed": false
+                        }
+                    }
+                }
+            }
+        ],
+        "components": {
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#D87F33",
+            "minecraft:loot": "loot_tables/blocks/shutters/small_acacia_shutter.json",
+            "minecraft:custom_components": [
+                "terra:on_shutter_interact"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -0.95
+                ],
+                "size": [
+                    16,
+                    16,
+                    3
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "acacia_shutter_small",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -0.95
+                ],
+                "size": [
+                    16,
+                    16,
+                    3
+                ]
+            },
+            "minecraft:tick": {
+                "interval_range": [
+                    10,
+                    20
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.small_shutter",
+                "bone_visibility": {
+                    "small_shutter_open": "q.block_state('terra:open')",
+                    "small_shutter_closed": "!q.block_state('terra:open')"
+                }
+            }
+        }
+    }
 }

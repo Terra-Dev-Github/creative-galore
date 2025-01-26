@@ -1,35 +1,35 @@
 // This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.20.80",
-	"minecraft:block": {
-		"description": {
-			"identifier": "terra:white_stucco",
-			"menu_category": {
-				"group": "itemGroup.name.none",
-				"category": "construction"
-			}
-		},
-		"components": {
-			"tag:stone": {},
-			"tag:minecraft:is_pickaxe_item_destructible": {},
-			"minecraft:geometry": "minecraft:geometry.full_block",
-			// hardness: 1.25
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 6.25
-			},
-			"minecraft:destructible_by_explosion": {
-				"explosion_resistance": 4.2
-			},
-			"minecraft:loot": "loot_tables/blocks/stucco/white_stucco.json",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "white_stucco",
-					"render_method": "opaque"
-				}
-			},
-			// according to map item data on the mc wiki
-			"minecraft:map_color": "#D1B1A1"
-		}
-	}
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:white_stucco",
+            "menu_category": {
+                "group": "itemGroup.name.none",
+                "category": "construction"
+            }
+        },
+        "components": {
+            "tag:stone": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            // hardness: 1.25
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 6.25
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 4.2
+            },
+            "minecraft:loot": "loot_tables/blocks/stucco/white_stucco.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "white_stucco",
+                    "render_method": "opaque"
+                }
+            },
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#D1B1A1"
+        }
+    }
 }

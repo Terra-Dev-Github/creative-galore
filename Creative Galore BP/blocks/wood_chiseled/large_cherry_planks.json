@@ -69,7 +69,7 @@
         ],
         "components": {
             "tag:wood": {},
-			"tag:minecraft:is_axe_item_destructible": {},
+            "tag:minecraft:is_axe_item_destructible": {},
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:material_instances": {
                 "*": {
@@ -84,12 +84,12 @@
                 "explosion_resistance": 3
             },
             "minecraft:flammable": {
-				"destroy_chance_modifier": 5,
-				"catch_chance_modifier": 5
-			},
-            // "minecraft:loot": "loot_tables/blocks/large_cherry_planks.json",
+                "destroy_chance_modifier": 5,
+                "catch_chance_modifier": 5
+            },
             // according to map item data on the mc wiki
-            "minecraft:map_color": "#000000"
+            "minecraft:map_color": "#D1B1A1",
+            "minecraft:loot": "loot_tables/blocks/large_cherry_planks.json"
         }
     }
 }

@@ -1,1918 +1,2066 @@
 // This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"num_mip_levels": 4,
-	"padding": 8,
-	"resource_pack_name": "vanilla",
-	"texture_name": "atlas.terrain",
-	"texture_data": {
-		"empty": {
-			"textures": [
-				"textures/blocks/empty"
-			]
-		},
-		// Stone
-		"bone_bricks": {
-			"textures": [
-				"textures/blocks/bone_bricks"
-			]
-		},
-		"bone_pillar_side": {
-			"textures": [
-				"textures/blocks/bone_pillar_side"
-			]
-		},
-		"bone_pillar_top": {
-			"textures": [
-				"textures/blocks/bone_pillar_top"
-			]
-		},
-		"chiseled_bone": {
-			"textures": [
-				"textures/blocks/chiseled_bone"
-			]
-		},
-		"chiseled_diorite": {
-			"textures": [
-				"textures/blocks/chiseled_diorite"
-			]
-		},
-		"cut_polished_diorite": {
-			"textures": [
-				"textures/blocks/cut_polished_diorite"
-			]
-		},
-		"dripstone_bricks": {
-			"textures": [
-				"textures/blocks/dripstone_bricks"
-			]
-		},
-		"diorite_pillar_side": {
-			"textures": [
-				"textures/blocks/diorite_pillar_side"
-			]
-		},
-		"diorite_pillar_top": {
-			"textures": [
-				"textures/blocks/diorite_pillar_top"
-			]
-		},
-		"dripstone_polished": {
-			"textures": [
-				"textures/blocks/dripstone_polished"
-			]
-		},
-		"dripstone_polished_bricks": {
-			"textures": [
-				"textures/blocks/dripstone_polished_bricks"
-			]
-		},
-		"dripstone_polished_slab_side": {
-			"textures": [
-				"textures/blocks/dripstone_polished_slab_side"
-			]
-		},
-		"limestone_bricks": {
-			"textures": [
-				"textures/blocks/limestone_bricks"
-			]
-		},
-		"limestone": {
-			"textures": [
-				"textures/blocks/limestone"
-			]
-		},
-		"mossy_bone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_bone_bricks"
-			]
-		},
-		"mossy_bricks": {
-			"textures": [
-				"textures/blocks/mossy_bricks"
-			]
-		},
-		"mossy_end_bricks": {
-			"textures": [
-				"textures/blocks/mossy_end_bricks"
-			]
-		},
-		"mossy_dripstone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_dripstone_bricks"
-			]
-		},
-		"mossy_limestone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_limestone_bricks"
-			]
-		},
-		"mossy_nether_bricks": {
-			"textures": [
-				"textures/blocks/mossy_nether_bricks"
-			]
-		},
-		"mossy_polished_blackstone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_polished_blackstone_bricks"
-			]
-		},
-		"mossy_polished_bone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_polished_bone_bricks"
-			]
-		},
-		"mossy_polished_dripstone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_polished_dripstone_bricks"
-			]
-		},
-		"mossy_polished_limestone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_polished_limestone_bricks"
-			]
-		},
-		"mossy_polished_schist_bricks": {
-			"textures": [
-				"textures/blocks/mossy_polished_schist_bricks"
-			]
-		},
-		"mossy_quartz_bricks": {
-			"textures": [
-				"textures/blocks/mossy_quartz_bricks"
-			]
-		},
-		"mossy_red_sandstone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_red_sandstone_bricks"
-			]
-		},
-		"mossy_resin_bricks": {
-			"textures": [
-				"textures/blocks/mossy_resin_bricks"
-			]
-		},
-		"mossy_sandstone_bricks": {
-			"textures": [
-				"textures/blocks/mossy_sandstone_bricks"
-			]
-		},
-		"mossy_schist_bricks": {
-			"textures": [
-				"textures/blocks/mossy_schist_bricks"
-			]
-		},
-		"mossy_smooth_stonebrick": {
-			"textures": [
-				"textures/blocks/mossy_smooth_stonebrick"
-			]
-		},
-		"mossy_stonebrick_mixed": {
-			"textures": [
-				"textures/blocks/mossy_stonebrick_mixed"
-			]
-		},
-		"mossy_tuff_bricks": {
-			"textures": [
-				"textures/blocks/mossy_tuff_bricks"
-			]
-		},
-		"polished_bone_bricks": {
-			"textures": [
-				"textures/blocks/polished_bone_bricks"
-			]
-		},
-		"polished_bone": {
-			"textures": [
-				"textures/blocks/polished_bone"
-			]
-		},
-		"polished_limestone_bricks": {
-			"textures": [
-				"textures/blocks/polished_limestone_bricks"
-			]
-		},
-		"polished_limestone_slab_side": {
-			"textures": [
-				"textures/blocks/polished_limestone_slab_side"
-			]
-		},
-		"polished_limestone": {
-			"textures": [
-				"textures/blocks/polished_limestone"
-			]
-		},
-		"polished_schist_bricks": {
-			"textures": [
-				"textures/blocks/polished_schist_bricks"
-			]
-		},
-		"polished_schist_slab_side": {
-			"textures": [
-				"textures/blocks/polished_schist_slab_side"
-			]
-		},
-		"polished_schist": {
-			"textures": [
-				"textures/blocks/polished_schist"
-			]
-		},
-		"polished_stone_pillar_side": {
-			"textures": [
-				"textures/blocks/polished_stone_pillar_side"
-			]
-		},
-		"polished_stone_pillar_top": {
-			"textures": [
-				"textures/blocks/polished_stone_pillar_top"
-			]
-		},
-		"polished_stone_slab_side": {
-			"textures": [
-				"textures/blocks/polished_stone_slab_side"
-			]
-		},
-		"polished_stone": {
-			"textures": [
-				"textures/blocks/polished_stone"
-			]
-		},
-		"red_sandstone_bricks": {
-			"textures": [
-				"textures/blocks/red_sandstone_bricks"
-			]
-		},
-		"sandstone_bricks": {
-			"textures": [
-				"textures/blocks/sandstone_bricks"
-			]
-		},
-		"schist_bricks": {
-			"textures": [
-				"textures/blocks/schist_bricks"
-			]
-		},
-		"schist": {
-			"textures": [
-				"textures/blocks/schist"
-			]
-		},
-		"smooth_diorite": {
-			"textures": [
-				"textures/blocks/smooth_diorite"
-			]
-		},
-		"smooth_stonebrick": {
-			"textures": [
-				"textures/blocks/smooth_stonebrick"
-			]
-		},
-		"stone_andesite_mossy_smooth_bricks_small": {
-			"textures": [
-				"textures/blocks/stone_andesite_mossy_smooth_bricks_small"
-			]
-		},
-		"stone_andesite_mossy_smooth_bricks": {
-			"textures": [
-				"textures/blocks/stone_andesite_mossy_smooth_bricks"
-			]
-		},
-		"stone_andesite_smooth_bricks_small": {
-			"textures": [
-				"textures/blocks/stone_andesite_smooth_bricks_small"
-			]
-		},
-		"stone_andesite_smooth_bricks": {
-			"textures": [
-				"textures/blocks/stone_andesite_smooth_bricks"
-			]
-		},
-		"stone_diorite_mossy_smooth_bricks": {
-			"textures": [
-				"textures/blocks/stone_diorite_mossy_smooth_bricks"
-			]
-		},
-		"stone_diorite_mossy_smooth_bricks_small": {
-			"textures": [
-				"textures/blocks/stone_diorite_mossy_smooth_bricks_small"
-			]
-		},
-		"stone_diorite_smooth_bricks_small": {
-			"textures": [
-				"textures/blocks/stone_diorite_smooth_bricks_small"
-			]
-		},
-		"stone_diorite_smooth_bricks": {
-			"textures": [
-				"textures/blocks/stone_diorite_smooth_bricks"
-			]
-		},
-		"stone_granite_mossy_smooth_bricks": {
-			"textures": [
-				"textures/blocks/stone_granite_mossy_smooth_bricks"
-			]
-		},
-		"stone_granite_mossy_smooth_bricks_small": {
-			"textures": [
-				"textures/blocks/stone_granite_mossy_smooth_bricks_small"
-			]
-		},
-		"stone_granite_smooth_bricks_small": {
-			"textures": [
-				"textures/blocks/stone_granite_smooth_bricks_small"
-			]
-		},
-		"stone_granite_smooth_bricks": {
-			"textures": [
-				"textures/blocks/stone_granite_smooth_bricks"
-			]
-		},
-		"stonebrick_mixed": {
-			"textures": [
-				"textures/blocks/stonebrick_mixed"
-			]
-		},
-		"tiled_bone_bricks": {
-			"textures": [
-				"textures/blocks/tiled_bone_bricks"
-			]
-		},
-		//Brick Indents
-		"andesite_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/andesite_brick_indent_side"
-			]
-		},
-		"andesite_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/andesite_brick_indent_top"
-			]
-		},
-		"bone_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/bone_brick_indent_side"
-			]
-		},
-		"bone_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/bone_brick_indent_top"
-			]
-		},
-		"brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/brick_indent_side"
-			]
-		},
-		"brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/brick_indent_top"
-			]
-		},
-		"diorite_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/diorite_brick_indent_side"
-			]
-		},
-		"diorite_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/diorite_brick_indent_top"
-			]
-		},
-		"dripstone_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/dripstone_brick_indent_side"
-			]
-		},
-		"dripstone_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/dripstone_brick_indent_top"
-			]
-		},
-		"granite_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/granite_brick_indent_side"
-			]
-		},
-		"granite_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/granite_brick_indent_top"
-			]
-		},
-		"limestone_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/limestone_brick_indent_side"
-			]
-		},
-		"limestone_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/limestone_brick_indent_top"
-			]
-		},
-		"mixed_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/mixed_brick_indent_side"
-			]
-		},
-		"mixed_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/mixed_brick_indent_top"
-			]
-		},
-		"nether_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/nether_brick_indent_side"
-			]
-		},
-		"nether_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/nether_brick_indent_top"
-			]
-		},
-		"prismarine_dark_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/prismarine_dark_brick_indent_side"
-			]
-		},
-		"prismarine_dark_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/prismarine_dark_brick_indent_top"
-			]
-		},
-		"red_sandstone_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/red_sandstone_brick_indent_side"
-			]
-		},
-		"red_sandstone_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/red_sandstone_brick_indent_top"
-			]
-		},
-		"resin_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/resin_brick_indent_side"
-			]
-		},
-		"resin_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/resin_brick_indent_top"
-			]
-		},
-		"sandstone_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/sandstone_brick_indent_side"
-			]
-		},
-		"sandstone_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/sandstone_brick_indent_top"
-			]
-		},
-		"schist_brick_indent_side": {
-			"textures": [
-				"textures/blocks/brick_indents/schist_brick_indent_side"
-			]
-		},
-		"schist_brick_indent_top": {
-			"textures": [
-				"textures/blocks/brick_indents/schist_brick_indent_top"
-			]
-		},
-		// Chiseled Wood
-		"acacia_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/acacia_planks_crate"
-			]
-		},
-		"acacia_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/acacia_shutter_small"
-			]
-		},
-		"acacia_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/acacia_shutter"
-			]
-		},
-		"bamboo_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/bamboo_planks_crate"
-			]
-		},
-		"bamboo_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/bamboo_shutter_small"
-			]
-		},
-		"bamboo_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/bamboo_shutter"
-			]
-		},
-		"banded_acacia_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_acacia_crate"
-			]
-		},
-		"banded_bamboo_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_bamboo_crate"
-			]
-		},
-		"banded_birch_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_birch_crate"
-			]
-		},
-		"banded_cherry_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_cherry_crate"
-			]
-		},
-		"banded_crimson_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_crimson_crate"
-			]
-		},
-		"banded_dark_oak_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_dark_oak_crate"
-			]
-		},
-		"banded_jungle_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_jungle_crate"
-			]
-		},
-		"banded_mangrove_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_mangrove_crate"
-			]
-		},
-		"banded_oak_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_oak_crate"
-			]
-		},
-		"banded_pale_oak_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_pale_oak_crate"
-			]
-		},
-		"banded_spruce_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_spruce_crate"
-			]
-		},
-		"banded_warped_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/banded_warped_crate"
-			]
-		},
-		"birch_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/birch_planks_crate"
-			]
-		},
-		"birch_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/birch_shutter_small"
-			]
-		},
-		"birch_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/birch_shutter"
-			]
-		},
-		"carved_acacia_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_acacia_planks"
-			]
-		},
-		"carved_bamboo_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_bamboo_planks"
-			]
-		},
-		"carved_birch_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_birch_planks"
-			]
-		},
-		"carved_cherry_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_cherry_planks"
-			]
-		},
-		"carved_crimson_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_crimson_planks"
-			]
-		},
-		"carved_dark_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_dark_oak_planks"
-			]
-		},
-		"carved_jungle_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_jungle_planks"
-			]
-		},
-		"carved_mangrove_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_mangrove_planks"
-			]
-		},
-		"cherry_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/cherry_planks_crate"
-			]
-		},
-		"carved_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_oak_planks"
-			]
-		},
-		"carved_pale_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_pale_oak_planks"
-			]
-		},
-		"carved_spruce_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_spruce_planks"
-			]
-		},
-		"carved_warped_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/carved_warped_planks"
-			]
-		},
-		"cherry_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/cherry_shutter_small"
-			]
-		},
-		"cherry_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/cherry_shutter"
-			]
-		},
-		"chiseled_acacia_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_acacia_planks"
-			]
-		},
-		"chiseled_birch_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_birch_planks"
-			]
-		},
-		"chiseled_bamboo_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_bamboo_planks"
-			]
-		},
-		"chiseled_cherry_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_cherry_planks"
-			]
-		},
-		"chiseled_crimson_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_crimson_planks"
-			]
-		},
-		"chiseled_dark_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_dark_oak_planks"
-			]
-		},
-		"chiseled_jungle_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_jungle_planks"
-			]
-		},
-		"chiseled_mangrove_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_mangrove_planks"
-			]
-		},
-		"chiseled_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_oak_planks"
-			]
-		},
-		"chiseled_pale_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_pale_oak_planks"
-			]
-		},
-		"chiseled_spruce_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_spruce_planks"
-			]
-		},
-		"chiseled_warped_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/chiseled_warped_planks"
-			]
-		},
-		"crimson_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/crimson_planks_crate"
-			]
-		},
-		"crimson_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/crimson_shutter_small"
-			]
-		},
-		"crimson_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/crimson_shutter"
-			]
-		},
-		"dark_oak_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/dark_oak_planks_crate"
-			]
-		},
-		"dark_oak_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/dark_oak_shutter_small"
-			]
-		},
-		"dark_oak_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/dark_oak_shutter"
-			]
-		},
-		"jungle_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/jungle_planks_crate"
-			]
-		},
-		"jungle_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/jungle_shutter_small"
-			]
-		},
-		"jungle_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/jungle_shutter"
-			]
-		},
-		"large_acacia_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_acacia_planks"
-			]
-		},
-		"large_bamboo_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_bamboo_planks"
-			]
-		},
-		"large_birch_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_birch_planks"
-			]
-		},
-		"large_cherry_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_cherry_planks"
-			]
-		},
-		"large_crimson_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_crimson_planks"
-			]
-		},
-		"large_dark_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_dark_oak_planks"
-			]
-		},
-		"large_jungle_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_jungle_planks"
-			]
-		},
-		"large_mangrove_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_mangrove_planks"
-			]
-		},
-		"large_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_oak_planks"
-			]
-		},
-		"large_pale_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_pale_oak_planks"
-			]
-		},
-		"large_spruce_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_spruce_planks"
-			]
-		},
-		"large_warped_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/large_warped_planks"
-			]
-		},
-		"mangrove_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mangrove_planks_crate"
-			]
-		},
-		"mangrove_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mangrove_shutter_small"
-			]
-		},
-		"mangrove_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mangrove_shutter"
-			]
-		},
-		"mossy_acacia_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_acacia_planks"
-			]
-		},
-		"mossy_bamboo_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_bamboo_planks"
-			]
-		},
-		"mossy_birch_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_birch_planks"
-			]
-		},
-		"mossy_cherry_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_cherry_planks"
-			]
-		},
-		"mossy_crimson_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_crimson_planks"
-			]
-		},
-		"mossy_dark_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_dark_oak_planks"
-			]
-		},
-		"mossy_jungle_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_jungle_planks"
-			]
-		},
-		"mossy_mangrove_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_mangrove_planks"
-			]
-		},
-		"mossy_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_oak_planks"
-			]
-		},
-		"mossy_pale_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_pale_oak_planks"
-			]
-		},
-		"mossy_spruce_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_spruce_planks"
-			]
-		},
-		"mossy_warped_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/mossy_warped_planks"
-			]
-		},
-		"oak_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/oak_planks_crate"
-			]
-		},
-		"oak_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/oak_shutter_small"
-			]
-		},
-		"oak_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/oak_shutter"
-			]
-		},
-		"pale_oak_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/pale_oak_planks_crate"
-			]
-		},
-		"pale_oak_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/pale_oak_shutter_small"
-			]
-		},
-		"pale_oak_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/pale_oak_shutter"
-			]
-		},
-		"spruce_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/spruce_planks_crate"
-			]
-		},
-		"spruce_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/spruce_shutter_small"
-			]
-		},
-		"spruce_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/spruce_shutter"
-			]
-		},
-		"tiled_acacia_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_acacia_planks"
-			]
-		},
-		"tiled_birch_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_birch_planks"
-			]
-		},
-		"tiled_cherry_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_cherry_planks"
-			]
-		},
-		"tiled_crimson_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_crimson_planks"
-			]
-		},
-		"tiled_dark_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_dark_oak_planks"
-			]
-		},
-		"tiled_jungle_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_jungle_planks"
-			]
-		},
-		"tiled_mangrove_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_mangrove_planks"
-			]
-		},
-		"tiled_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_oak_planks"
-			]
-		},
-		"tiled_pale_oak_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_pale_oak_planks"
-			]
-		},
-		"tiled_spruce_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_spruce_planks"
-			]
-		},
-		"tiled_warped_planks": {
-			"textures": [
-				"textures/blocks/wood_chiseled/tiled_warped_planks"
-			]
-		},
-		"warped_planks_crate": {
-			"textures": [
-				"textures/blocks/wood_chiseled/warped_planks_crate"
-			]
-		},
-		"warped_shutter_small": {
-			"textures": [
-				"textures/blocks/wood_chiseled/warped_shutter_small"
-			]
-		},
-		"warped_shutter": {
-			"textures": [
-				"textures/blocks/wood_chiseled/warped_shutter"
-			]
-		},
-		// Stools
-		"black_stool_side": {
-			"textures": [
-				"textures/blocks/stools/black_stool_side"
-			]
-		},
-		"black_stool_top": {
-			"textures": [
-				"textures/blocks/stools/black_stool_top"
-			]
-		},
-		"blue_stool_side": {
-			"textures": [
-				"textures/blocks/stools/blue_stool_side"
-			]
-		},
-		"blue_stool_top": {
-			"textures": [
-				"textures/blocks/stools/blue_stool_top"
-			]
-		},
-		"brown_stool_side": {
-			"textures": [
-				"textures/blocks/stools/brown_stool_side"
-			]
-		},
-		"brown_stool_top": {
-			"textures": [
-				"textures/blocks/stools/brown_stool_top"
-			]
-		},
-		"cyan_stool_side": {
-			"textures": [
-				"textures/blocks/stools/cyan_stool_side"
-			]
-		},
-		"cyan_stool_top": {
-			"textures": [
-				"textures/blocks/stools/cyan_stool_top"
-			]
-		},
-		"gray_stool_side": {
-			"textures": [
-				"textures/blocks/stools/gray_stool_side"
-			]
-		},
-		"gray_stool_top": {
-			"textures": [
-				"textures/blocks/stools/gray_stool_top"
-			]
-		},
-		"green_stool_side": {
-			"textures": [
-				"textures/blocks/stools/green_stool_side"
-			]
-		},
-		"green_stool_top": {
-			"textures": [
-				"textures/blocks/stools/green_stool_top"
-			]
-		},
-		"light_blue_stool_side": {
-			"textures": [
-				"textures/blocks/stools/light_blue_stool_side"
-			]
-		},
-		"light_blue_stool_top": {
-			"textures": [
-				"textures/blocks/stools/light_blue_stool_top"
-			]
-		},
-		"light_gray_stool_side": {
-			"textures": [
-				"textures/blocks/stools/light_gray_stool_side"
-			]
-		},
-		"light_gray_stool_top": {
-			"textures": [
-				"textures/blocks/stools/light_gray_stool_top"
-			]
-		},
-		"lime_stool_side": {
-			"textures": [
-				"textures/blocks/stools/lime_stool_side"
-			]
-		},
-		"lime_stool_top": {
-			"textures": [
-				"textures/blocks/stools/lime_stool_top"
-			]
-		},
-		"magenta_stool_side": {
-			"textures": [
-				"textures/blocks/stools/magenta_stool_side"
-			]
-		},
-		"magenta_stool_top": {
-			"textures": [
-				"textures/blocks/stools/magenta_stool_top"
-			]
-		},
-		"orange_stool_side": {
-			"textures": [
-				"textures/blocks/stools/orange_stool_side"
-			]
-		},
-		"orange_stool_top": {
-			"textures": [
-				"textures/blocks/stools/orange_stool_top"
-			]
-		},
-		"pink_stool_side": {
-			"textures": [
-				"textures/blocks/stools/pink_stool_side"
-			]
-		},
-		"pink_stool_top": {
-			"textures": [
-				"textures/blocks/stools/pink_stool_top"
-			]
-		},
-		"purple_stool_side": {
-			"textures": [
-				"textures/blocks/stools/purple_stool_side"
-			]
-		},
-		"purple_stool_top": {
-			"textures": [
-				"textures/blocks/stools/purple_stool_top"
-			]
-		},
-		"red_stool_side": {
-			"textures": [
-				"textures/blocks/stools/red_stool_side"
-			]
-		},
-		"red_stool_top": {
-			"textures": [
-				"textures/blocks/stools/red_stool_top"
-			]
-		},
-		"stool_bottom": {
-			"textures": [
-				"textures/blocks/stools/stool_bottom"
-			]
-		},
-		"white_stool_side": {
-			"textures": [
-				"textures/blocks/stools/white_stool_side"
-			]
-		},
-		"white_stool_top": {
-			"textures": [
-				"textures/blocks/stools/white_stool_top"
-			]
-		},
-		"yellow_stool_side": {
-			"textures": [
-				"textures/blocks/stools/yellow_stool_side"
-			]
-		},
-		"yellow_stool_top": {
-			"textures": [
-				"textures/blocks/stools/yellow_stool_top"
-			]
-		},
-		"acacia_table_side": {
-			"textures": [
-				"textures/blocks/tables/acacia_table_side"
-			]
-		},
-		"acacia_table_top": {
-			"textures": [
-				"textures/blocks/tables/acacia_table_top"
-			]
-		},
-		"bamboo_table_side": {
-			"textures": [
-				"textures/blocks/tables/bamboo_table_side"
-			]
-		},
-		"bamboo_table_top": {
-			"textures": [
-				"textures/blocks/tables/bamboo_table_top"
-			]
-		},
-		"birch_table_side": {
-			"textures": [
-				"textures/blocks/tables/birch_table_side"
-			]
-		},
-		"birch_table_top": {
-			"textures": [
-				"textures/blocks/tables/birch_table_top"
-			]
-		},
-		"cherry_table_side": {
-			"textures": [
-				"textures/blocks/tables/cherry_table_side"
-			]
-		},
-		"cherry_table_top": {
-			"textures": [
-				"textures/blocks/tables/cherry_table_top"
-			]
-		},
-		"crimson_table_side": {
-			"textures": [
-				"textures/blocks/tables/crimson_table_side"
-			]
-		},
-		"crimson_table_top": {
-			"textures": [
-				"textures/blocks/tables/crimson_table_top"
-			]
-		},
-		"dark_oak_table_side": {
-			"textures": [
-				"textures/blocks/tables/dark_oak_table_side"
-			]
-		},
-		"dark_oak_table_top": {
-			"textures": [
-				"textures/blocks/tables/dark_oak_table_top"
-			]
-		},
-		"jungle_table_side": {
-			"textures": [
-				"textures/blocks/tables/jungle_table_side"
-			]
-		},
-		"jungle_table_top": {
-			"textures": [
-				"textures/blocks/tables/jungle_table_top"
-			]
-		},
-		"mangrove_table_side": {
-			"textures": [
-				"textures/blocks/tables/mangrove_table_side"
-			]
-		},
-		"mangrove_table_top": {
-			"textures": [
-				"textures/blocks/tables/mangrove_table_top"
-			]
-		},
-		"oak_table_side": {
-			"textures": [
-				"textures/blocks/tables/oak_table_side"
-			]
-		},
-		"oak_table_top": {
-			"textures": [
-				"textures/blocks/tables/oak_table_top"
-			]
-		},
-		"pale_oak_table_side": {
-			"textures": [
-				"textures/blocks/tables/pale_oak_table_side"
-			]
-		},
-		"pale_oak_table_top": {
-			"textures": [
-				"textures/blocks/tables/pale_oak_table_top"
-			]
-		},
-		"spruce_table_side": {
-			"textures": [
-				"textures/blocks/tables/spruce_table_side"
-			]
-		},
-		"spruce_table_top": {
-			"textures": [
-				"textures/blocks/tables/spruce_table_top"
-			]
-		},
-		"warped_table_side": {
-			"textures": [
-				"textures/blocks/tables/warped_table_side"
-			]
-		},
-		"warped_table_top": {
-			"textures": [
-				"textures/blocks/tables/warped_table_top"
-			]
-		},
-		// Benches
-		"acacia_bench_side": {
-			"textures": [
-				"textures/blocks/benches/acacia_bench_side"
-			]
-		},
-		"acacia_bench_top": {
-			"textures": [
-				"textures/blocks/benches/acacia_bench_top"
-			]
-		},
-		"bamboo_bench_front": {
-			"textures": [
-				"textures/blocks/benches/bamboo_bench_front"
-			]
-		},
-		"bamboo_bench_side": {
-			"textures": [
-				"textures/blocks/benches/bamboo_bench_side"
-			]
-		},
-		"bamboo_bench_top": {
-			"textures": [
-				"textures/blocks/benches/bamboo_bench_top"
-			]
-		},
-		"birch_bench_side": {
-			"textures": [
-				"textures/blocks/benches/birch_bench_side"
-			]
-		},
-		"birch_bench_top": {
-			"textures": [
-				"textures/blocks/benches/birch_bench_top"
-			]
-		},
-		"cherry_bench_side": {
-			"textures": [
-				"textures/blocks/benches/cherry_bench_side"
-			]
-		},
-		"cherry_bench_top": {
-			"textures": [
-				"textures/blocks/benches/cherry_bench_top"
-			]
-		},
-		"crimson_bench_side": {
-			"textures": [
-				"textures/blocks/benches/crimson_bench_side"
-			]
-		},
-		"crimson_bench_top": {
-			"textures": [
-				"textures/blocks/benches/crimson_bench_top"
-			]
-		},
-		"dark_oak_bench_side": {
-			"textures": [
-				"textures/blocks/benches/dark_oak_bench_side"
-			]
-		},
-		"dark_oak_bench_top": {
-			"textures": [
-				"textures/blocks/benches/dark_oak_bench_top"
-			]
-		},
-		"jungle_bench_side": {
-			"textures": [
-				"textures/blocks/benches/jungle_bench_side"
-			]
-		},
-		"jungle_bench_top": {
-			"textures": [
-				"textures/blocks/benches/jungle_bench_top"
-			]
-		},
-		"mangrove_bench_side": {
-			"textures": [
-				"textures/blocks/benches/mangrove_bench_side"
-			]
-		},
-		"mangrove_bench_top": {
-			"textures": [
-				"textures/blocks/benches/mangrove_bench_top"
-			]
-		},
-		"oak_bench_side": {
-			"textures": [
-				"textures/blocks/benches/oak_bench_side"
-			]
-		},
-		"oak_bench_top": {
-			"textures": [
-				"textures/blocks/benches/oak_bench_top"
-			]
-		},
-		"pale_oak_bench_side": {
-			"textures": [
-				"textures/blocks/benches/pale_oak_bench_side"
-			]
-		},
-		"pale_oak_bench_top": {
-			"textures": [
-				"textures/blocks/benches/pale_oak_bench_top"
-			]
-		},
-		"spruce_bench_side": {
-			"textures": [
-				"textures/blocks/benches/spruce_bench_side"
-			]
-		},
-		"spruce_bench_top": {
-			"textures": [
-				"textures/blocks/benches/spruce_bench_top"
-			]
-		},
-		"warped_bench_side": {
-			"textures": [
-				"textures/blocks/benches/warped_bench_side"
-			]
-		},
-		"warped_bench_top": {
-			"textures": [
-				"textures/blocks/benches/warped_bench_top"
-			]
-		},
-		// Curtains
-		"black_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/black_curtain_bottom"
-			]
-		},
-		"black_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/black_curtain_center"
-			]
-		},
-		"black_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/black_curtain_top"
-			]
-		},
-		"black_curtain": {
-			"textures": [
-				"textures/blocks/curtains/black_curtain"
-			]
-		},
-		"blue_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/blue_curtain_bottom"
-			]
-		},
-		"blue_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/blue_curtain_center"
-			]
-		},
-		"blue_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/blue_curtain_top"
-			]
-		},
-		"blue_curtain": {
-			"textures": [
-				"textures/blocks/curtains/blue_curtain"
-			]
-		},
-		"brown_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/brown_curtain_bottom"
-			]
-		},
-		"brown_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/brown_curtain_center"
-			]
-		},
-		"brown_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/brown_curtain_top"
-			]
-		},
-		"brown_curtain": {
-			"textures": [
-				"textures/blocks/curtains/brown_curtain"
-			]
-		},
-		"cyan_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/cyan_curtain_bottom"
-			]
-		},
-		"cyan_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/cyan_curtain_center"
-			]
-		},
-		"cyan_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/cyan_curtain_top"
-			]
-		},
-		"cyan_curtain": {
-			"textures": [
-				"textures/blocks/curtains/cyan_curtain"
-			]
-		},
-		"gray_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/gray_curtain_bottom"
-			]
-		},
-		"gray_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/gray_curtain_center"
-			]
-		},
-		"gray_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/gray_curtain_top"
-			]
-		},
-		"gray_curtain": {
-			"textures": [
-				"textures/blocks/curtains/gray_curtain"
-			]
-		},
-		"green_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/green_curtain_bottom"
-			]
-		},
-		"green_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/green_curtain_center"
-			]
-		},
-		"green_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/green_curtain_top"
-			]
-		},
-		"green_curtain": {
-			"textures": [
-				"textures/blocks/curtains/green_curtain"
-			]
-		},
-		"light_blue_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/light_blue_curtain_bottom"
-			]
-		},
-		"light_blue_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/light_blue_curtain_center"
-			]
-		},
-		"light_blue_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/light_blue_curtain_top"
-			]
-		},
-		"light_blue_curtain": {
-			"textures": [
-				"textures/blocks/curtains/light_blue_curtain"
-			]
-		},
-		"light_gray_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/light_gray_curtain_bottom"
-			]
-		},
-		"light_gray_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/light_gray_curtain_center"
-			]
-		},
-		"light_gray_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/light_gray_curtain_top"
-			]
-		},
-		"light_gray_curtain": {
-			"textures": [
-				"textures/blocks/curtains/light_gray_curtain"
-			]
-		},
-		"lime_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/lime_curtain_bottom"
-			]
-		},
-		"lime_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/lime_curtain_center"
-			]
-		},
-		"lime_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/lime_curtain_top"
-			]
-		},
-		"lime_curtain": {
-			"textures": [
-				"textures/blocks/curtains/lime_curtain"
-			]
-		},
-		"magenta_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/magenta_curtain_bottom"
-			]
-		},
-		"magenta_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/magenta_curtain_center"
-			]
-		},
-		"magenta_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/magenta_curtain_top"
-			]
-		},
-		"magenta_curtain": {
-			"textures": [
-				"textures/blocks/curtains/magenta_curtain"
-			]
-		},
-		"orange_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/orange_curtain_bottom"
-			]
-		},
-		"orange_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/orange_curtain_center"
-			]
-		},
-		"orange_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/orange_curtain_top"
-			]
-		},
-		"orange_curtain": {
-			"textures": [
-				"textures/blocks/curtains/orange_curtain"
-			]
-		},
-		"pink_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/pink_curtain_bottom"
-			]
-		},
-		"pink_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/pink_curtain_center"
-			]
-		},
-		"pink_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/pink_curtain_top"
-			]
-		},
-		"pink_curtain": {
-			"textures": [
-				"textures/blocks/curtains/pink_curtain"
-			]
-		},
-		"purple_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/purple_curtain_bottom"
-			]
-		},
-		"purple_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/purple_curtain_center"
-			]
-		},
-		"purple_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/purple_curtain_top"
-			]
-		},
-		"purple_curtain": {
-			"textures": [
-				"textures/blocks/curtains/purple_curtain"
-			]
-		},
-		"red_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/red_curtain_bottom"
-			]
-		},
-		"red_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/red_curtain_center"
-			]
-		},
-		"red_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/red_curtain_top"
-			]
-		},
-		"red_curtain": {
-			"textures": [
-				"textures/blocks/curtains/red_curtain"
-			]
-		},
-		"white_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/white_curtain_bottom"
-			]
-		},
-		"white_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/white_curtain_center"
-			]
-		},
-		"white_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/white_curtain_top"
-			]
-		},
-		"white_curtain": {
-			"textures": [
-				"textures/blocks/curtains/white_curtain"
-			]
-		},
-		"yellow_curtain_bottom": {
-			"textures": [
-				"textures/blocks/curtains/yellow_curtain_bottom"
-			]
-		},
-		"yellow_curtain_center": {
-			"textures": [
-				"textures/blocks/curtains/yellow_curtain_center"
-			]
-		},
-		"yellow_curtain_top": {
-			"textures": [
-				"textures/blocks/curtains/yellow_curtain_top"
-			]
-		},
-		"yellow_curtain": {
-			"textures": [
-				"textures/blocks/curtains/yellow_curtain"
-			]
-		},
-		// Stucco
-		"black_stucco": {
-			"textures": [
-				"textures/blocks/stucco/black_stucco"
-			]
-		},
-		"blue_stucco": {
-			"textures": [
-				"textures/blocks/stucco/blue_stucco"
-			]
-		},
-		"brown_stucco": {
-			"textures": [
-				"textures/blocks/stucco/brown_stucco"
-			]
-		},
-		"cyan_stucco": {
-			"textures": [
-				"textures/blocks/stucco/cyan_stucco"
-			]
-		},
-		"gray_stucco": {
-			"textures": [
-				"textures/blocks/stucco/gray_stucco"
-			]
-		},
-		"green_stucco": {
-			"textures": [
-				"textures/blocks/stucco/green_stucco"
-			]
-		},
-		"light_blue_stucco": {
-			"textures": [
-				"textures/blocks/stucco/light_blue_stucco"
-			]
-		},
-		"light_gray_stucco": {
-			"textures": [
-				"textures/blocks/stucco/light_gray_stucco"
-			]
-		},
-		"lime_stucco": {
-			"textures": [
-				"textures/blocks/stucco/lime_stucco"
-			]
-		},
-		"magenta_stucco": {
-			"textures": [
-				"textures/blocks/stucco/magenta_stucco"
-			]
-		},
-		"orange_stucco": {
-			"textures": [
-				"textures/blocks/stucco/orange_stucco"
-			]
-		},
-		"pink_stucco": {
-			"textures": [
-				"textures/blocks/stucco/pink_stucco"
-			]
-		},
-		"purple_stucco": {
-			"textures": [
-				"textures/blocks/stucco/purple_stucco"
-			]
-		},
-		"red_stucco": {
-			"textures": [
-				"textures/blocks/stucco/red_stucco"
-			]
-		},
-		"white_stucco": {
-			"textures": [
-				"textures/blocks/stucco/white_stucco"
-			]
-		},
-		"yellow_stucco": {
-			"textures": [
-				"textures/blocks/stucco/yellow_stucco"
-			]
-		},
-		// Terracotta Shingles
-		"black_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/black_terracotta_shingle"
-			]
-		},
-		"blue_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/blue_terracotta_shingle"
-			]
-		},
-		"brown_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/brown_terracotta_shingle"
-			]
-		},
-		"cyan_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/cyan_terracotta_shingle"
-			]
-		},
-		"gray_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/gray_terracotta_shingle"
-			]
-		},
-		"green_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/green_terracotta_shingle"
-			]
-		},
-		"light_blue_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/light_blue_terracotta_shingle"
-			]
-		},
-		"light_gray_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/light_gray_terracotta_shingle"
-			]
-		},
-		"lime_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/lime_terracotta_shingle"
-			]
-		},
-		"magenta_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/magenta_terracotta_shingle"
-			]
-		},
-		"orange_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/orange_terracotta_shingle"
-			]
-		},
-		"pink_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/pink_terracotta_shingle"
-			]
-		},
-		"purple_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/purple_terracotta_shingle"
-			]
-		},
-		"red_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/red_terracotta_shingle"
-			]
-		},
-		"terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/terracotta_shingle"
-			]
-		},
-		"white_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/white_terracotta_shingle"
-			]
-		},
-		"yellow_terracotta_shingle": {
-			"textures": [
-				"textures/blocks/terracotta_shingles/yellow_terracotta_shingle"
-			]
-		}
-	}
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "empty": {
+            "textures": [
+                "textures/blocks/empty"
+            ]
+        },
+        // Stone
+        "aged_bricks": {
+            "textures": [
+                "textures/blocks/aged_bricks"
+            ]
+        },
+        "bone_bricks": {
+            "textures": [
+                "textures/blocks/bone_bricks"
+            ]
+        },
+        "bone_pillar_side": {
+            "textures": [
+                "textures/blocks/bone_pillar_side"
+            ]
+        },
+        "bone_pillar_top": {
+            "textures": [
+                "textures/blocks/bone_pillar_top"
+            ]
+        },
+        "chiseled_bone": {
+            "textures": [
+                "textures/blocks/chiseled_bone"
+            ]
+        },
+        "chiseled_diorite": {
+            "textures": [
+                "textures/blocks/chiseled_diorite"
+            ]
+        },
+        "cut_polished_diorite": {
+            "textures": [
+                "textures/blocks/cut_polished_diorite"
+            ]
+        },
+        "dripstone_bricks": {
+            "textures": [
+                "textures/blocks/dripstone_bricks"
+            ]
+        },
+        "diorite_pillar_side": {
+            "textures": [
+                "textures/blocks/diorite_pillar_side"
+            ]
+        },
+        "diorite_pillar_top": {
+            "textures": [
+                "textures/blocks/diorite_pillar_top"
+            ]
+        },
+        "dripstone_polished": {
+            "textures": [
+                "textures/blocks/dripstone_polished"
+            ]
+        },
+        "dripstone_polished_bricks": {
+            "textures": [
+                "textures/blocks/dripstone_polished_bricks"
+            ]
+        },
+        "dripstone_polished_slab_side": {
+            "textures": [
+                "textures/blocks/dripstone_polished_slab_side"
+            ]
+        },
+        "iron_railing": {
+            "textures": [
+                "textures/blocks/iron_railing"
+            ]
+        },
+        "limestone_bricks": {
+            "textures": [
+                "textures/blocks/limestone_bricks"
+            ]
+        },
+        "limestone": {
+            "textures": [
+                "textures/blocks/limestone"
+            ]
+        },
+        "mossy_bone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_bone_bricks"
+            ]
+        },
+        "mossy_bricks": {
+            "textures": [
+                "textures/blocks/mossy_bricks"
+            ]
+        },
+        "mossy_end_bricks": {
+            "textures": [
+                "textures/blocks/mossy_end_bricks"
+            ]
+        },
+        "mossy_dripstone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_dripstone_bricks"
+            ]
+        },
+        "mossy_limestone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_limestone_bricks"
+            ]
+        },
+        "mossy_nether_bricks": {
+            "textures": [
+                "textures/blocks/mossy_nether_bricks"
+            ]
+        },
+        "mossy_polished_blackstone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_polished_blackstone_bricks"
+            ]
+        },
+        "mossy_polished_bone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_polished_bone_bricks"
+            ]
+        },
+        "mossy_polished_dripstone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_polished_dripstone_bricks"
+            ]
+        },
+        "mossy_polished_limestone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_polished_limestone_bricks"
+            ]
+        },
+        "mossy_polished_schist_bricks": {
+            "textures": [
+                "textures/blocks/mossy_polished_schist_bricks"
+            ]
+        },
+        "mossy_quartz_bricks": {
+            "textures": [
+                "textures/blocks/mossy_quartz_bricks"
+            ]
+        },
+        "mossy_red_nether_bricks": {
+            "textures": [
+                "textures/blocks/mossy_red_nether_bricks"
+            ]
+        },
+        "mossy_red_sandstone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_red_sandstone_bricks"
+            ]
+        },
+        "mossy_resin_bricks": {
+            "textures": [
+                "textures/blocks/mossy_resin_bricks"
+            ]
+        },
+        "mossy_sandstone_bricks": {
+            "textures": [
+                "textures/blocks/mossy_sandstone_bricks"
+            ]
+        },
+        "mossy_schist_bricks": {
+            "textures": [
+                "textures/blocks/mossy_schist_bricks"
+            ]
+        },
+        "mossy_smooth_stonebrick": {
+            "textures": [
+                "textures/blocks/mossy_smooth_stonebrick"
+            ]
+        },
+        "mossy_stonebrick_mixed": {
+            "textures": [
+                "textures/blocks/mossy_stonebrick_mixed"
+            ]
+        },
+        "mossy_tuff_bricks": {
+            "textures": [
+                "textures/blocks/mossy_tuff_bricks"
+            ]
+        },
+        "polished_bone_bricks": {
+            "textures": [
+                "textures/blocks/polished_bone_bricks"
+            ]
+        },
+        "polished_bone": {
+            "textures": [
+                "textures/blocks/polished_bone"
+            ]
+        },
+        "polished_limestone_bricks": {
+            "textures": [
+                "textures/blocks/polished_limestone_bricks"
+            ]
+        },
+        "polished_limestone_slab_side": {
+            "textures": [
+                "textures/blocks/polished_limestone_slab_side"
+            ]
+        },
+        "polished_limestone": {
+            "textures": [
+                "textures/blocks/polished_limestone"
+            ]
+        },
+        "polished_schist_bricks": {
+            "textures": [
+                "textures/blocks/polished_schist_bricks"
+            ]
+        },
+        "polished_schist_slab_side": {
+            "textures": [
+                "textures/blocks/polished_schist_slab_side"
+            ]
+        },
+        "polished_schist": {
+            "textures": [
+                "textures/blocks/polished_schist"
+            ]
+        },
+        "polished_stone_pillar_side": {
+            "textures": [
+                "textures/blocks/polished_stone_pillar_side"
+            ]
+        },
+        "polished_stone_pillar_top": {
+            "textures": [
+                "textures/blocks/polished_stone_pillar_top"
+            ]
+        },
+        "polished_stone_slab_side": {
+            "textures": [
+                "textures/blocks/polished_stone_slab_side"
+            ]
+        },
+        "polished_stone": {
+            "textures": [
+                "textures/blocks/polished_stone"
+            ]
+        },
+        "red_sandstone_bricks": {
+            "textures": [
+                "textures/blocks/red_sandstone_bricks"
+            ]
+        },
+        "sandstone_bricks": {
+            "textures": [
+                "textures/blocks/sandstone_bricks"
+            ]
+        },
+        "schist_bricks": {
+            "textures": [
+                "textures/blocks/schist_bricks"
+            ]
+        },
+        "schist": {
+            "textures": [
+                "textures/blocks/schist"
+            ]
+        },
+        "smooth_diorite": {
+            "textures": [
+                "textures/blocks/smooth_diorite"
+            ]
+        },
+        "smooth_stonebrick": {
+            "textures": [
+                "textures/blocks/smooth_stonebrick"
+            ]
+        },
+        "stone_andesite_mossy_smooth_bricks_small": {
+            "textures": [
+                "textures/blocks/stone_andesite_mossy_smooth_bricks_small"
+            ]
+        },
+        "stone_andesite_mossy_smooth_bricks": {
+            "textures": [
+                "textures/blocks/stone_andesite_mossy_smooth_bricks"
+            ]
+        },
+        "stone_andesite_smooth_bricks_small": {
+            "textures": [
+                "textures/blocks/stone_andesite_smooth_bricks_small"
+            ]
+        },
+        "stone_andesite_smooth_bricks": {
+            "textures": [
+                "textures/blocks/stone_andesite_smooth_bricks"
+            ]
+        },
+        "stone_diorite_mossy_smooth_bricks": {
+            "textures": [
+                "textures/blocks/stone_diorite_mossy_smooth_bricks"
+            ]
+        },
+        "stone_diorite_mossy_smooth_bricks_small": {
+            "textures": [
+                "textures/blocks/stone_diorite_mossy_smooth_bricks_small"
+            ]
+        },
+        "stone_diorite_smooth_bricks_small": {
+            "textures": [
+                "textures/blocks/stone_diorite_smooth_bricks_small"
+            ]
+        },
+        "stone_diorite_smooth_bricks": {
+            "textures": [
+                "textures/blocks/stone_diorite_smooth_bricks"
+            ]
+        },
+        "stone_granite_mossy_smooth_bricks": {
+            "textures": [
+                "textures/blocks/stone_granite_mossy_smooth_bricks"
+            ]
+        },
+        "stone_granite_mossy_smooth_bricks_small": {
+            "textures": [
+                "textures/blocks/stone_granite_mossy_smooth_bricks_small"
+            ]
+        },
+        "stone_granite_smooth_bricks_small": {
+            "textures": [
+                "textures/blocks/stone_granite_smooth_bricks_small"
+            ]
+        },
+        "stone_granite_smooth_bricks": {
+            "textures": [
+                "textures/blocks/stone_granite_smooth_bricks"
+            ]
+        },
+        "stonebrick_mixed": {
+            "textures": [
+                "textures/blocks/stonebrick_mixed"
+            ]
+        },
+        "tiled_bone_bricks": {
+            "textures": [
+                "textures/blocks/tiled_bone_bricks"
+            ]
+        },
+        "weathered_bricks": {
+            "textures": [
+                "textures/blocks/weathered_bricks"
+            ]
+        },
+        // Brick Indents
+        "andesite_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/andesite_brick_indent_side"
+            ]
+        },
+        "andesite_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/andesite_brick_indent_side2"
+            ]
+        },
+        "andesite_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/andesite_brick_indent_top"
+            ]
+        },
+        "bone_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/bone_brick_indent_side"
+            ]
+        },
+        "bone_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/bone_brick_indent_side2"
+            ]
+        },
+        "bone_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/bone_brick_indent_top"
+            ]
+        },
+        "brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/brick_indent_side"
+            ]
+        },
+        "brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/brick_indent_side2"
+            ]
+        },
+        "brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/brick_indent_top"
+            ]
+        },
+        "diorite_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/diorite_brick_indent_side"
+            ]
+        },
+        "diorite_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/diorite_brick_indent_side2"
+            ]
+        },
+        "diorite_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/diorite_brick_indent_top"
+            ]
+        },
+        "dripstone_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/dripstone_brick_indent_side"
+            ]
+        },
+        "dripstone_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/dripstone_brick_indent_side2"
+            ]
+        },
+        "dripstone_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/dripstone_brick_indent_top"
+            ]
+        },
+        "granite_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/granite_brick_indent_side"
+            ]
+        },
+        "granite_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/granite_brick_indent_side2"
+            ]
+        },
+        "granite_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/granite_brick_indent_top"
+            ]
+        },
+        "limestone_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/limestone_brick_indent_side"
+            ]
+        },
+        "limestone_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/limestone_brick_indent_side2"
+            ]
+        },
+        "limestone_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/limestone_brick_indent_top"
+            ]
+        },
+        "mixed_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/mixed_brick_indent_side"
+            ]
+        },
+        "mixed_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/mixed_brick_indent_side2"
+            ]
+        },
+        "mixed_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/mixed_brick_indent_top"
+            ]
+        },
+        "nether_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/nether_brick_indent_side"
+            ]
+        },
+        "nether_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/nether_brick_indent_side2"
+            ]
+        },
+        "nether_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/nether_brick_indent_top"
+            ]
+        },
+        "prismarine_dark_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/prismarine_dark_brick_indent_side"
+            ]
+        },
+        "prismarine_dark_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/prismarine_dark_brick_indent_side2"
+            ]
+        },
+        "prismarine_dark_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/prismarine_dark_brick_indent_top"
+            ]
+        },
+        "red_nether_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/red_nether_brick_indent_side"
+            ]
+        },
+        "red_nether_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/red_nether_brick_indent_side2"
+            ]
+        },
+        "red_nether_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/red_nether_brick_indent_top"
+            ]
+        },
+        "red_sandstone_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/red_sandstone_brick_indent_side"
+            ]
+        },
+        "red_sandstone_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/red_sandstone_brick_indent_side2"
+            ]
+        },
+        "red_sandstone_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/red_sandstone_brick_indent_top"
+            ]
+        },
+        "resin_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/resin_brick_indent_side"
+            ]
+        },
+        "resin_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/resin_brick_indent_side2"
+            ]
+        },
+        "resin_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/resin_brick_indent_top"
+            ]
+        },
+        "sandstone_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/sandstone_brick_indent_side"
+            ]
+        },
+        "sandstone_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/sandstone_brick_indent_side2"
+            ]
+        },
+        "sandstone_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/sandstone_brick_indent_top"
+            ]
+        },
+        "schist_brick_indent_side": {
+            "textures": [
+                "textures/blocks/brick_indents/schist_brick_indent_side"
+            ]
+        },
+        "schist_brick_indent_side2": {
+            "textures": [
+                "textures/blocks/brick_indents/schist_brick_indent_side2"
+            ]
+        },
+        "schist_brick_indent_top": {
+            "textures": [
+                "textures/blocks/brick_indents/schist_brick_indent_top"
+            ]
+        },
+        // Chiseled Wood
+        "acacia_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/acacia_planks_crate"
+            ]
+        },
+        "acacia_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/acacia_shutter_small"
+            ]
+        },
+        "acacia_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/acacia_shutter"
+            ]
+        },
+        "bamboo_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/bamboo_planks_crate"
+            ]
+        },
+        "bamboo_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/bamboo_shutter_small"
+            ]
+        },
+        "bamboo_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/bamboo_shutter"
+            ]
+        },
+        "banded_acacia_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_acacia_crate"
+            ]
+        },
+        "banded_bamboo_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_bamboo_crate"
+            ]
+        },
+        "banded_birch_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_birch_crate"
+            ]
+        },
+        "banded_cherry_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_cherry_crate"
+            ]
+        },
+        "banded_crimson_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_crimson_crate"
+            ]
+        },
+        "banded_dark_oak_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_dark_oak_crate"
+            ]
+        },
+        "banded_jungle_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_jungle_crate"
+            ]
+        },
+        "banded_mangrove_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_mangrove_crate"
+            ]
+        },
+        "banded_oak_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_oak_crate"
+            ]
+        },
+        "banded_pale_oak_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_pale_oak_crate"
+            ]
+        },
+        "banded_spruce_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_spruce_crate"
+            ]
+        },
+        "banded_warped_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/banded_warped_crate"
+            ]
+        },
+        "birch_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/birch_planks_crate"
+            ]
+        },
+        "birch_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/birch_shutter_small"
+            ]
+        },
+        "birch_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/birch_shutter"
+            ]
+        },
+        "carved_acacia_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_acacia_planks"
+            ]
+        },
+        "carved_bamboo_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_bamboo_planks"
+            ]
+        },
+        "carved_birch_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_birch_planks"
+            ]
+        },
+        "carved_cherry_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_cherry_planks"
+            ]
+        },
+        "carved_crimson_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_crimson_planks"
+            ]
+        },
+        "carved_dark_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_dark_oak_planks"
+            ]
+        },
+        "carved_jungle_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_jungle_planks"
+            ]
+        },
+        "carved_mangrove_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_mangrove_planks"
+            ]
+        },
+        "cherry_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/cherry_planks_crate"
+            ]
+        },
+        "carved_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_oak_planks"
+            ]
+        },
+        "carved_pale_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_pale_oak_planks"
+            ]
+        },
+        "carved_spruce_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_spruce_planks"
+            ]
+        },
+        "carved_warped_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/carved_warped_planks"
+            ]
+        },
+        "cherry_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/cherry_shutter_small"
+            ]
+        },
+        "cherry_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/cherry_shutter"
+            ]
+        },
+        "chiseled_acacia_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_acacia_planks"
+            ]
+        },
+        "chiseled_birch_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_birch_planks"
+            ]
+        },
+        "chiseled_bamboo_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_bamboo_planks"
+            ]
+        },
+        "chiseled_cherry_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_cherry_planks"
+            ]
+        },
+        "chiseled_crimson_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_crimson_planks"
+            ]
+        },
+        "chiseled_dark_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_dark_oak_planks"
+            ]
+        },
+        "chiseled_jungle_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_jungle_planks"
+            ]
+        },
+        "chiseled_mangrove_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_mangrove_planks"
+            ]
+        },
+        "chiseled_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_oak_planks"
+            ]
+        },
+        "chiseled_pale_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_pale_oak_planks"
+            ]
+        },
+        "chiseled_spruce_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_spruce_planks"
+            ]
+        },
+        "chiseled_warped_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/chiseled_warped_planks"
+            ]
+        },
+        "crimson_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/crimson_planks_crate"
+            ]
+        },
+        "crimson_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/crimson_shutter_small"
+            ]
+        },
+        "crimson_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/crimson_shutter"
+            ]
+        },
+        "dark_oak_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/dark_oak_planks_crate"
+            ]
+        },
+        "dark_oak_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/dark_oak_shutter_small"
+            ]
+        },
+        "dark_oak_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/dark_oak_shutter"
+            ]
+        },
+        "jungle_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/jungle_planks_crate"
+            ]
+        },
+        "jungle_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/jungle_shutter_small"
+            ]
+        },
+        "jungle_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/jungle_shutter"
+            ]
+        },
+        "large_acacia_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_acacia_planks"
+            ]
+        },
+        "large_bamboo_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_bamboo_planks"
+            ]
+        },
+        "large_birch_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_birch_planks"
+            ]
+        },
+        "large_cherry_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_cherry_planks"
+            ]
+        },
+        "large_crimson_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_crimson_planks"
+            ]
+        },
+        "large_dark_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_dark_oak_planks"
+            ]
+        },
+        "large_jungle_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_jungle_planks"
+            ]
+        },
+        "large_mangrove_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_mangrove_planks"
+            ]
+        },
+        "large_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_oak_planks"
+            ]
+        },
+        "large_pale_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_pale_oak_planks"
+            ]
+        },
+        "large_spruce_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_spruce_planks"
+            ]
+        },
+        "large_warped_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/large_warped_planks"
+            ]
+        },
+        "mangrove_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mangrove_planks_crate"
+            ]
+        },
+        "mangrove_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mangrove_shutter_small"
+            ]
+        },
+        "mangrove_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mangrove_shutter"
+            ]
+        },
+        "mossy_acacia_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_acacia_planks"
+            ]
+        },
+        "mossy_bamboo_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_bamboo_planks"
+            ]
+        },
+        "mossy_birch_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_birch_planks"
+            ]
+        },
+        "mossy_cherry_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_cherry_planks"
+            ]
+        },
+        "mossy_crimson_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_crimson_planks"
+            ]
+        },
+        "mossy_dark_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_dark_oak_planks"
+            ]
+        },
+        "mossy_jungle_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_jungle_planks"
+            ]
+        },
+        "mossy_mangrove_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_mangrove_planks"
+            ]
+        },
+        "mossy_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_oak_planks"
+            ]
+        },
+        "mossy_pale_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_pale_oak_planks"
+            ]
+        },
+        "mossy_spruce_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_spruce_planks"
+            ]
+        },
+        "mossy_warped_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/mossy_warped_planks"
+            ]
+        },
+        "oak_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/oak_planks_crate"
+            ]
+        },
+        "oak_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/oak_shutter_small"
+            ]
+        },
+        "oak_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/oak_shutter"
+            ]
+        },
+        "pale_oak_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/pale_oak_planks_crate"
+            ]
+        },
+        "pale_oak_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/pale_oak_shutter_small"
+            ]
+        },
+        "pale_oak_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/pale_oak_shutter"
+            ]
+        },
+        "spruce_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/spruce_planks_crate"
+            ]
+        },
+        "spruce_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/spruce_shutter_small"
+            ]
+        },
+        "spruce_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/spruce_shutter"
+            ]
+        },
+        "tiled_acacia_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_acacia_planks"
+            ]
+        },
+        "tiled_birch_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_birch_planks"
+            ]
+        },
+        "tiled_cherry_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_cherry_planks"
+            ]
+        },
+        "tiled_crimson_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_crimson_planks"
+            ]
+        },
+        "tiled_dark_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_dark_oak_planks"
+            ]
+        },
+        "tiled_jungle_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_jungle_planks"
+            ]
+        },
+        "tiled_mangrove_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_mangrove_planks"
+            ]
+        },
+        "tiled_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_oak_planks"
+            ]
+        },
+        "tiled_pale_oak_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_pale_oak_planks"
+            ]
+        },
+        "tiled_spruce_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_spruce_planks"
+            ]
+        },
+        "tiled_warped_planks": {
+            "textures": [
+                "textures/blocks/wood_chiseled/tiled_warped_planks"
+            ]
+        },
+        "warped_planks_crate": {
+            "textures": [
+                "textures/blocks/wood_chiseled/warped_planks_crate"
+            ]
+        },
+        "warped_shutter_small": {
+            "textures": [
+                "textures/blocks/wood_chiseled/warped_shutter_small"
+            ]
+        },
+        "warped_shutter": {
+            "textures": [
+                "textures/blocks/wood_chiseled/warped_shutter"
+            ]
+        },
+        // Lanterns
+        "large_lantern_bottom": {
+            "textures": [
+                "textures/blocks/lanterns/large_lantern_bottom"
+            ]
+        },
+        "large_lantern_side_off": {
+            "textures": [
+                "textures/blocks/lanterns/large_lantern_side_off"
+            ]
+        },
+        "large_lantern_side": {
+            "textures": [
+                "textures/blocks/lanterns/large_lantern_side"
+            ]
+        },
+        "large_lantern_top": {
+            "textures": [
+                "textures/blocks/lanterns/large_lantern_top"
+            ]
+        },
+        "large_soul_lantern_side_off": {
+            "textures": [
+                "textures/blocks/lanterns/large_soul_lantern_side_off"
+            ]
+        },
+        "large_soul_lantern_side": {
+            "textures": [
+                "textures/blocks/lanterns/large_soul_lantern_side"
+            ]
+        },
+        // Stools
+        "black_stool_side": {
+            "textures": [
+                "textures/blocks/stools/black_stool_side"
+            ]
+        },
+        "black_stool_top": {
+            "textures": [
+                "textures/blocks/stools/black_stool_top"
+            ]
+        },
+        "blue_stool_side": {
+            "textures": [
+                "textures/blocks/stools/blue_stool_side"
+            ]
+        },
+        "blue_stool_top": {
+            "textures": [
+                "textures/blocks/stools/blue_stool_top"
+            ]
+        },
+        "brown_stool_side": {
+            "textures": [
+                "textures/blocks/stools/brown_stool_side"
+            ]
+        },
+        "brown_stool_top": {
+            "textures": [
+                "textures/blocks/stools/brown_stool_top"
+            ]
+        },
+        "cyan_stool_side": {
+            "textures": [
+                "textures/blocks/stools/cyan_stool_side"
+            ]
+        },
+        "cyan_stool_top": {
+            "textures": [
+                "textures/blocks/stools/cyan_stool_top"
+            ]
+        },
+        "gray_stool_side": {
+            "textures": [
+                "textures/blocks/stools/gray_stool_side"
+            ]
+        },
+        "gray_stool_top": {
+            "textures": [
+                "textures/blocks/stools/gray_stool_top"
+            ]
+        },
+        "green_stool_side": {
+            "textures": [
+                "textures/blocks/stools/green_stool_side"
+            ]
+        },
+        "green_stool_top": {
+            "textures": [
+                "textures/blocks/stools/green_stool_top"
+            ]
+        },
+        "light_blue_stool_side": {
+            "textures": [
+                "textures/blocks/stools/light_blue_stool_side"
+            ]
+        },
+        "light_blue_stool_top": {
+            "textures": [
+                "textures/blocks/stools/light_blue_stool_top"
+            ]
+        },
+        "light_gray_stool_side": {
+            "textures": [
+                "textures/blocks/stools/light_gray_stool_side"
+            ]
+        },
+        "light_gray_stool_top": {
+            "textures": [
+                "textures/blocks/stools/light_gray_stool_top"
+            ]
+        },
+        "lime_stool_side": {
+            "textures": [
+                "textures/blocks/stools/lime_stool_side"
+            ]
+        },
+        "lime_stool_top": {
+            "textures": [
+                "textures/blocks/stools/lime_stool_top"
+            ]
+        },
+        "magenta_stool_side": {
+            "textures": [
+                "textures/blocks/stools/magenta_stool_side"
+            ]
+        },
+        "magenta_stool_top": {
+            "textures": [
+                "textures/blocks/stools/magenta_stool_top"
+            ]
+        },
+        "orange_stool_side": {
+            "textures": [
+                "textures/blocks/stools/orange_stool_side"
+            ]
+        },
+        "orange_stool_top": {
+            "textures": [
+                "textures/blocks/stools/orange_stool_top"
+            ]
+        },
+        "pink_stool_side": {
+            "textures": [
+                "textures/blocks/stools/pink_stool_side"
+            ]
+        },
+        "pink_stool_top": {
+            "textures": [
+                "textures/blocks/stools/pink_stool_top"
+            ]
+        },
+        "purple_stool_side": {
+            "textures": [
+                "textures/blocks/stools/purple_stool_side"
+            ]
+        },
+        "purple_stool_top": {
+            "textures": [
+                "textures/blocks/stools/purple_stool_top"
+            ]
+        },
+        "red_stool_side": {
+            "textures": [
+                "textures/blocks/stools/red_stool_side"
+            ]
+        },
+        "red_stool_top": {
+            "textures": [
+                "textures/blocks/stools/red_stool_top"
+            ]
+        },
+        "stool_bottom": {
+            "textures": [
+                "textures/blocks/stools/stool_bottom"
+            ]
+        },
+        "white_stool_side": {
+            "textures": [
+                "textures/blocks/stools/white_stool_side"
+            ]
+        },
+        "white_stool_top": {
+            "textures": [
+                "textures/blocks/stools/white_stool_top"
+            ]
+        },
+        "yellow_stool_side": {
+            "textures": [
+                "textures/blocks/stools/yellow_stool_side"
+            ]
+        },
+        "yellow_stool_top": {
+            "textures": [
+                "textures/blocks/stools/yellow_stool_top"
+            ]
+        },
+        // Chiseled Wood
+        "acacia_table_side": {
+            "textures": [
+                "textures/blocks/tables/acacia_table_side"
+            ]
+        },
+        "acacia_table_top": {
+            "textures": [
+                "textures/blocks/tables/acacia_table_top"
+            ]
+        },
+        "bamboo_table_side": {
+            "textures": [
+                "textures/blocks/tables/bamboo_table_side"
+            ]
+        },
+        "bamboo_table_top": {
+            "textures": [
+                "textures/blocks/tables/bamboo_table_top"
+            ]
+        },
+        "birch_table_side": {
+            "textures": [
+                "textures/blocks/tables/birch_table_side"
+            ]
+        },
+        "birch_table_top": {
+            "textures": [
+                "textures/blocks/tables/birch_table_top"
+            ]
+        },
+        "cherry_table_side": {
+            "textures": [
+                "textures/blocks/tables/cherry_table_side"
+            ]
+        },
+        "cherry_table_top": {
+            "textures": [
+                "textures/blocks/tables/cherry_table_top"
+            ]
+        },
+        "crimson_table_side": {
+            "textures": [
+                "textures/blocks/tables/crimson_table_side"
+            ]
+        },
+        "crimson_table_top": {
+            "textures": [
+                "textures/blocks/tables/crimson_table_top"
+            ]
+        },
+        "dark_oak_table_side": {
+            "textures": [
+                "textures/blocks/tables/dark_oak_table_side"
+            ]
+        },
+        "dark_oak_table_top": {
+            "textures": [
+                "textures/blocks/tables/dark_oak_table_top"
+            ]
+        },
+        "jungle_table_side": {
+            "textures": [
+                "textures/blocks/tables/jungle_table_side"
+            ]
+        },
+        "jungle_table_top": {
+            "textures": [
+                "textures/blocks/tables/jungle_table_top"
+            ]
+        },
+        "mangrove_table_side": {
+            "textures": [
+                "textures/blocks/tables/mangrove_table_side"
+            ]
+        },
+        "mangrove_table_top": {
+            "textures": [
+                "textures/blocks/tables/mangrove_table_top"
+            ]
+        },
+        "oak_table_side": {
+            "textures": [
+                "textures/blocks/tables/oak_table_side"
+            ]
+        },
+        "oak_table_top": {
+            "textures": [
+                "textures/blocks/tables/oak_table_top"
+            ]
+        },
+        "pale_oak_table_side": {
+            "textures": [
+                "textures/blocks/tables/pale_oak_table_side"
+            ]
+        },
+        "pale_oak_table_top": {
+            "textures": [
+                "textures/blocks/tables/pale_oak_table_top"
+            ]
+        },
+        "spruce_table_side": {
+            "textures": [
+                "textures/blocks/tables/spruce_table_side"
+            ]
+        },
+        "spruce_table_top": {
+            "textures": [
+                "textures/blocks/tables/spruce_table_top"
+            ]
+        },
+        "warped_table_side": {
+            "textures": [
+                "textures/blocks/tables/warped_table_side"
+            ]
+        },
+        "warped_table_top": {
+            "textures": [
+                "textures/blocks/tables/warped_table_top"
+            ]
+        },
+        // Benches
+        "acacia_bench_side": {
+            "textures": [
+                "textures/blocks/benches/acacia_bench_side"
+            ]
+        },
+        "acacia_bench_top": {
+            "textures": [
+                "textures/blocks/benches/acacia_bench_top"
+            ]
+        },
+        "bamboo_bench_front": {
+            "textures": [
+                "textures/blocks/benches/bamboo_bench_front"
+            ]
+        },
+        "bamboo_bench_side": {
+            "textures": [
+                "textures/blocks/benches/bamboo_bench_side"
+            ]
+        },
+        "bamboo_bench_top": {
+            "textures": [
+                "textures/blocks/benches/bamboo_bench_top"
+            ]
+        },
+        "birch_bench_side": {
+            "textures": [
+                "textures/blocks/benches/birch_bench_side"
+            ]
+        },
+        "birch_bench_top": {
+            "textures": [
+                "textures/blocks/benches/birch_bench_top"
+            ]
+        },
+        "cherry_bench_side": {
+            "textures": [
+                "textures/blocks/benches/cherry_bench_side"
+            ]
+        },
+        "cherry_bench_top": {
+            "textures": [
+                "textures/blocks/benches/cherry_bench_top"
+            ]
+        },
+        "crimson_bench_side": {
+            "textures": [
+                "textures/blocks/benches/crimson_bench_side"
+            ]
+        },
+        "crimson_bench_top": {
+            "textures": [
+                "textures/blocks/benches/crimson_bench_top"
+            ]
+        },
+        "dark_oak_bench_side": {
+            "textures": [
+                "textures/blocks/benches/dark_oak_bench_side"
+            ]
+        },
+        "dark_oak_bench_top": {
+            "textures": [
+                "textures/blocks/benches/dark_oak_bench_top"
+            ]
+        },
+        "jungle_bench_side": {
+            "textures": [
+                "textures/blocks/benches/jungle_bench_side"
+            ]
+        },
+        "jungle_bench_top": {
+            "textures": [
+                "textures/blocks/benches/jungle_bench_top"
+            ]
+        },
+        "mangrove_bench_side": {
+            "textures": [
+                "textures/blocks/benches/mangrove_bench_side"
+            ]
+        },
+        "mangrove_bench_top": {
+            "textures": [
+                "textures/blocks/benches/mangrove_bench_top"
+            ]
+        },
+        "oak_bench_side": {
+            "textures": [
+                "textures/blocks/benches/oak_bench_side"
+            ]
+        },
+        "oak_bench_top": {
+            "textures": [
+                "textures/blocks/benches/oak_bench_top"
+            ]
+        },
+        "pale_oak_bench_side": {
+            "textures": [
+                "textures/blocks/benches/pale_oak_bench_side"
+            ]
+        },
+        "pale_oak_bench_top": {
+            "textures": [
+                "textures/blocks/benches/pale_oak_bench_top"
+            ]
+        },
+        "spruce_bench_side": {
+            "textures": [
+                "textures/blocks/benches/spruce_bench_side"
+            ]
+        },
+        "spruce_bench_top": {
+            "textures": [
+                "textures/blocks/benches/spruce_bench_top"
+            ]
+        },
+        "warped_bench_side": {
+            "textures": [
+                "textures/blocks/benches/warped_bench_side"
+            ]
+        },
+        "warped_bench_top": {
+            "textures": [
+                "textures/blocks/benches/warped_bench_top"
+            ]
+        },
+        // Curtains
+        "black_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/black_curtain_bottom"
+            ]
+        },
+        "black_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/black_curtain_center"
+            ]
+        },
+        "black_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/black_curtain_top"
+            ]
+        },
+        "black_curtain": {
+            "textures": [
+                "textures/blocks/curtains/black_curtain"
+            ]
+        },
+        "blue_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/blue_curtain_bottom"
+            ]
+        },
+        "blue_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/blue_curtain_center"
+            ]
+        },
+        "blue_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/blue_curtain_top"
+            ]
+        },
+        "blue_curtain": {
+            "textures": [
+                "textures/blocks/curtains/blue_curtain"
+            ]
+        },
+        "brown_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/brown_curtain_bottom"
+            ]
+        },
+        "brown_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/brown_curtain_center"
+            ]
+        },
+        "brown_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/brown_curtain_top"
+            ]
+        },
+        "brown_curtain": {
+            "textures": [
+                "textures/blocks/curtains/brown_curtain"
+            ]
+        },
+        "cyan_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/cyan_curtain_bottom"
+            ]
+        },
+        "cyan_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/cyan_curtain_center"
+            ]
+        },
+        "cyan_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/cyan_curtain_top"
+            ]
+        },
+        "cyan_curtain": {
+            "textures": [
+                "textures/blocks/curtains/cyan_curtain"
+            ]
+        },
+        "gray_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/gray_curtain_bottom"
+            ]
+        },
+        "gray_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/gray_curtain_center"
+            ]
+        },
+        "gray_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/gray_curtain_top"
+            ]
+        },
+        "gray_curtain": {
+            "textures": [
+                "textures/blocks/curtains/gray_curtain"
+            ]
+        },
+        "green_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/green_curtain_bottom"
+            ]
+        },
+        "green_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/green_curtain_center"
+            ]
+        },
+        "green_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/green_curtain_top"
+            ]
+        },
+        "green_curtain": {
+            "textures": [
+                "textures/blocks/curtains/green_curtain"
+            ]
+        },
+        "light_blue_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/light_blue_curtain_bottom"
+            ]
+        },
+        "light_blue_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/light_blue_curtain_center"
+            ]
+        },
+        "light_blue_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/light_blue_curtain_top"
+            ]
+        },
+        "light_blue_curtain": {
+            "textures": [
+                "textures/blocks/curtains/light_blue_curtain"
+            ]
+        },
+        "light_gray_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/light_gray_curtain_bottom"
+            ]
+        },
+        "light_gray_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/light_gray_curtain_center"
+            ]
+        },
+        "light_gray_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/light_gray_curtain_top"
+            ]
+        },
+        "light_gray_curtain": {
+            "textures": [
+                "textures/blocks/curtains/light_gray_curtain"
+            ]
+        },
+        "lime_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/lime_curtain_bottom"
+            ]
+        },
+        "lime_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/lime_curtain_center"
+            ]
+        },
+        "lime_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/lime_curtain_top"
+            ]
+        },
+        "lime_curtain": {
+            "textures": [
+                "textures/blocks/curtains/lime_curtain"
+            ]
+        },
+        "magenta_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/magenta_curtain_bottom"
+            ]
+        },
+        "magenta_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/magenta_curtain_center"
+            ]
+        },
+        "magenta_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/magenta_curtain_top"
+            ]
+        },
+        "magenta_curtain": {
+            "textures": [
+                "textures/blocks/curtains/magenta_curtain"
+            ]
+        },
+        "orange_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/orange_curtain_bottom"
+            ]
+        },
+        "orange_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/orange_curtain_center"
+            ]
+        },
+        "orange_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/orange_curtain_top"
+            ]
+        },
+        "orange_curtain": {
+            "textures": [
+                "textures/blocks/curtains/orange_curtain"
+            ]
+        },
+        "pink_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/pink_curtain_bottom"
+            ]
+        },
+        "pink_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/pink_curtain_center"
+            ]
+        },
+        "pink_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/pink_curtain_top"
+            ]
+        },
+        "pink_curtain": {
+            "textures": [
+                "textures/blocks/curtains/pink_curtain"
+            ]
+        },
+        "purple_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/purple_curtain_bottom"
+            ]
+        },
+        "purple_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/purple_curtain_center"
+            ]
+        },
+        "purple_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/purple_curtain_top"
+            ]
+        },
+        "purple_curtain": {
+            "textures": [
+                "textures/blocks/curtains/purple_curtain"
+            ]
+        },
+        "red_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/red_curtain_bottom"
+            ]
+        },
+        "red_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/red_curtain_center"
+            ]
+        },
+        "red_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/red_curtain_top"
+            ]
+        },
+        "red_curtain": {
+            "textures": [
+                "textures/blocks/curtains/red_curtain"
+            ]
+        },
+        "white_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/white_curtain_bottom"
+            ]
+        },
+        "white_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/white_curtain_center"
+            ]
+        },
+        "white_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/white_curtain_top"
+            ]
+        },
+        "white_curtain": {
+            "textures": [
+                "textures/blocks/curtains/white_curtain"
+            ]
+        },
+        "yellow_curtain_bottom": {
+            "textures": [
+                "textures/blocks/curtains/yellow_curtain_bottom"
+            ]
+        },
+        "yellow_curtain_center": {
+            "textures": [
+                "textures/blocks/curtains/yellow_curtain_center"
+            ]
+        },
+        "yellow_curtain_top": {
+            "textures": [
+                "textures/blocks/curtains/yellow_curtain_top"
+            ]
+        },
+        "yellow_curtain": {
+            "textures": [
+                "textures/blocks/curtains/yellow_curtain"
+            ]
+        },
+        // Stucco
+        "black_stucco": {
+            "textures": [
+                "textures/blocks/stucco/black_stucco"
+            ]
+        },
+        "blue_stucco": {
+            "textures": [
+                "textures/blocks/stucco/blue_stucco"
+            ]
+        },
+        "brown_stucco": {
+            "textures": [
+                "textures/blocks/stucco/brown_stucco"
+            ]
+        },
+        "cyan_stucco": {
+            "textures": [
+                "textures/blocks/stucco/cyan_stucco"
+            ]
+        },
+        "gray_stucco": {
+            "textures": [
+                "textures/blocks/stucco/gray_stucco"
+            ]
+        },
+        "green_stucco": {
+            "textures": [
+                "textures/blocks/stucco/green_stucco"
+            ]
+        },
+        "light_blue_stucco": {
+            "textures": [
+                "textures/blocks/stucco/light_blue_stucco"
+            ]
+        },
+        "light_gray_stucco": {
+            "textures": [
+                "textures/blocks/stucco/light_gray_stucco"
+            ]
+        },
+        "lime_stucco": {
+            "textures": [
+                "textures/blocks/stucco/lime_stucco"
+            ]
+        },
+        "magenta_stucco": {
+            "textures": [
+                "textures/blocks/stucco/magenta_stucco"
+            ]
+        },
+        "orange_stucco": {
+            "textures": [
+                "textures/blocks/stucco/orange_stucco"
+            ]
+        },
+        "pink_stucco": {
+            "textures": [
+                "textures/blocks/stucco/pink_stucco"
+            ]
+        },
+        "purple_stucco": {
+            "textures": [
+                "textures/blocks/stucco/purple_stucco"
+            ]
+        },
+        "red_stucco": {
+            "textures": [
+                "textures/blocks/stucco/red_stucco"
+            ]
+        },
+        "white_stucco": {
+            "textures": [
+                "textures/blocks/stucco/white_stucco"
+            ]
+        },
+        "yellow_stucco": {
+            "textures": [
+                "textures/blocks/stucco/yellow_stucco"
+            ]
+        },
+        // Terracotta Shingles
+        "black_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/black_terracotta_shingle"
+            ]
+        },
+        "blue_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/blue_terracotta_shingle"
+            ]
+        },
+        "brown_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/brown_terracotta_shingle"
+            ]
+        },
+        "cyan_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/cyan_terracotta_shingle"
+            ]
+        },
+        "gray_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/gray_terracotta_shingle"
+            ]
+        },
+        "green_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/green_terracotta_shingle"
+            ]
+        },
+        "light_blue_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/light_blue_terracotta_shingle"
+            ]
+        },
+        "light_gray_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/light_gray_terracotta_shingle"
+            ]
+        },
+        "lime_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/lime_terracotta_shingle"
+            ]
+        },
+        "magenta_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/magenta_terracotta_shingle"
+            ]
+        },
+        "orange_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/orange_terracotta_shingle"
+            ]
+        },
+        "pink_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/pink_terracotta_shingle"
+            ]
+        },
+        "purple_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/purple_terracotta_shingle"
+            ]
+        },
+        "red_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/red_terracotta_shingle"
+            ]
+        },
+        "terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/terracotta_shingle"
+            ]
+        },
+        "white_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/white_terracotta_shingle"
+            ]
+        },
+        "yellow_terracotta_shingle": {
+            "textures": [
+                "textures/blocks/terracotta_shingles/yellow_terracotta_shingle"
+            ]
+        },
+        // Torches (& Torch Sconces)
+        "torch_sconce": {
+            "textures": [
+                "textures/blocks/torches/torch_sconce"
+            ]
+        },
+        "soul_torch_sconce": {
+            "textures": [
+                "textures/blocks/torches/soul_torch_sconce"
+            ]
+        }
+    }
 }

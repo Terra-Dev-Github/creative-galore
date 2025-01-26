@@ -3,14 +3,19 @@
 pack.name=Creative Galore - Resources
 pack.description=A small-time pack about building, furniture and creativity. | © 2025, TERRA
 
-terra.version.beta=TERRA Team's Creative Galore v1.1.0 [BETA_02]
+terra.version.beta=TERRA Team's Creative Galore v1.1.0 [BETA_03]
 
 ## US - GB
-## Gray > Gray
-## Chiseled > Chiseled
+## Gray > Grey
+## Chiseled > Chiselled
 
 entity.terra:player_sit.name=Seat
 item.spawn_egg.entity.terra:player_sit.name=Spawn Seat
+
+tile.terra:large_lantern.name=Large Lantern
+tile.terra:large_soul_lantern.name=Large Soul Lantern
+tile.terra:torch_sconce.name=Torch Sconce
+tile.terra:soul_torch_sconce.name=Soul Torch Sconce
 
 tile.double_stone_slab.smoothStoneBrick.name=Polished Stone Bricks Slab
 tile.stonebrick.chiseled.name=Polished Chiseled Stone Bricks
@@ -20,6 +25,8 @@ tile.stonebrick.mossy.name=Polished Mossy Stone Bricks
 tile.stonebrick.smooth.name=Polished Stone Bricks
 tile.stone_slab.smoothStoneBrick.name=Polished Stone Bricks Slab
 
+tile.terra:aged_brick_slab.name=Aged Brick Slab
+tile.terra:aged_bricks.name=Aged Bricks
 tile.terra:andesite_brick_slab.name=Andesite Brick Slab
 tile.terra:andesite_bricks.name=Andesite Bricks
 tile.terra:bone_brick_slab.name=Bone Brick Slab
@@ -36,6 +43,7 @@ tile.terra:dripstone_brick_slab.name=Dripstone Brick Slab
 tile.terra:dripstone_bricks.name=Dripstone Bricks
 tile.terra:granite_brick_slab.name=Granite Brick Slab
 tile.terra:granite_bricks.name=Granite Bricks
+tile.terra:iron_railing.name=Iron Railing
 tile.terra:limestone_brick_slab.name=Limestone Brick Slab
 tile.terra:limestone_bricks.name=Limestone Bricks
 tile.terra:limestone.name=Limestone
@@ -81,31 +89,60 @@ tile.terra:smooth_stone_bricks.name=Smooth Stone Bricks
 tile.terra:smooth_stonebrick_slab.name=Smooth Stone Brick Slab
 tile.terra:tiled_bone_brick_slab.name=Tiled Bone Brick Slab
 tile.terra:tiled_bone_bricks.name=Tiled Bone Bricks
+tile.terra:weathered_brick_slab.name=Weathered Brick Slab
+tile.terra:weathered_bricks.name=Weathered Bricks
 
+tile.terra:mossy_andesite_brick_slab.name=Mossy Andesite Brick Slab
 tile.terra:mossy_andesite_bricks.name=Mossy Andesite Bricks
+tile.terra:mossy_bone_brick_slab.name=Mossy Bone Brick Slab
 tile.terra:mossy_bone_bricks.name=Mossy Bone Bricks
+tile.terra:mossy_brick_slab.name=Mossy Brick Slab
 tile.terra:mossy_bricks.name=Mossy Bricks
+tile.terra:mossy_diorite_brick_slab.name=Mossy Diorite Brick Slab
 tile.terra:mossy_diorite_bricks.name=Mossy Diorite Bricks
+tile.terra:mossy_dripstone_brick_slab.name=Mossy Dripstone Brick Slab
 tile.terra:mossy_dripstone_bricks.name=Mossy Dripstone Bricks
+tile.terra:mossy_end_brick_slab.name=Mossy End Brick Slab
 tile.terra:mossy_end_bricks.name=Mossy End Stone Bricks
+tile.terra:mossy_granite_brick_slab.name=Mossy Granite Brick Slab
 tile.terra:mossy_granite_bricks.name=Mossy Granite Bricks
+tile.terra:mossy_limestone_brick_slab.name=Mossy Limestone Brick Slab
 tile.terra:mossy_limestone_bricks.name=Mossy Limestone Bricks
+tile.terra:mossy_mixed_stonebrick_slab.name=Mossy Mixed Stone Brick Slab
 tile.terra:mossy_mixed_stone_bricks.name=Mossy Mixed Stone Bricks
+tile.terra:mossy_nether_brick_slab.name=Mossy Nether Brick Slab
 tile.terra:mossy_nether_bricks.name=Mossy Nether Bricks
+tile.terra:mossy_polished_andesite_brick_slab.name=Mossy Polished Andesite Brick Slab
 tile.terra:mossy_polished_andesite_bricks.name=Mossy Polished Andesite Bricks
+tile.terra:mossy_polished_blackstone_brick_slab.name=Mossy Polished Blackstone Brick Slab
 tile.terra:mossy_polished_blackstone_bricks.name=Mossy Polished Blackstone Bricks
-tile.terra:mossy_polished_diorite_bricks.name=Mossy Polished Diorite Bricks
-tile.terra:mossy_polished_dripstone_bricks.name=Mossy Polished Dripstone Bricks
+tile.terra:mossy_polished_bone_brick_slab.name=Mossy Polished Bone Brick Slab
 tile.terra:mossy_polished_bone_bricks.name=Mossy Polished Bone Bricks
+tile.terra:mossy_polished_diorite_brick_slab.name=Mossy Polished Diorite Brick Slab
+tile.terra:mossy_polished_diorite_bricks.name=Mossy Polished Diorite Bricks
+tile.terra:mossy_polished_dripstone_brick_slab.name=Mossy Polished Dripstone Brick Slab
+tile.terra:mossy_polished_dripstone_bricks.name=Mossy Polished Dripstone Bricks
+tile.terra:mossy_polished_granite_brick_slab.name=Mossy Polished Granite Brick Slab
 tile.terra:mossy_polished_granite_bricks.name=Mossy Polished Granite Bricks
+tile.terra:mossy_polished_limestone_brick_slab.name=Mossy Polished Limestone Brick Slab
 tile.terra:mossy_polished_limestone_bricks.name=Mossy Polished Limestone Bricks
+tile.terra:mossy_polished_schist_brick_slab.name=Mossy Polished Schist Brick Slab
 tile.terra:mossy_polished_schist_bricks.name=Mossy Polished Schist Bricks
+tile.terra:mossy_quartz_brick_slab.name=Mossy Quartz Brick Slab
 tile.terra:mossy_quartz_bricks.name=Mossy Quartz Bricks
+tile.terra:mossy_red_nether_brick_slab.name=Mossy Red Nether Brick Slab
+tile.terra:mossy_red_nether_bricks.name=Mossy Red Nether Bricks
+tile.terra:mossy_red_sandstone_brick_slab.name=Mossy Red Sandstone Brick Slab
 tile.terra:mossy_red_sandstone_bricks.name=Mossy Red Sandstone Bricks
+tile.terra:mossy_resin_brick_slab.name=Mossy Resin Brick Slab
 tile.terra:mossy_resin_bricks.name=Mossy Resin Bricks
+tile.terra:mossy_sandstone_brick_slab.name=Mossy Sandstone Brick Slab
 tile.terra:mossy_sandstone_bricks.name=Mossy Sandstone Bricks
+tile.terra:mossy_schist_brick_slab.name=Mossy Schist Brick Slab
 tile.terra:mossy_schist_bricks.name=Mossy Schist Bricks
+tile.terra:mossy_smooth_stonebrick_slab.name=Mossy Smooth Stone Brick Slab
 tile.terra:mossy_smooth_stone_bricks.name=Mossy Smooth Stone Bricks
+tile.terra:mossy_tuff_brick_slab.name=Mossy Tuff Brick Slab
 tile.terra:mossy_tuff_bricks.name=Mossy Tuff Bricks
 
 tile.terra:andesite_brick_indent.name=Andesite Brick Indent
@@ -118,6 +155,7 @@ tile.terra:limestone_brick_indent.name=Limestone Brick Indent
 tile.terra:mixed_brick_indent.name=Mixed Stone Brick Indent
 tile.terra:nether_brick_indent.name=Nether Brick Indent
 tile.terra:prismarine_dark_brick_indent.name=Prismarine Dark Brick Indent
+tile.terra:red_nether_brick_indent.name=Red Nether Brick Indent
 tile.terra:red_sandstone_brick_indent.name=Red Sandstone Brick Indent
 tile.terra:resin_brick_indent.name=Resin Brick Indent
 tile.terra:sandstone_brick_indent.name=Sandstone Brick Indent

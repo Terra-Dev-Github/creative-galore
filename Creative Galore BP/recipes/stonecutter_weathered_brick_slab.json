@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "terra:stonecutter_weathered_brick_slab"
+        },
+        "tags": [
+            "stonecutter"
+        ],
+        "priority": 1,
+        "ingredients": [
+            {
+                "item": "terra:weathered_bricks"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "terra:weathered_brick_slab"
+            }
+        ],
+        "result": {
+            "item": "terra:weathered_brick_slab",
+            "count": 2
+        }
+    }
+}

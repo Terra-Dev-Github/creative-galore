@@ -39,6 +39,20 @@
                             0,
                             0
                         ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "sandstone_brick_indent_side2",
+                            "render_method": "opaque"
+                        },
+                        "up": {
+                            "texture": "sandstone_brick_indent_top",
+                            "render_method": "opaque"
+                        },
+                        "down": {
+                            "texture": "brick",
+                            "render_method": "opaque"
+                        }
                     }
                 }
             },
@@ -63,6 +77,20 @@
                             -90,
                             0
                         ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "sandstone_brick_indent_side2",
+                            "render_method": "opaque"
+                        },
+                        "up": {
+                            "texture": "sandstone_brick_indent_top",
+                            "render_method": "opaque"
+                        },
+                        "down": {
+                            "texture": "brick",
+                            "render_method": "opaque"
+                        }
                     }
                 }
             },
@@ -75,6 +103,20 @@
                             0,
                             0
                         ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "sandstone_brick_indent_side2",
+                            "render_method": "opaque"
+                        },
+                        "up": {
+                            "texture": "sandstone_brick_indent_top",
+                            "render_method": "opaque"
+                        },
+                        "down": {
+                            "texture": "brick",
+                            "render_method": "opaque"
+                        }
                     }
                 }
             },
@@ -93,7 +135,7 @@
         ],
         "components": {
             "tag:stone": {},
-			"tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
             "minecraft:light_dampening": 15,
             "minecraft:light_emission": 0,
             "minecraft:geometry": "minecraft:geometry.full_block",
@@ -120,7 +162,7 @@
             },
             "minecraft:loot": "loot_tables/blocks/brick_indents/sandstone_brick_indent.json",
             // according to map item data on the mc wiki
-            "minecraft:map_color": "#000000"
+            "minecraft:map_color": "#F7E9A3"
         }
     }
 }

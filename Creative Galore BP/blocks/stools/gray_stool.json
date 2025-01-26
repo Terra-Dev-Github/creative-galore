@@ -17,6 +17,8 @@
             },
             "minecraft:geometry": "geometry.stool",
             "minecraft:light_dampening": 0,
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#4C4C4C",
             "minecraft:loot": "loot_tables/blocks/stools/gray_stool.json",
             "minecraft:material_instances": {
                 "*": {

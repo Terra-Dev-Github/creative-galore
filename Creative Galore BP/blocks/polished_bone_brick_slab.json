@@ -105,7 +105,7 @@
                 "seconds_to_destroy": 7.5
             },
             // according to map item data on the mc wiki
-            "minecraft:map_color": "#000000",
+            "minecraft:map_color": "#F7E9A3",
             "minecraft:geometry": {
                 "identifier": "geometry.slab",
                 "bone_visibility": {

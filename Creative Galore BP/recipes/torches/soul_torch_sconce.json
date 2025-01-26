@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "terra:soul_torch_sconce"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " # ",
+            "#x#",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_nugget"
+            },
+            "x": {
+                "item": "minecraft:soul_torch"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:iron_nugget"
+            },
+            {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        "result": {
+            "item": "terra:soul_torch_sconce_item",
+            "count": 1
+        }
+    }
+}

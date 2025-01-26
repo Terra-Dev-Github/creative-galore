@@ -1,33 +1,35 @@
 // This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
 // Do not distribute without permission.
 {
-	"format_version": "1.20.80",
-	"minecraft:block": {
-		"description": {
-			"identifier": "terra:diorite_bricks",
-			"menu_category": {
-				"group": "itemGroup.name.stoneBrick",
-				"category": "construction"
-			}
-		},
-		"components": {
-			"tag:stone": {},
-			"tag:minecraft:is_pickaxe_item_destructible": {},
-			"minecraft:geometry": "minecraft:geometry.full_block",
-			// hardness: 1.5
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 7.5
-			},
-			"minecraft:destructible_by_explosion": {
-				"explosion_resistance": 6
-			},
-			"minecraft:loot": "loot_tables/blocks/diorite_bricks.json",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "stone_diorite_smooth_bricks_small",
-					"render_method": "opaque"
-				}
-			}
-		}
-	}
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:diorite_bricks",
+            "menu_category": {
+                "group": "itemGroup.name.stoneBrick",
+                "category": "construction"
+            }
+        },
+        "components": {
+            "tag:stone": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            // hardness: 1.5
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 7.5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#FFFCF5",
+            "minecraft:loot": "loot_tables/blocks/diorite_bricks.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "stone_diorite_smooth_bricks_small",
+                    "render_method": "opaque"
+                }
+            }
+        }
+    }
 }
