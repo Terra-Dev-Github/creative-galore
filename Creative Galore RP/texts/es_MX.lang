@@ -3,18 +3,25 @@
 pack.name=Creatividad sin Fin - Recursos
 pack.description=Un pack a corta escala de construcción, decoración y creatividad. | © 2025, TERRA
 
-terra.version.beta=TERRA Team | Creatividad sin Fin v1.1.0 [BETA_03]
-
 ## MX - ES
 ## Escarlata > Carmesí(es)
 
 entity.terra:player_sit.name=Asiento
 item.spawn_egg.entity.terra:player_sit.name=Generador de asiento
 
+tile.terra:large_amethyst_lantern.name=Lámpara de amatista
+tile.terra:large_honeycomb_lantern.name=Lámpara de panal
+tile.terra:large_phantom_lantern.name=Lámpara de fantasma
+tile.terra:large_quartz_lantern.name=Lámpara de cuarzo
 tile.terra:large_lantern.name=Lámpara
 tile.terra:large_soul_lantern.name=Lámpara de alma
-tile.terra:torch_sconce.name=Aplique de antorcha
+
+tile.terra:amethyst_torch_sconce.name=Aplique de antorcha de amatista
+tile.terra:honeycomb_torch_sconce.name=Aplique de amatista de panal
+tile.terra:phantom_torch_sconce.name=Aplique de antorcha de fantasma
+tile.terra:quartz_torch_sconce.name=Aplique de antorcha de cuarzo
 tile.terra:soul_torch_sconce.name=Aplique de antorcha de alma
+tile.terra:torch_sconce.name=Aplique de antorcha
 
 tile.double_stone_slab.smoothStoneBrick.name=Losa de ladrillos de piedra pulida
 tile.stonebrick.chiseled.name=Ladrillos de piedra pulida cincelados

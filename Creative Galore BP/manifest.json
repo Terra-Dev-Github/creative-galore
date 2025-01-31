@@ -5,7 +5,7 @@
 			"TERRA Team :: README.txt"
 		],
 		"license": "SEE LICENSE IN LICENSE.txt",
-		"url": "https://discord.gg/2pVaeESEDF",
+		"url": "https:discord.gg/2pVaeESEDF",
 		"generated_with": {
 			"bridge": [
 				"2.7.42"
@@ -54,14 +54,14 @@
 		}
 	],
 	"dependencies": [
-		//{
-		//	"uuid": "0ac3fc4d-8adc-41ad-9c6c-e136c04b17b5",
-		//	"version": [
-		//		1,
-		//		1,
-		//		0
-		//	]
-		//},
+		{
+			"uuid": "0ac3fc4d-8adc-41ad-9c6c-e136c04b17b5",
+			"version": [
+				1,
+				1,
+				0
+			]
+		},
 		{
 			"module_name": "@minecraft/server",
 			"version": "1.16.0"

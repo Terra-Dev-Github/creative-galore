@@ -7,9 +7,30 @@
                 "textures/blocks/iron_railing"
             ]
         },
+        // Lanterns
+        "large_amethyst_lantern_item": {
+            "textures": [
+                "textures/items/lanterns/large_amethyst_lantern_item"
+            ]
+        },
+        "large_honeycomb_lantern_item": {
+            "textures": [
+                "textures/items/lanterns/large_honeycomb_lantern_item"
+            ]
+        },
         "large_lantern_item": {
             "textures": [
                 "textures/items/lanterns/large_lantern_item"
+            ]
+        },
+        "large_phantom_lantern_item": {
+            "textures": [
+                "textures/items/lanterns/large_phantom_lantern_item"
+            ]
+        },
+        "large_quartz_lantern_item": {
+            "textures": [
+                "textures/items/lanterns/large_quartz_lantern_item"
             ]
         },
         "large_soul_lantern_item": {
@@ -17,14 +38,35 @@
                 "textures/items/lanterns/large_soul_lantern_item"
             ]
         },
-        "torch_sconce_item": {
+        // Torches
+        "amethyst_torch_sconce_item": {
             "textures": [
-                "textures/items/torches/torch_sconce_item"
+                "textures/items/torches/amethyst_torch_sconce_item"
+            ]
+        },
+        "honeycomb_torch_sconce_item": {
+            "textures": [
+                "textures/items/torches/honeycomb_torch_sconce_item"
+            ]
+        },
+        "phantom_torch_sconce_item": {
+            "textures": [
+                "textures/items/torches/phantom_torch_sconce_item"
+            ]
+        },
+        "quartz_torch_sconce_item": {
+            "textures": [
+                "textures/items/torches/quartz_torch_sconce_item"
             ]
         },
         "soul_torch_sconce_item": {
             "textures": [
                 "textures/items/torches/soul_torch_sconce_item"
+            ]
+        },
+        "torch_sconce_item": {
+            "textures": [
+                "textures/items/torches/torch_sconce_item"
             ]
         }
     }

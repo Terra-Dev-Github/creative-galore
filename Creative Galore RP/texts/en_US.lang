@@ -3,8 +3,6 @@
 pack.name=Creative Galore - Resources
 pack.description=A small-time pack about building, furniture and creativity. | © 2025, TERRA
 
-terra.version.beta=TERRA Team's Creative Galore v1.1.0 [BETA_03]
-
 ## US - GB
 ## Gray > Grey
 ## Chiseled > Chiselled
@@ -12,10 +10,19 @@ terra.version.beta=TERRA Team's Creative Galore v1.1.0 [BETA_03]
 entity.terra:player_sit.name=Seat
 item.spawn_egg.entity.terra:player_sit.name=Spawn Seat
 
+tile.terra:large_amethyst_lantern.name=Large Amethyst Lantern
+tile.terra:large_honeycomb_lantern.name=Large Honeycomb Lantern
+tile.terra:large_phantom_lantern.name=Large Phantom Lantern
+tile.terra:large_quartz_lantern.name=Large Quartz Lantern
 tile.terra:large_lantern.name=Large Lantern
 tile.terra:large_soul_lantern.name=Large Soul Lantern
-tile.terra:torch_sconce.name=Torch Sconce
+
+tile.terra:amethyst_torch_sconce.name=Amethyst Torch Sconce
+tile.terra:honeycomb_torch_sconce.name=Honeycomb Torch Sconce
+tile.terra:phantom_torch_sconce.name=Phantom Torch Sconce
+tile.terra:quartz_torch_sconce.name=Quartz Torch Sconce
 tile.terra:soul_torch_sconce.name=Soul Torch Sconce
+tile.terra:torch_sconce.name=Torch Sconce
 
 tile.double_stone_slab.smoothStoneBrick.name=Polished Stone Bricks Slab
 tile.stonebrick.chiseled.name=Polished Chiseled Stone Bricks

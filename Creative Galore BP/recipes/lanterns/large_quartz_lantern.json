@@ -2,7 +2,7 @@
     "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "terra:large_soul_lantern"
+            "identifier": "terra:large_quartz_lantern"
         },
         "tags": [
             "crafting_table"
@@ -17,7 +17,7 @@
                 "item": "minecraft:iron_ingot"
             },
             "x": {
-                "item": "terra:soul_torch_sconce_item"
+                "item": "terra:quartz_torch_sconce_item"
             }
         },
         "unlock": [
@@ -26,7 +26,7 @@
             }
         ],
         "result": {
-            "item": "terra:large_soul_lantern_item",
+            "item": "terra:large_quartz_lantern_item",
             "count": 1
         }
     }

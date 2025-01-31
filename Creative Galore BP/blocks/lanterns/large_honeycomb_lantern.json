@@ -1,0 +1,273 @@
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
+// Do not distribute without permission.
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:large_honeycomb_lantern",
+            "menu_category": {
+                "category": "none",
+                "group": "itemGroup.name.none" // placed with an item
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            },
+            "states": {
+                "terra:toggled": [ // does it have the light turned on??
+                    false, // nah
+                    true // yea
+                ]
+            }
+        },
+        "permutations": [
+            // lights
+            {
+                "condition": "!q.block_state('terra:toggled')",
+                "components": {
+                    "minecraft:light_emission": 0,
+                    "minecraft:light_dampening": 0,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "large_honeycomb_lantern_side_off",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        },
+                        "up": {
+                            "texture": "large_lantern_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        },
+                        "down": {
+                            "texture": "large_lantern_bottom",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('terra:toggled')",
+                "components": {
+                    "minecraft:light_emission": 10,
+                    "minecraft:light_dampening": 0,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "large_honeycomb_lantern_side",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "up": {
+                            "texture": "large_lantern_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "down": {
+                            "texture": "large_lantern_bottom",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            // placement
+            {
+                "condition": "query.block_state('minecraft:block_face') == 'up'",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            12,
+                            12
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            11,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:block_face') == 'down'",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            12,
+                            12
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            11,
+                            12
+                        ]
+                    }
+                }
+            },
+            // side placement rotation
+            {
+                "condition": "query.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "tag:metal": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:geometry": {
+                "identifier": "geometry.lantern_large",
+                "bone_visibility": { // enables and disables bones according to the block states
+                    "side": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south' || q.block_state('minecraft:block_face') == 'east' || q.block_state('minecraft:block_face') == 'west'",
+                    "chain": "query.block_state('minecraft:block_face') == 'up'"
+                }
+            },
+            // hardness: 5
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 25
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6
+            },
+            // according to map item data on the mc wiki
+            "minecraft:map_color": "#A7A7A7",
+            "minecraft:loot": "loot_tables/blocks/lanterns/large_honeycomb_lantern.json",
+            "minecraft:light_emission": 0,
+            "minecraft:light_dampening": 0,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "down",
+                            "side"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:custom_components": [
+                "terra:light_interact_events"
+            ],
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "large_honeycomb_lantern_side",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "up": {
+                    "texture": "large_lantern_top",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "down": {
+                    "texture": "large_lantern_bottom",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    15,
+                    16
+                ]
+            }
+        }
+    }
+}

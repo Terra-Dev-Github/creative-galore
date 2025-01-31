@@ -1,0 +1,169 @@
+// This file was made, modified and compiled by Heavenly (@heavenly7493) for TERRA.
+// Do not distribute without permission.
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terra:phantom_torch_sconce",
+            "menu_category": {
+                "category": "none",
+                "group": "itemGroup.name.none" // placed with an item
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "permutations": [
+            // side placement rotation
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            3,
+                            3,
+                            -2
+                        ],
+                        "size": [
+                            5,
+                            10,
+                            4
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            3,
+                            3,
+                            -2
+                        ],
+                        "size": [
+                            5,
+                            10,
+                            4
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            3,
+                            3,
+                            -2
+                        ],
+                        "size": [
+                            5,
+                            10,
+                            4
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            3,
+                            3,
+                            -2
+                        ],
+                        "size": [
+                            5,
+                            10,
+                            4
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.torch_sconce",
+                "bone_visibility": { // enables and disables bones according to the block states
+                    "torch_wall": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south' || q.block_state('minecraft:block_face') == 'east' || q.block_state('minecraft:block_face') == 'west'",
+                    "torch": "q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down'"
+                }
+            },
+            // hardness: 0
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.05
+            },
+            "minecraft:destructible_by_explosion": true,
+            // no map colors!!
+            "minecraft:loot": "loot_tables/blocks/torches/phantom_torch_sconce.json",
+            "minecraft:light_emission": 10,
+            "minecraft:light_dampening": 0,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "side"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "phantom_torch_sconce",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -1.5,
+                    0,
+                    -1.5
+                ],
+                "size": [
+                    3,
+                    9.75,
+                    3
+                ]
+            }
+        }
+    }
+}

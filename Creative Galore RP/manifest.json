@@ -5,7 +5,7 @@
 			"TERRA Team :: README.txt"
 		],
 		"license": "SEE LICENSE IN LICENSE.txt",
-		"url": "https://discord.gg/2pVaeESEDF",
+		"url": "https:discord.gg/2pVaeESEDF",
 		"generated_with": {
 			"bridge": [
 				"2.7.42"
@@ -41,26 +41,14 @@
 			]
 		}
 	],
-	"subpacks": [
+	"dependencies": [
 		{
-			"folder_name": "beta_notif_on",
-			"name": "Beta Header :: [ENABLED]",
-			"memory_tier": 0
-		},
-        {
-			"folder_name": "beta_notif_off",
-			"name": "Beta Header :: [DISABLED]",
-			"memory_tier": 0
+			"uuid": "49ad40ca-6257-41c6-a4d5-621cc1251506",
+			"version": [
+				1,
+				1,
+				0
+			]
 		}
 	]
-	//"dependencies": [
-	//	{
-	//		"uuid": "49ad40ca-6257-41c6-a4d5-621cc1251506",
-	//		"version": [
-	//			1,
-	//			1,
-	//			0
-	//		]
-	//	}
-	//]
 }

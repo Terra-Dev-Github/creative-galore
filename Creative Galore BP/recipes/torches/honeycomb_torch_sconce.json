@@ -2,31 +2,37 @@
     "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "terra:large_soul_lantern"
+            "identifier": "terra:honeycomb_torch_sconce"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "###",
+            "H#H",
             "#x#",
-            "###"
+            "H#H"
         ],
         "key": {
             "#": {
-                "item": "minecraft:iron_ingot"
+                "item": "minecraft:iron_nugget"
             },
             "x": {
-                "item": "terra:soul_torch_sconce_item"
+                "item": "minecraft:torch"
+            },
+            "H": {
+                "item": "minecraft:honeycomb"
             }
         },
         "unlock": [
+            {
+                "item": "minecraft:iron_nugget"
+            },
             {
                 "item": "minecraft:iron_ingot"
             }
         ],
         "result": {
-            "item": "terra:large_soul_lantern_item",
+            "item": "terra:honeycomb_torch_sconce_item",
             "count": 1
         }
     }

@@ -1120,6 +1120,26 @@
             ]
         },
         // Lanterns
+        "large_amethyst_lantern_side_off": {
+            "textures": [
+                "textures/blocks/lanterns/large_amethyst_lantern_side_off"
+            ]
+        },
+        "large_amethyst_lantern_side": {
+            "textures": [
+                "textures/blocks/lanterns/large_amethyst_lantern_side"
+            ]
+        },
+        "large_honeycomb_lantern_side_off": {
+            "textures": [
+                "textures/blocks/lanterns/large_honeycomb_lantern_side_off"
+            ]
+        },
+        "large_honeycomb_lantern_side": {
+            "textures": [
+                "textures/blocks/lanterns/large_honeycomb_lantern_side"
+            ]
+        },
         "large_lantern_bottom": {
             "textures": [
                 "textures/blocks/lanterns/large_lantern_bottom"
@@ -1138,6 +1158,26 @@
         "large_lantern_top": {
             "textures": [
                 "textures/blocks/lanterns/large_lantern_top"
+            ]
+        },
+        "large_phantom_lantern_side_off": {
+            "textures": [
+                "textures/blocks/lanterns/large_phantom_lantern_side_off"
+            ]
+        },
+        "large_phantom_lantern_side": {
+            "textures": [
+                "textures/blocks/lanterns/large_phantom_lantern_side"
+            ]
+        },
+        "large_quartz_lantern_side_off": {
+            "textures": [
+                "textures/blocks/lanterns/large_quartz_lantern_side_off"
+            ]
+        },
+        "large_quartz_lantern_side": {
+            "textures": [
+                "textures/blocks/lanterns/large_quartz_lantern_side"
             ]
         },
         "large_soul_lantern_side_off": {
@@ -2052,14 +2092,34 @@
             ]
         },
         // Torches (& Torch Sconces)
-        "torch_sconce": {
+        "amethyst_torch_sconce": {
             "textures": [
-                "textures/blocks/torches/torch_sconce"
+                "textures/blocks/torches/amethyst_torch_sconce"
+            ]
+        },
+        "honeycomb_torch_sconce": {
+            "textures": [
+                "textures/blocks/torches/honeycomb_torch_sconce"
+            ]
+        },
+        "phantom_torch_sconce": {
+            "textures": [
+                "textures/blocks/torches/phantom_torch_sconce"
+            ]
+        },
+        "quartz_torch_sconce": {
+            "textures": [
+                "textures/blocks/torches/quartz_torch_sconce"
             ]
         },
         "soul_torch_sconce": {
             "textures": [
                 "textures/blocks/torches/soul_torch_sconce"
+            ]
+        },
+        "torch_sconce": {
+            "textures": [
+                "textures/blocks/torches/torch_sconce"
             ]
         }
     }

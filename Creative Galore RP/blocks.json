@@ -1133,6 +1133,31 @@
 		// skipping textures so it doesn't glitch out
 		"sound": "cloth"
 	},
+	// Lanterns
+	"terra:large_amethyst_lantern": {
+		// skipping textures so it doesn't glitch out
+		"sound": "lantern"
+	},
+	"terra:large_honeycomb_lantern": {
+		// skipping textures so it doesn't glitch out
+		"sound": "lantern"
+	},
+	"terra:large_phantom_lantern": {
+		// skipping textures so it doesn't glitch out
+		"sound": "lantern"
+	},
+	"terra:large_quartz_lantern": {
+		// skipping textures so it doesn't glitch out
+		"sound": "lantern"
+	},
+	"terra:large_soul_lantern": {
+		// skipping textures so it doesn't glitch out
+		"sound": "lantern"
+	},
+	"terra:large_lantern": {
+		// skipping textures so it doesn't glitch out
+		"sound": "lantern"
+	},
 	// Shutters
 	"terra:acacia_shutter": {
 		"textures": "acacia_shutter",
@@ -1721,6 +1746,31 @@
 	"terra:yellow_terracotta_shingle": {
 		"textures": "yellow_terracotta_shingle",
 		"sound": "stone"
+	},
+	// Torches
+	"terra:amethyst_torch_sconce": {
+		// skipping textures so it doesn't glitch out
+		"sound": "wood"
+	},
+	"terra:honeycomb_torch_sconce": {
+		// skipping textures so it doesn't glitch out
+		"sound": "wood"
+	},
+	"terra:phantom_torch_sconce": {
+		// skipping textures so it doesn't glitch out
+		"sound": "wood"
+	},
+	"terra:quartz_torch_sconce": {
+		// skipping textures so it doesn't glitch out
+		"sound": "wood"
+	},
+	"terra:soul_torch_sconce": {
+		// skipping textures so it doesn't glitch out
+		"sound": "wood"
+	},
+	"terra:torch_sconce": {
+		// skipping textures so it doesn't glitch out
+		"sound": "wood"
 	},
 	// Walls
 	"terra:andesite_brick_wall": {
